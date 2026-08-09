@@ -135,6 +135,12 @@ body {
             overflow: hidden;
           }
         }
+        & .bases-card-row:nth-of-type(2) {
+          color: var(--gray);
+        }
+        & .bases-card-row:nth-of-type(3) {
+          color: var(--gray);
+        }
         & .bases-card-row:last-of-type > .bases-card-value {
           margin-left: auto;
         }
