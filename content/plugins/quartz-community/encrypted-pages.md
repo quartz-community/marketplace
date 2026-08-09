@@ -22,7 +22,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/encrypted-pages
 > ```
@@ -35,13 +34,13 @@ Password-protected encrypted pages for Quartz v5.
 
 ## Details
 
-|                    |                                                               |
-| ------------------ | ------------------------------------------------------------- |
-| **Author**         | quartz-community                                              |
-| **Version**        | 1.0.0                                                         |
-| **Category**       | transformer                                                   |
-| **License**        | MIT                                                           |
-| **Quartz Version** | >=5.0.0                                                       |
-| **Stars**          | ⭐ 2                                                          |
-| **Last Updated**   | 2026-07-27                                                    |
-| **Source**         | [GitHub](https://github.com/quartz-community/encrypted-pages) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | transformer |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 2 |
+| **Last Updated** | 2026-07-27 |
+| **Source** | [GitHub](https://github.com/quartz-community/encrypted-pages) |

@@ -21,7 +21,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/spacer
 > ```
@@ -34,13 +33,13 @@ A component plugin that renders a flexible spacer element that pushes adjacent c
 
 ## Details
 
-|                    |                                                      |
-| ------------------ | ---------------------------------------------------- |
-| **Author**         | quartz-community                                     |
-| **Version**        | 0.1.0                                                |
-| **Category**       | component                                            |
-| **License**        | MIT                                                  |
-| **Quartz Version** | >=5.0.0                                              |
-| **Stars**          | ⭐ 0                                                 |
-| **Last Updated**   | 2026-07-23                                           |
-| **Source**         | [GitHub](https://github.com/quartz-community/spacer) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 0.1.0 |
+| **Category** | component |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 0 |
+| **Last Updated** | 2026-07-23 |
+| **Source** | [GitHub](https://github.com/quartz-community/spacer) |

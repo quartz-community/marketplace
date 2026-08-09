@@ -21,7 +21,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/latex
 > ```
@@ -34,13 +33,13 @@ Renders LaTeX math equations using KaTeX, MathJax, or Typst rendering engines.
 
 ## Details
 
-|                    |                                                     |
-| ------------------ | --------------------------------------------------- |
-| **Author**         | quartz-community                                    |
-| **Version**        | 1.0.0                                               |
-| **Category**       | transformer                                         |
-| **License**        | MIT                                                 |
-| **Quartz Version** | >=5.0.0                                             |
-| **Stars**          | ⭐ 1                                                |
-| **Last Updated**   | 2026-07-23                                          |
-| **Source**         | [GitHub](https://github.com/quartz-community/latex) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | transformer |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 1 |
+| **Last Updated** | 2026-07-23 |
+| **Source** | [GitHub](https://github.com/quartz-community/latex) |

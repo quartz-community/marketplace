@@ -21,7 +21,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/og-image
 > ```
@@ -34,13 +33,13 @@ Generates Open Graph social preview images for each page using Satori and Sharp.
 
 ## Details
 
-|                    |                                                        |
-| ------------------ | ------------------------------------------------------ |
-| **Author**         | quartz-community                                       |
-| **Version**        | 1.0.0                                                  |
-| **Category**       | emitter                                                |
-| **License**        | MIT                                                    |
-| **Quartz Version** | >=5.0.0                                                |
-| **Stars**          | ⭐ 0                                                   |
-| **Last Updated**   | 2026-07-27                                             |
-| **Source**         | [GitHub](https://github.com/quartz-community/og-image) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | emitter |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 0 |
+| **Last Updated** | 2026-07-27 |
+| **Source** | [GitHub](https://github.com/quartz-community/og-image) |

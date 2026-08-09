@@ -22,7 +22,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/folder-page
 > ```
@@ -35,13 +34,13 @@ Renders folder index pages showing a listing of all pages within that folder. Au
 
 ## Details
 
-|                    |                                                           |
-| ------------------ | --------------------------------------------------------- |
-| **Author**         | quartz-community                                          |
-| **Version**        | 1.0.0                                                     |
-| **Category**       | pageType                                                  |
-| **License**        | MIT                                                       |
-| **Quartz Version** | >=5.0.0                                                   |
-| **Stars**          | ⭐ 0                                                      |
-| **Last Updated**   | 2026-07-23                                                |
-| **Source**         | [GitHub](https://github.com/quartz-community/folder-page) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | pageType |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 0 |
+| **Last Updated** | 2026-07-23 |
+| **Source** | [GitHub](https://github.com/quartz-community/folder-page) |

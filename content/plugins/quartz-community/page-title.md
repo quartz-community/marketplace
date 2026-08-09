@@ -21,7 +21,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/page-title
 > ```
@@ -34,13 +33,13 @@ Renders the site-wide page title as a link to the home page.
 
 ## Details
 
-|                    |                                                          |
-| ------------------ | -------------------------------------------------------- |
-| **Author**         | quartz-community                                         |
-| **Version**        | 1.0.0                                                    |
-| **Category**       | component                                                |
-| **License**        | MIT                                                      |
-| **Quartz Version** | >=5.0.0                                                  |
-| **Stars**          | ⭐ 0                                                     |
-| **Last Updated**   | 2026-07-23                                               |
-| **Source**         | [GitHub](https://github.com/quartz-community/page-title) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | component |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 0 |
+| **Last Updated** | 2026-07-23 |
+| **Source** | [GitHub](https://github.com/quartz-community/page-title) |

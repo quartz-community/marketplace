@@ -21,7 +21,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/explicit-publish
 > ```
@@ -34,13 +33,13 @@ Only publishes pages that have publish: true in their frontmatter.
 
 ## Details
 
-|                    |                                                                |
-| ------------------ | -------------------------------------------------------------- |
-| **Author**         | quartz-community                                               |
-| **Version**        | 1.0.0                                                          |
-| **Category**       | filter                                                         |
-| **License**        | MIT                                                            |
-| **Quartz Version** | >=5.0.0                                                        |
-| **Stars**          | ⭐ 0                                                           |
-| **Last Updated**   | 2026-07-23                                                     |
-| **Source**         | [GitHub](https://github.com/quartz-community/explicit-publish) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | filter |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 0 |
+| **Last Updated** | 2026-07-23 |
+| **Source** | [GitHub](https://github.com/quartz-community/explicit-publish) |

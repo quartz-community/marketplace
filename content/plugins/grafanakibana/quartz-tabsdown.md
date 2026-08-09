@@ -21,7 +21,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:grafanaKibana/quartz-tabsdown
 > ```
@@ -34,13 +33,13 @@ Tabbed Markdown blocks for Quartz, using the same syntax as the Obsidian Tabsdow
 
 ## Details
 
-|                    |                                                            |
-| ------------------ | ---------------------------------------------------------- |
-| **Author**         | grafanaKibana                                              |
-| **Version**        | 0.2.0                                                      |
-| **Category**       | transformer                                                |
-| **License**        | MIT                                                        |
-| **Quartz Version** | >=5.0.0                                                    |
-| **Stars**          | ⭐ 1                                                       |
-| **Last Updated**   | 2026-08-08                                                 |
-| **Source**         | [GitHub](https://github.com/grafanaKibana/quartz-tabsdown) |
+| | |
+|---|---|
+| **Author** | grafanaKibana |
+| **Version** | 0.2.0 |
+| **Category** | transformer |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 1 |
+| **Last Updated** | 2026-08-08 |
+| **Source** | [GitHub](https://github.com/grafanaKibana/quartz-tabsdown) |

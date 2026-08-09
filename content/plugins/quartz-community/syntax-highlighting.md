@@ -21,7 +21,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/syntax-highlighting
 > ```
@@ -34,13 +33,13 @@ Adds syntax highlighting to code blocks using rehype-pretty-code, with an option
 
 ## Details
 
-|                    |                                                                   |
-| ------------------ | ----------------------------------------------------------------- |
-| **Author**         | quartz-community                                                  |
-| **Version**        | 1.0.0                                                             |
-| **Category**       | transformer                                                       |
-| **License**        | MIT                                                               |
-| **Quartz Version** | >=5.0.0                                                           |
-| **Stars**          | ⭐ 1                                                              |
-| **Last Updated**   | 2026-07-23                                                        |
-| **Source**         | [GitHub](https://github.com/quartz-community/syntax-highlighting) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | transformer |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 1 |
+| **Last Updated** | 2026-07-23 |
+| **Source** | [GitHub](https://github.com/quartz-community/syntax-highlighting) |

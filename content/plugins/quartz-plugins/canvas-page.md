@@ -22,26 +22,25 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-plugins/canvas-page
 > ```
 
 # @quartz-plugins/canvas-page
 
-> Fork of @quartz-community/canvas-page — Hexo-compatible fork with \_posts/ prefix stripping and canvas badge.
+> Fork of @quartz-community/canvas-page — Hexo-compatible fork with _posts/ prefix stripping and canvas badge.
 
 [View full documentation on GitHub](https://github.com/quartz-plugins/canvas-page)
 
 ## Details
 
-|                    |                                                         |
-| ------------------ | ------------------------------------------------------- |
-| **Author**         | quartz-plugins                                          |
-| **Version**        | 1.0.0                                                   |
-| **Category**       | pageType                                                |
-| **License**        | MIT                                                     |
-| **Quartz Version** | >=5.0.0                                                 |
-| **Stars**          | ⭐ 0                                                    |
-| **Last Updated**   | 2026-08-05                                              |
-| **Source**         | [GitHub](https://github.com/quartz-plugins/canvas-page) |
+| | |
+|---|---|
+| **Author** | quartz-plugins |
+| **Version** | 1.0.0 |
+| **Category** | pageType |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 0 |
+| **Last Updated** | 2026-08-05 |
+| **Source** | [GitHub](https://github.com/quartz-plugins/canvas-page) |

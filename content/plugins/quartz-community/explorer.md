@@ -21,7 +21,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/explorer
 > ```
@@ -34,13 +33,13 @@ The Explorer component for Quartz - navigate your digital garden with an interac
 
 ## Details
 
-|                    |                                                        |
-| ------------------ | ------------------------------------------------------ |
-| **Author**         | quartz-community                                       |
-| **Version**        | 1.0.0                                                  |
-| **Category**       | component                                              |
-| **License**        | MIT                                                    |
-| **Quartz Version** | >=5.0.0                                                |
-| **Stars**          | ⭐ 1                                                   |
-| **Last Updated**   | 2026-07-23                                             |
-| **Source**         | [GitHub](https://github.com/quartz-community/explorer) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | component |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 1 |
+| **Last Updated** | 2026-07-23 |
+| **Source** | [GitHub](https://github.com/quartz-community/explorer) |

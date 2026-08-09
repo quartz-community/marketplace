@@ -21,7 +21,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/content-index
 > ```
@@ -34,13 +33,13 @@ Generates a sitemap, RSS feed, and content index JSON for full-text search.
 
 ## Details
 
-|                    |                                                             |
-| ------------------ | ----------------------------------------------------------- |
-| **Author**         | quartz-community                                            |
-| **Version**        | 1.0.0                                                       |
-| **Category**       | emitter                                                     |
-| **License**        | MIT                                                         |
-| **Quartz Version** | >=5.0.0                                                     |
-| **Stars**          | ⭐ 2                                                        |
-| **Last Updated**   | 2026-07-23                                                  |
-| **Source**         | [GitHub](https://github.com/quartz-community/content-index) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | emitter |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 2 |
+| **Last Updated** | 2026-07-23 |
+| **Source** | [GitHub](https://github.com/quartz-community/content-index) |

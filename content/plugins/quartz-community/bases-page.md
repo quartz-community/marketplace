@@ -23,7 +23,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/bases-page
 > ```
@@ -36,13 +35,13 @@ A page type and component plugin for Quartz v5 that renders Obsidian Bases (.bas
 
 ## Details
 
-|                    |                                                          |
-| ------------------ | -------------------------------------------------------- |
-| **Author**         | quartz-community                                         |
-| **Version**        | 1.0.0                                                    |
-| **Category**       | transformer                                              |
-| **License**        | MIT                                                      |
-| **Quartz Version** | >=5.0.0                                                  |
-| **Stars**          | ⭐ 4                                                     |
-| **Last Updated**   | 2026-07-24                                               |
-| **Source**         | [GitHub](https://github.com/quartz-community/bases-page) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | transformer |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 4 |
+| **Last Updated** | 2026-07-24 |
+| **Source** | [GitHub](https://github.com/quartz-community/bases-page) |

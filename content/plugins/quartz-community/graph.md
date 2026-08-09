@@ -21,7 +21,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/graph
 > ```
@@ -34,13 +33,13 @@ The Graph View component for Quartz - visualize your digital garden as an intera
 
 ## Details
 
-|                    |                                                     |
-| ------------------ | --------------------------------------------------- |
-| **Author**         | quartz-community                                    |
-| **Version**        | 1.0.0                                               |
-| **Category**       | component                                           |
-| **License**        | MIT                                                 |
-| **Quartz Version** | >=5.0.0                                             |
-| **Stars**          | ⭐ 4                                                |
-| **Last Updated**   | 2026-07-23                                          |
-| **Source**         | [GitHub](https://github.com/quartz-community/graph) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | component |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 4 |
+| **Last Updated** | 2026-07-23 |
+| **Source** | [GitHub](https://github.com/quartz-community/graph) |

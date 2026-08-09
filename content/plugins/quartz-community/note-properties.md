@@ -22,7 +22,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/note-properties
 > ```
@@ -35,13 +34,13 @@ Parses frontmatter properties and renders them as a visible properties view on t
 
 ## Details
 
-|                    |                                                               |
-| ------------------ | ------------------------------------------------------------- |
-| **Author**         | quartz-community                                              |
-| **Version**        | 1.0.0                                                         |
-| **Category**       | transformer                                                   |
-| **License**        | MIT                                                           |
-| **Quartz Version** | >=5.0.0                                                       |
-| **Stars**          | ⭐ 0                                                          |
-| **Last Updated**   | 2026-07-23                                                    |
-| **Source**         | [GitHub](https://github.com/quartz-community/note-properties) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | transformer |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 0 |
+| **Last Updated** | 2026-07-23 |
+| **Source** | [GitHub](https://github.com/quartz-community/note-properties) |

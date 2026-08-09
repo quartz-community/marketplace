@@ -21,7 +21,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/comments
 > ```
@@ -34,13 +33,13 @@ Adds a comment section to pages using Giscus (GitHub Discussions-based).
 
 ## Details
 
-|                    |                                                        |
-| ------------------ | ------------------------------------------------------ |
-| **Author**         | quartz-community                                       |
-| **Version**        | 1.0.0                                                  |
-| **Category**       | component                                              |
-| **License**        | MIT                                                    |
-| **Quartz Version** | >=5.0.0                                                |
-| **Stars**          | ⭐ 2                                                   |
-| **Last Updated**   | 2026-07-23                                             |
-| **Source**         | [GitHub](https://github.com/quartz-community/comments) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | component |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 2 |
+| **Last Updated** | 2026-07-23 |
+| **Source** | [GitHub](https://github.com/quartz-community/comments) |

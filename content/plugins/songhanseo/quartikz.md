@@ -21,7 +21,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:SongHanseo/quartikz
 > ```
@@ -34,13 +33,13 @@ Build-time TikZ renderer for Quartz 5
 
 ## Details
 
-|                    |                                                  |
-| ------------------ | ------------------------------------------------ |
-| **Author**         | SongHanseo                                       |
-| **Version**        | 0.1.1                                            |
-| **Category**       | transformer                                      |
-| **License**        | Unknown                                          |
-| **Quartz Version** | >=5.0.0                                          |
-| **Stars**          | ⭐ 0                                             |
-| **Last Updated**   | 2026-08-09                                       |
-| **Source**         | [GitHub](https://github.com/SongHanseo/quartikz) |
+| | |
+|---|---|
+| **Author** | SongHanseo |
+| **Version** | 0.1.1 |
+| **Category** | transformer |
+| **License** | Unknown |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 0 |
+| **Last Updated** | 2026-08-09 |
+| **Source** | [GitHub](https://github.com/SongHanseo/quartikz) |

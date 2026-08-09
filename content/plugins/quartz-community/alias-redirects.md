@@ -21,7 +21,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/alias-redirects
 > ```
@@ -34,13 +33,13 @@ Generates HTML redirect pages for frontmatter aliases and case-preserving URLs, 
 
 ## Details
 
-|                    |                                                               |
-| ------------------ | ------------------------------------------------------------- |
-| **Author**         | quartz-community                                              |
-| **Version**        | 1.0.0                                                         |
-| **Category**       | emitter                                                       |
-| **License**        | MIT                                                           |
-| **Quartz Version** | >=5.0.0                                                       |
-| **Stars**          | ⭐ 0                                                          |
-| **Last Updated**   | 2026-07-23                                                    |
-| **Source**         | [GitHub](https://github.com/quartz-community/alias-redirects) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | emitter |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 0 |
+| **Last Updated** | 2026-07-23 |
+| **Source** | [GitHub](https://github.com/quartz-community/alias-redirects) |

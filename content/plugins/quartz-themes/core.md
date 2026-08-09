@@ -6,7 +6,7 @@ pluginAuthor: "quartz-themes"
 version: "1.0.0"
 category: "transformer"
 tags:
-  - "status/community"
+  - "status/official"
   - "plugin/transformer"
 stars: 1
 official: false
@@ -21,10 +21,11 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-themes/core
 > ```
+
+
 
 Quartz transformer plugin for Obsidian themes — per-aspect mix-and-match configuration
 
@@ -32,13 +33,13 @@ Quartz transformer plugin for Obsidian themes — per-aspect mix-and-match confi
 
 ## Details
 
-|                    |                                                 |
-| ------------------ | ----------------------------------------------- |
-| **Author**         | quartz-themes                                   |
-| **Version**        | 1.0.0                                           |
-| **Category**       | transformer                                     |
-| **License**        | MIT                                             |
-| **Quartz Version** | >=5.0.0                                         |
-| **Stars**          | ⭐ 1                                            |
-| **Last Updated**   | 2026-07-27                                      |
-| **Source**         | [GitHub](https://github.com/quartz-themes/core) |
+| | |
+|---|---|
+| **Author** | quartz-themes |
+| **Version** | 1.0.0 |
+| **Category** | transformer |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 1 |
+| **Last Updated** | 2026-07-27 |
+| **Source** | [GitHub](https://github.com/quartz-themes/core) |

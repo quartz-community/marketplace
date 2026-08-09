@@ -21,7 +21,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/obsidian-flavored-markdown
 > ```
@@ -34,13 +33,13 @@ Transforms Obsidian-specific markdown syntax including wikilinks, callouts, high
 
 ## Details
 
-|                    |                                                                          |
-| ------------------ | ------------------------------------------------------------------------ |
-| **Author**         | quartz-community                                                         |
-| **Version**        | 1.0.0                                                                    |
-| **Category**       | transformer                                                              |
-| **License**        | MIT                                                                      |
-| **Quartz Version** | >=5.0.0                                                                  |
-| **Stars**          | ⭐ 7                                                                     |
-| **Last Updated**   | 2026-07-23                                                               |
-| **Source**         | [GitHub](https://github.com/quartz-community/obsidian-flavored-markdown) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | transformer |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 7 |
+| **Last Updated** | 2026-07-23 |
+| **Source** | [GitHub](https://github.com/quartz-community/obsidian-flavored-markdown) |

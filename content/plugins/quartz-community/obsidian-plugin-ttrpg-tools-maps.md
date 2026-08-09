@@ -23,7 +23,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/obsidian-plugin-ttrpg-tools-maps
 > ```
@@ -36,13 +35,13 @@ A Quartz v5 community plugin that renders interactive, read-only TTRPG maps in a
 
 ## Details
 
-|                    |                                                                                |
-| ------------------ | ------------------------------------------------------------------------------ |
-| **Author**         | quartz-community                                                               |
-| **Version**        | 0.1.0                                                                          |
-| **Category**       | transformer                                                                    |
-| **License**        | NOASSERTION                                                                    |
-| **Quartz Version** | >=5.0.0                                                                        |
-| **Stars**          | ⭐ 1                                                                           |
-| **Last Updated**   | 2026-07-27                                                                     |
-| **Source**         | [GitHub](https://github.com/quartz-community/obsidian-plugin-ttrpg-tools-maps) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 0.1.0 |
+| **Category** | transformer |
+| **License** | NOASSERTION |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 1 |
+| **Last Updated** | 2026-07-27 |
+| **Source** | [GitHub](https://github.com/quartz-community/obsidian-plugin-ttrpg-tools-maps) |

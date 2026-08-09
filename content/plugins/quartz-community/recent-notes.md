@@ -21,7 +21,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/recent-notes
 > ```
@@ -34,13 +33,13 @@ Displays a list of recently modified or created notes.
 
 ## Details
 
-|                    |                                                            |
-| ------------------ | ---------------------------------------------------------- |
-| **Author**         | quartz-community                                           |
-| **Version**        | 1.0.0                                                      |
-| **Category**       | component                                                  |
-| **License**        | MIT                                                        |
-| **Quartz Version** | >=5.0.0                                                    |
-| **Stars**          | ⭐ 0                                                       |
-| **Last Updated**   | 2026-07-23                                                 |
-| **Source**         | [GitHub](https://github.com/quartz-community/recent-notes) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | component |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 0 |
+| **Last Updated** | 2026-07-23 |
+| **Source** | [GitHub](https://github.com/quartz-community/recent-notes) |

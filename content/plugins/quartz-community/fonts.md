@@ -22,7 +22,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/fonts
 > ```
@@ -35,13 +34,13 @@ Fine-grained font control for Quartz sites. Supports per-heading fonts, automati
 
 ## Details
 
-|                    |                                                     |
-| ------------------ | --------------------------------------------------- |
-| **Author**         | quartz-community                                    |
-| **Version**        | 1.0.0                                               |
-| **Category**       | transformer                                         |
-| **License**        | MIT                                                 |
-| **Quartz Version** | >=5.0.0                                             |
-| **Stars**          | ⭐ 1                                                |
-| **Last Updated**   | 2026-07-23                                          |
-| **Source**         | [GitHub](https://github.com/quartz-community/fonts) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | transformer |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 1 |
+| **Last Updated** | 2026-07-23 |
+| **Source** | [GitHub](https://github.com/quartz-community/fonts) |

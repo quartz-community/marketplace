@@ -21,7 +21,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/description
 > ```
@@ -34,13 +33,13 @@ Generates page descriptions from content for use in meta tags and RSS feeds.
 
 ## Details
 
-|                    |                                                           |
-| ------------------ | --------------------------------------------------------- |
-| **Author**         | quartz-community                                          |
-| **Version**        | 1.0.0                                                     |
-| **Category**       | transformer                                               |
-| **License**        | MIT                                                       |
-| **Quartz Version** | >=5.0.0                                                   |
-| **Stars**          | ⭐ 0                                                      |
-| **Last Updated**   | 2026-07-23                                                |
-| **Source**         | [GitHub](https://github.com/quartz-community/description) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | transformer |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 0 |
+| **Last Updated** | 2026-07-23 |
+| **Source** | [GitHub](https://github.com/quartz-community/description) |

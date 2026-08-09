@@ -21,7 +21,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/cname
 > ```
@@ -34,13 +33,13 @@ Generates a CNAME file from the baseUrl configuration for custom domain hosting 
 
 ## Details
 
-|                    |                                                     |
-| ------------------ | --------------------------------------------------- |
-| **Author**         | quartz-community                                    |
-| **Version**        | 1.0.0                                               |
-| **Category**       | emitter                                             |
-| **License**        | MIT                                                 |
-| **Quartz Version** | >=5.0.0                                             |
-| **Stars**          | ⭐ 0                                                |
-| **Last Updated**   | 2026-07-23                                          |
-| **Source**         | [GitHub](https://github.com/quartz-community/cname) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | emitter |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 0 |
+| **Last Updated** | 2026-07-23 |
+| **Source** | [GitHub](https://github.com/quartz-community/cname) |

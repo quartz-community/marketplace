@@ -21,7 +21,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/stacked-pages
 > ```
@@ -34,13 +33,13 @@ Production-ready template for building, testing, and publishing Quartz community
 
 ## Details
 
-|                    |                                                             |
-| ------------------ | ----------------------------------------------------------- |
-| **Author**         | quartz-community                                            |
-| **Version**        | 1.0.0                                                       |
-| **Category**       | component                                                   |
-| **License**        | MIT                                                         |
-| **Quartz Version** | >=5.0.0                                                     |
-| **Stars**          | ⭐ 1                                                        |
-| **Last Updated**   | 2026-07-23                                                  |
-| **Source**         | [GitHub](https://github.com/quartz-community/stacked-pages) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | component |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 1 |
+| **Last Updated** | 2026-07-23 |
+| **Source** | [GitHub](https://github.com/quartz-community/stacked-pages) |

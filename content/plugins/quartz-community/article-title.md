@@ -21,7 +21,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/article-title
 > ```
@@ -34,13 +33,13 @@ Renders the article title from frontmatter as an h1 heading.
 
 ## Details
 
-|                    |                                                             |
-| ------------------ | ----------------------------------------------------------- |
-| **Author**         | quartz-community                                            |
-| **Version**        | 1.0.0                                                       |
-| **Category**       | component                                                   |
-| **License**        | MIT                                                         |
-| **Quartz Version** | >=5.0.0                                                     |
-| **Stars**          | ⭐ 0                                                        |
-| **Last Updated**   | 2026-07-23                                                  |
-| **Source**         | [GitHub](https://github.com/quartz-community/article-title) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | component |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 0 |
+| **Last Updated** | 2026-07-23 |
+| **Source** | [GitHub](https://github.com/quartz-community/article-title) |

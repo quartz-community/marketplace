@@ -21,7 +21,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/hard-line-breaks
 > ```
@@ -34,13 +33,13 @@ Converts single newlines in markdown to hard line breaks (like pressing Shift+En
 
 ## Details
 
-|                    |                                                                |
-| ------------------ | -------------------------------------------------------------- |
-| **Author**         | quartz-community                                               |
-| **Version**        | 1.0.0                                                          |
-| **Category**       | transformer                                                    |
-| **License**        | MIT                                                            |
-| **Quartz Version** | >=5.0.0                                                        |
-| **Stars**          | ⭐ 0                                                           |
-| **Last Updated**   | 2026-07-23                                                     |
-| **Source**         | [GitHub](https://github.com/quartz-community/hard-line-breaks) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | transformer |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 0 |
+| **Last Updated** | 2026-07-23 |
+| **Source** | [GitHub](https://github.com/quartz-community/hard-line-breaks) |

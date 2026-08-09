@@ -21,7 +21,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/crawl-links
 > ```
@@ -34,13 +33,13 @@ Processes and resolves internal and external links, tracks outgoing links, and o
 
 ## Details
 
-|                    |                                                           |
-| ------------------ | --------------------------------------------------------- |
-| **Author**         | quartz-community                                          |
-| **Version**        | 1.0.0                                                     |
-| **Category**       | transformer                                               |
-| **License**        | MIT                                                       |
-| **Quartz Version** | >=5.0.0                                                   |
-| **Stars**          | ⭐ 1                                                      |
-| **Last Updated**   | 2026-07-24                                                |
-| **Source**         | [GitHub](https://github.com/quartz-community/crawl-links) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | transformer |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 1 |
+| **Last Updated** | 2026-07-24 |
+| **Source** | [GitHub](https://github.com/quartz-community/crawl-links) |

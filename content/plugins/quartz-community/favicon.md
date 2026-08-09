@@ -21,7 +21,6 @@ aliases:
 ---
 
 > [!info] Install
->
 > ```bash
 > npx quartz plugin add github:quartz-community/favicon
 > ```
@@ -34,13 +33,13 @@ Generates a favicon.ico from the site's quartz/static/icon.png file.
 
 ## Details
 
-|                    |                                                       |
-| ------------------ | ----------------------------------------------------- |
-| **Author**         | quartz-community                                      |
-| **Version**        | 1.0.0                                                 |
-| **Category**       | emitter                                               |
-| **License**        | MIT                                                   |
-| **Quartz Version** | >=5.0.0                                               |
-| **Stars**          | ⭐ 1                                                  |
-| **Last Updated**   | 2026-07-23                                            |
-| **Source**         | [GitHub](https://github.com/quartz-community/favicon) |
+| | |
+|---|---|
+| **Author** | quartz-community |
+| **Version** | 1.0.0 |
+| **Category** | emitter |
+| **License** | MIT |
+| **Quartz Version** | >=5.0.0 |
+| **Stars** | ⭐ 1 |
+| **Last Updated** | 2026-07-23 |
+| **Source** | [GitHub](https://github.com/quartz-community/favicon) |
