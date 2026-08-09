@@ -1,5 +1,6 @@
 ---
 title: Quartz Plugin Marketplace
+description: "Discover plugins for Quartz, the static site generator for digital gardens."
 ---
 
 Discover plugins for [Quartz](https://quartz.jzhao.xyz), the static site generator for digital gardens.
