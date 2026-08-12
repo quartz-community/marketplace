@@ -1,6 +1,6 @@
 ---
 title: "Tabsdown"
-description: "Tabbed Markdown blocks for Quartz, using the same syntax as the Obsidian Tabsdown plugin. A vault that already authors tabsdown blocks publishes them as real tabs instead of leaking the raw fence into the built site."
+description: "quartz-tabsdown renders Tabsdown Markdown as theme-native tabs in Quartz. The same fenced blocks work in Obsidian and on the published site."
 author: "grafanaKibana"
 pluginAuthor: "grafanaKibana"
 version: "0.2.0"
@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 1
 official: false
-modified: "2026-08-08T18:40:23Z"
+modified: "2026-08-12T12:18:43Z"
 repo: "https://github.com/grafanaKibana/quartz-tabsdown"
 source: "github:grafanaKibana/quartz-tabsdown"
 installCommand: "npx quartz plugin add github:grafanaKibana/quartz-tabsdown"
@@ -27,7 +27,7 @@ aliases:
 
 # quartz-tabsdown
 
-Tabbed Markdown blocks for Quartz, using the same syntax as the Obsidian Tabsdown plugin. A vault that already authors tabsdown blocks publishes them as real tabs instead of leaking the raw fence into the built site.
+quartz-tabsdown renders Tabsdown Markdown as theme-native tabs in Quartz. The same fenced blocks work in Obsidian and on the published site.
 
 [View full documentation on GitHub](https://github.com/grafanaKibana/quartz-tabsdown)
 
@@ -41,5 +41,5 @@ Tabbed Markdown blocks for Quartz, using the same syntax as the Obsidian Tabsdow
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-08-08 |
+| **Last Updated** | 2026-08-12 |
 | **Source** | [GitHub](https://github.com/grafanaKibana/quartz-tabsdown) |
