@@ -3,14 +3,14 @@ title: "Tabsdown"
 description: "quartz-tabsdown renders Tabsdown Markdown as theme-native tabs in Quartz. The same fenced blocks work in Obsidian and on the published site."
 author: "grafanaKibana"
 pluginAuthor: "grafanaKibana"
-version: "0.2.0"
+version: "0.3.0"
 category: "transformer"
 tags:
   - "status/community"
   - "plugin/transformer"
 stars: 1
 official: false
-modified: "2026-08-12T12:18:43Z"
+modified: "2026-08-12T16:15:16Z"
 repo: "https://github.com/grafanaKibana/quartz-tabsdown"
 source: "github:grafanaKibana/quartz-tabsdown"
 installCommand: "npx quartz plugin add github:grafanaKibana/quartz-tabsdown"
@@ -36,7 +36,7 @@ quartz-tabsdown renders Tabsdown Markdown as theme-native tabs in Quartz. The sa
 | | |
 |---|---|
 | **Author** | grafanaKibana |
-| **Version** | 0.2.0 |
+| **Version** | 0.3.0 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
