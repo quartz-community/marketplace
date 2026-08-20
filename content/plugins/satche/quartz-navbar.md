@@ -1,6 +1,6 @@
 ---
 title: "Navbar"
-description: "This Quartz v5 plugin add a navigation bar at the top of the site, where you can add other plugins inside."
+description: "This Quartz v5 plugin provide options to add navigation links to your website. It also display a navbar on top of the page, that you can populate with other plugins."
 author: "satche"
 pluginAuthor: "satche"
 version: "0.0.1"
@@ -11,7 +11,7 @@ tags:
   - "plugin/transformer"
 stars: 0
 official: false
-modified: "2026-08-09T20:05:46Z"
+modified: "2026-08-20T14:17:58Z"
 repo: "https://github.com/satche/quartz-navbar"
 source: "github:satche/quartz-navbar"
 installCommand: "npx quartz plugin add github:satche/quartz-navbar"
@@ -28,7 +28,7 @@ aliases:
 
 # Quartz Navbar plugin
 
-This Quartz v5 plugin add a navigation bar at the top of the site, where you can add other plugins inside.
+This Quartz v5 plugin provide options to add navigation links to your website. It also display a navbar on top of the page, that you can populate with other plugins.
 
 [View full documentation on GitHub](https://github.com/satche/quartz-navbar)
 
@@ -42,5 +42,5 @@ This Quartz v5 plugin add a navigation bar at the top of the site, where you can
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-08-09 |
+| **Last Updated** | 2026-08-20 |
 | **Source** | [GitHub](https://github.com/satche/quartz-navbar) |
