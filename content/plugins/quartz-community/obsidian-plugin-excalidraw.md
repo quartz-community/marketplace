@@ -10,7 +10,7 @@ tags:
   - "plugin/pageType"
   - "plugin/filter"
   - "plugin/component"
-stars: 4
+stars: 5
 official: true
 modified: "2026-07-23T23:11:27Z"
 repo: "https://github.com/quartz-community/obsidian-plugin-excalidraw"
@@ -42,6 +42,6 @@ A page type plugin that renders Obsidian Excalidraw drawings (.excalidraw.md and
 | **Category** | pageType |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
-| **Stars** | ⭐ 4 |
+| **Stars** | ⭐ 5 |
 | **Last Updated** | 2026-07-23 |
 | **Source** | [GitHub](https://github.com/quartz-community/obsidian-plugin-excalidraw) |
