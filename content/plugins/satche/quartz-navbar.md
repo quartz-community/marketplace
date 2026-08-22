@@ -9,7 +9,7 @@ tags:
   - "status/community"
   - "plugin/component"
   - "plugin/transformer"
-stars: 0
+stars: 1
 official: false
 modified: "2026-08-20T14:17:58Z"
 repo: "https://github.com/satche/quartz-navbar"
@@ -41,6 +41,6 @@ This Quartz v5 plugin provide options to add navigation links to your website. I
 | **Category** | component |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
-| **Stars** | ⭐ 0 |
+| **Stars** | ⭐ 1 |
 | **Last Updated** | 2026-08-20 |
 | **Source** | [GitHub](https://github.com/satche/quartz-navbar) |
