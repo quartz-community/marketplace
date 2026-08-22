@@ -34,18 +34,39 @@ type GitHubSearchResponse = {
   items: GitHubRepo[]
 }
 
+type ComponentManifest = {
+  displayName?: string
+  description?: string
+  defaultPosition?: string
+  defaultPriority?: number
+}
+
 type QuartzMetadata = {
   name?: unknown
-  version?: unknown
-  description?: unknown
-  author?: unknown
-  category?: unknown
-  keywords?: unknown
-  quartzVersion?: unknown
   displayName?: unknown
+  description?: unknown
+  version?: unknown
+  author?: unknown
+  homepage?: unknown
+  keywords?: unknown
+  category?: unknown
+  quartzVersion?: unknown
+  dependencies?: unknown
+  defaultOrder?: unknown
+  defaultEnabled?: unknown
+  defaultOptions?: unknown
+  configSchema?: unknown
+  components?: Record<string, ComponentManifest>
+  frames?: Record<string, { exportName: string }>
+  requiresInstall?: unknown
 }
 
 type PackageJson = {
+  name?: string
+  description?: string
+  version?: string
+  author?: string
+  homepage?: string
   quartz?: QuartzMetadata
 }
 
@@ -73,6 +94,41 @@ type IndexedPlugin = {
   source: string
 }
 
+type PluginEntry = {
+  name: string
+  displayName: string
+  description: string
+  version: string
+  author: string
+  homepage: string | null
+  keywords: string[]
+  category: string | string[]
+  quartzVersion: string
+  dependencies: string[]
+  defaultOrder: number | null
+  defaultEnabled: boolean | null
+  defaultOptions: Record<string, unknown> | null
+  configSchema: object | null
+  components: Record<string, ComponentManifest> | null
+  frames: Record<string, { exportName: string }> | null
+  requiresInstall: boolean
+  source: string
+  repo: string
+  stars: number
+  license: string
+  official: boolean
+  lastUpdated: string
+  installCommand: string
+  configureCommand: string
+}
+
+type PluginsJson = {
+  $schema: string
+  schemaVersion: number
+  generatedAt: string
+  plugins: PluginEntry[]
+}
+
 type ReportEntry = {
   repo: string
   reason: string
@@ -96,6 +152,7 @@ const ROOT = process.cwd()
 const BLACKLIST_PATH = path.join(ROOT, "blacklist.json")
 const PLUGINS_DIR = path.join(ROOT, "content", "plugins")
 const REPORT_PATH = path.join(ROOT, "scripts", "index-report.json")
+const PLUGINS_JSON_PATH = path.join(ROOT, "plugins.json")
 
 const GITHUB_API = "https://api.github.com"
 const SEARCH_URL = `${GITHUB_API}/search/repositories?q=topic:quartz-plugin+is:public&sort=stars&per_page=100`
@@ -179,6 +236,30 @@ const fetchText = async (url: string): Promise<{ status: number; text?: string }
   if (!response.ok) return { status: response.status }
   const text = await response.text()
   return { status: response.status, text }
+}
+
+const checkNpmExists = async (packageName: string): Promise<boolean> => {
+  try {
+    const encoded = packageName.replace("/", "%2F")
+    const response = await fetch(`https://registry.npmjs.org/${encoded}`, {
+      method: "HEAD",
+    })
+    return response.ok
+  } catch {
+    return false
+  }
+}
+
+const buildInstallCommand = (
+  npmName: string | undefined,
+  onNpm: boolean,
+  repoKey: string,
+): { install: string; configure: string } => {
+  const source = onNpm && npmName ? npmName : `github:${repoKey}`
+  return {
+    install: `npm install ${source}`,
+    configure: `npx quartz plugin add ${source}`,
+  }
 }
 
 const extractReadme = (content: string): { heading: string; excerpt: string } => {
@@ -380,6 +461,13 @@ const main = async (): Promise<void> => {
   })
 
   const plugins: IndexedPlugin[] = []
+  const pluginJsonEntries: {
+    slug: string
+    repoKey: string
+    npmName: string | undefined
+    quartz: QuartzMetadata
+    ghRepo: GitHubRepo
+  }[] = []
 
   for (const repo of qualifying) {
     const owner = repo.owner.login
@@ -477,6 +565,15 @@ const main = async (): Promise<void> => {
         installCommand,
         source: `github:${repoKey}`,
       })
+
+      pluginJsonEntries.push({
+        slug,
+        repoKey,
+        npmName: packageJson.name,
+        quartz,
+        ghRepo: repo,
+      })
+
       log("info", "Indexed repo", { repo: repoKey })
     } catch (error) {
       const message = error instanceof Error ? error.message : "Unknown error"
@@ -525,6 +622,77 @@ const main = async (): Promise<void> => {
     await fs.mkdir(path.dirname(filePath), { recursive: true })
     await fs.writeFile(filePath, content, "utf8")
   }
+
+  log("info", "Checking npm registry for published packages.")
+  const npmChecks = await Promise.all(
+    pluginJsonEntries.map(async (entry) => ({
+      ...entry,
+      onNpm: entry.npmName ? await checkNpmExists(entry.npmName) : false,
+    })),
+  )
+
+  const pluginEntries: PluginEntry[] = npmChecks
+    .sort((a, b) => a.slug.localeCompare(b.slug))
+    .map((entry) => {
+      const { quartz, ghRepo, repoKey, npmName, onNpm } = entry
+      const commands = buildInstallCommand(npmName, onNpm, repoKey)
+      const categories = parseCategories(quartz.category)
+      const description = normalizeString(
+        quartz.description,
+        normalizeString(ghRepo.description, "No description provided"),
+      )
+
+      return {
+        name: normalizeString(quartz.name, ghRepo.name),
+        displayName: normalizeString(quartz.displayName, normalizeString(quartz.name, ghRepo.name)),
+        description,
+        version: normalizeString(quartz.version, "0.0.0"),
+        author: normalizeString(quartz.author, ghRepo.owner.login),
+        homepage: isNonEmptyString(quartz.homepage) ? quartz.homepage : null,
+        keywords: parseKeywords(quartz.keywords),
+        category:
+          categories.length === 1
+            ? categories[0]
+            : categories.length > 1
+              ? categories
+              : "uncategorized",
+        quartzVersion: normalizeString(quartz.quartzVersion, "unspecified"),
+        dependencies: Array.isArray(quartz.dependencies)
+          ? quartz.dependencies.filter(isNonEmptyString)
+          : [],
+        defaultOrder: typeof quartz.defaultOrder === "number" ? quartz.defaultOrder : null,
+        defaultEnabled: typeof quartz.defaultEnabled === "boolean" ? quartz.defaultEnabled : null,
+        defaultOptions:
+          quartz.defaultOptions != null && typeof quartz.defaultOptions === "object"
+            ? (quartz.defaultOptions as Record<string, unknown>)
+            : null,
+        configSchema:
+          quartz.configSchema != null && typeof quartz.configSchema === "object"
+            ? (quartz.configSchema as object)
+            : null,
+        components: quartz.components ?? null,
+        frames: quartz.frames ?? null,
+        requiresInstall: quartz.requiresInstall === true,
+        source: onNpm && npmName ? npmName : `github:${repoKey}`,
+        repo: `https://github.com/${repoKey}`,
+        stars: ghRepo.stargazers_count,
+        license: ghRepo.license?.spdx_id ?? "Unknown",
+        official: ghRepo.owner.login === "quartz-community",
+        lastUpdated: ghRepo.pushed_at,
+        installCommand: commands.install,
+        configureCommand: commands.configure,
+      }
+    })
+
+  const pluginsJson: PluginsJson = {
+    $schema: "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
+    schemaVersion: 1,
+    generatedAt: new Date().toISOString(),
+    plugins: pluginEntries,
+  }
+
+  await fs.writeFile(PLUGINS_JSON_PATH, JSON.stringify(pluginsJson, null, 2) + "\n", "utf8")
+  log("info", "Generated plugins.json", { count: pluginEntries.length })
 
   const report: IndexReport = {
     timestamp: new Date().toISOString(),

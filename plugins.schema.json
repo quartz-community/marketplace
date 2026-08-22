@@ -1,0 +1,229 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
+  "title": "Quartz Plugin Marketplace",
+  "type": "object",
+  "required": ["schemaVersion", "generatedAt", "plugins"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "plugins": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/PluginEntry"
+      }
+    }
+  },
+  "$defs": {
+    "ComponentManifest": {
+      "type": "object",
+      "properties": {
+        "displayName": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "defaultPosition": {
+          "type": "string",
+          "enum": ["left", "right", "beforeBody", "afterBody", "header", "footer"]
+        },
+        "defaultPriority": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "FrameEntry": {
+      "type": "object",
+      "required": ["exportName"],
+      "properties": {
+        "exportName": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "PluginEntry": {
+      "type": "object",
+      "required": [
+        "name",
+        "displayName",
+        "description",
+        "version",
+        "author",
+        "homepage",
+        "keywords",
+        "category",
+        "quartzVersion",
+        "dependencies",
+        "defaultOrder",
+        "defaultEnabled",
+        "defaultOptions",
+        "configSchema",
+        "components",
+        "frames",
+        "requiresInstall",
+        "source",
+        "repo",
+        "stars",
+        "license",
+        "official",
+        "lastUpdated",
+        "installCommand",
+        "configureCommand"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Plugin package name from the quartz manifest"
+        },
+        "displayName": {
+          "type": "string",
+          "description": "Human-readable plugin name"
+        },
+        "description": {
+          "type": "string",
+          "description": "Plugin description from package.json quartz field, falling back to the top-level package.json description or GitHub repo description"
+        },
+        "version": {
+          "type": "string",
+          "description": "Semantic version of the plugin"
+        },
+        "author": {
+          "type": "string",
+          "description": "Plugin author"
+        },
+        "homepage": {
+          "type": ["string", "null"],
+          "description": "Plugin homepage URL"
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Search keywords for the plugin"
+        },
+        "category": {
+          "oneOf": [
+            {
+              "type": "string",
+              "enum": ["transformer", "filter", "emitter", "pageType", "component", "uncategorized"]
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["transformer", "filter", "emitter", "pageType", "component"]
+              },
+              "minItems": 2
+            }
+          ],
+          "description": "Plugin category or categories. A single string when one category, an array when the plugin spans multiple categories"
+        },
+        "quartzVersion": {
+          "type": "string",
+          "description": "Required Quartz version constraint (e.g. \">=5.0.0\")"
+        },
+        "dependencies": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Plugin sources this plugin depends on"
+        },
+        "defaultOrder": {
+          "type": ["number", "null"],
+          "description": "Default execution order (0-100, lower runs first). Null if not specified"
+        },
+        "defaultEnabled": {
+          "type": ["boolean", "null"],
+          "description": "Whether the plugin is enabled by default on install. Null if not specified"
+        },
+        "defaultOptions": {
+          "oneOf": [{ "type": "object" }, { "type": "null" }],
+          "description": "Default configuration values applied when no user options are specified. Null if not specified"
+        },
+        "configSchema": {
+          "oneOf": [{ "type": "object" }, { "type": "null" }],
+          "description": "JSON Schema describing the plugin's configuration options. Null if not specified"
+        },
+        "components": {
+          "oneOf": [
+            {
+              "type": "object",
+              "additionalProperties": {
+                "$ref": "#/$defs/ComponentManifest"
+              }
+            },
+            { "type": "null" }
+          ],
+          "description": "UI components provided by this plugin, keyed by export name. Null if none"
+        },
+        "frames": {
+          "oneOf": [
+            {
+              "type": "object",
+              "additionalProperties": {
+                "$ref": "#/$defs/FrameEntry"
+              }
+            },
+            { "type": "null" }
+          ],
+          "description": "Page frames provided by this plugin, keyed by export name. Null if none"
+        },
+        "requiresInstall": {
+          "type": "boolean",
+          "description": "Whether the plugin requires npm install after cloning (e.g. for native dependencies)"
+        },
+        "source": {
+          "type": "string",
+          "description": "Plugin source identifier. npm package name if published, otherwise \"github:owner/repo\""
+        },
+        "repo": {
+          "type": "string",
+          "format": "uri",
+          "description": "GitHub repository URL"
+        },
+        "stars": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "GitHub star count"
+        },
+        "license": {
+          "type": "string",
+          "description": "SPDX license identifier or \"Unknown\""
+        },
+        "official": {
+          "type": "boolean",
+          "description": "Whether this is an official quartz-community plugin"
+        },
+        "lastUpdated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 timestamp of last push to the repository"
+        },
+        "installCommand": {
+          "type": "string",
+          "description": "npm install command to add the plugin as a dependency"
+        },
+        "configureCommand": {
+          "type": "string",
+          "description": "Quartz CLI command to add and configure the plugin"
+        }
+      }
+    }
+  }
+}
