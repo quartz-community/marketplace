@@ -8,7 +8,7 @@ category: "emitter"
 tags:
   - "status/official"
   - "plugin/emitter"
-stars: 2
+stars: 3
 official: true
 modified: "2026-07-23T23:11:02Z"
 repo: "https://github.com/quartz-community/content-index"
@@ -40,6 +40,6 @@ Generates a sitemap, RSS feed, and content index JSON for full-text search.
 | **Category** | emitter |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
-| **Stars** | ⭐ 2 |
+| **Stars** | ⭐ 3 |
 | **Last Updated** | 2026-07-23 |
 | **Source** | [GitHub](https://github.com/quartz-community/content-index) |

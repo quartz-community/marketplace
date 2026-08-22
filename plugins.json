@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T01:26:29.800Z",
+  "generatedAt": "2026-08-22T06:47:25.486Z",
   "plugins": [
     {
       "name": "tabsdown",
@@ -360,7 +360,7 @@
       "requiresInstall": false,
       "source": "@quartz-community/content-index",
       "repo": "https://github.com/quartz-community/content-index",
-      "stars": 2,
+      "stars": 3,
       "license": "MIT",
       "official": true,
       "lastUpdated": "2026-07-23T23:11:02Z",
