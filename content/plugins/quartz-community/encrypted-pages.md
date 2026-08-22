@@ -9,7 +9,7 @@ tags:
   - "status/official"
   - "plugin/transformer"
   - "plugin/emitter"
-stars: 2
+stars: 3
 official: true
 modified: "2026-07-27T15:43:30Z"
 repo: "https://github.com/quartz-community/encrypted-pages"
@@ -41,6 +41,6 @@ Password-protected encrypted pages for Quartz v5.
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
-| **Stars** | ⭐ 2 |
+| **Stars** | ⭐ 3 |
 | **Last Updated** | 2026-07-27 |
 | **Source** | [GitHub](https://github.com/quartz-community/encrypted-pages) |
