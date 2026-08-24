@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T18:35:17.335Z",
+  "generatedAt": "2026-08-24T01:38:50.266Z",
   "plugins": [
     {
       "name": "tabsdown",
