@@ -8,7 +8,7 @@ category: "transformer"
 tags:
   - "status/official"
   - "plugin/transformer"
-stars: 7
+stars: 8
 official: true
 modified: "2026-07-23T23:12:39Z"
 repo: "https://github.com/quartz-community/obsidian-flavored-markdown"
@@ -40,6 +40,6 @@ Transforms Obsidian-specific markdown syntax including wikilinks, callouts, high
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
-| **Stars** | ⭐ 7 |
+| **Stars** | ⭐ 8 |
 | **Last Updated** | 2026-07-23 |
 | **Source** | [GitHub](https://github.com/quartz-community/obsidian-flavored-markdown) |
