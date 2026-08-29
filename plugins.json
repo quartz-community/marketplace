@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T06:28:56.465Z",
+  "generatedAt": "2026-08-29T16:29:28.639Z",
   "plugins": [
     {
       "name": "tabsdown",
@@ -1734,6 +1734,48 @@
       "lastUpdated": "2026-07-27T09:37:20Z",
       "installCommand": "npm install @quartz-themes/core",
       "configureCommand": "npx quartz plugin add @quartz-themes/core"
+    },
+    {
+      "name": "hero-banner",
+      "displayName": "Hero Banner",
+      "description": "A way of adding a banner at the top of your notes.",
+      "version": "0.1.0",
+      "author": "riberoc",
+      "homepage": null,
+      "keywords": [],
+      "category": "component",
+      "quartzVersion": ">=5.0.0",
+      "dependencies": [],
+      "defaultOrder": 50,
+      "defaultEnabled": true,
+      "defaultOptions": {
+        "coverProperties": [
+          "cover",
+          "socialImage",
+          "image"
+        ],
+        "showDate": true,
+        "dateLocale": "en-US",
+        "minHeight": "200px"
+      },
+      "configSchema": null,
+      "components": {
+        "HeroBanner": {
+          "displayName": "Hero Banner",
+          "defaultPosition": "beforeBody",
+          "defaultPriority": 10
+        }
+      },
+      "frames": null,
+      "requiresInstall": false,
+      "source": "github:riberoc/quartz-hero-banner",
+      "repo": "https://github.com/riberoc/quartz-hero-banner",
+      "stars": 0,
+      "license": "MIT",
+      "official": false,
+      "lastUpdated": "2026-08-29T14:55:32Z",
+      "installCommand": "npm install github:riberoc/quartz-hero-banner",
+      "configureCommand": "npx quartz plugin add github:riberoc/quartz-hero-banner"
     },
     {
       "name": "navbar",
