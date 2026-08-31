@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T20:48:49.075Z",
+  "generatedAt": "2026-08-31T04:43:55.927Z",
   "plugins": [
     {
       "name": "tabsdown",
@@ -29,6 +29,51 @@
       "lastUpdated": "2026-08-12T16:15:16Z",
       "installCommand": "npm install github:grafanaKibana/quartz-tabsdown",
       "configureCommand": "npx quartz plugin add github:grafanaKibana/quartz-tabsdown"
+    },
+    {
+      "name": "md-graphs",
+      "displayName": "Markdown Graphs",
+      "description": "ASCII-framed graphs for Quartz 5 websites (https://quartz.jzhao.xyz/)",
+      "version": "1.0.0",
+      "author": "jerlendds",
+      "homepage": null,
+      "keywords": [],
+      "category": "transformer",
+      "quartzVersion": ">=5.0.0",
+      "dependencies": [],
+      "defaultOrder": 50,
+      "defaultEnabled": true,
+      "defaultOptions": {
+        "accentColor": "lab(92.9449% -44.411 80.292)",
+        "accentColor2": "lab(89.622% -60.7933 21.1414)",
+        "accentColor3": "lab(77.5288% -33.8221 -35.2522)",
+        "inkColor": "var(--darkgray, #d7d7d7)",
+        "mutedColor": "var(--dark, #777)",
+        "frame": "ascii",
+        "palette": "duo",
+        "strict": false,
+        "limits": {
+          "maxBlockBytes": 65536,
+          "maxRows": 1000,
+          "maxColumns": 100,
+          "maxPoints": 10000,
+          "maxNodes": 2000,
+          "maxEdges": 5000,
+          "maxDepth": 100
+        }
+      },
+      "configSchema": null,
+      "components": null,
+      "frames": null,
+      "requiresInstall": false,
+      "source": "github:jerlendds/quartz-md-graphs",
+      "repo": "https://github.com/jerlendds/quartz-md-graphs",
+      "stars": 1,
+      "license": "MIT",
+      "official": false,
+      "lastUpdated": "2026-08-30T23:11:05Z",
+      "installCommand": "npm install github:jerlendds/quartz-md-graphs",
+      "configureCommand": "npx quartz plugin add github:jerlendds/quartz-md-graphs"
     },
     {
       "name": "alias-redirects",
