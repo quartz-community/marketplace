@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T13:11:31.263Z",
+  "generatedAt": "2026-08-31T22:40:19.027Z",
   "plugins": [
     {
       "name": "tabsdown",
@@ -29,6 +29,41 @@
       "lastUpdated": "2026-08-12T16:15:16Z",
       "installCommand": "npm install github:grafanaKibana/quartz-tabsdown",
       "configureCommand": "npx quartz plugin add github:grafanaKibana/quartz-tabsdown"
+    },
+    {
+      "name": "chat-bubbles",
+      "displayName": "Chat Bubbles",
+      "description": "A plugin for displaying chat bubbles on a Quartz page (https://quartz.jzhao.xyz/) via custom MD syntax",
+      "version": "1.0.0",
+      "author": "jerlendds",
+      "homepage": null,
+      "keywords": [],
+      "category": "transformer",
+      "quartzVersion": ">=5.0.0",
+      "dependencies": [],
+      "defaultOrder": 50,
+      "defaultEnabled": true,
+      "defaultOptions": {
+        "maxHeight": 600,
+        "defaultCollapsed": false,
+        "defaultSide": "left",
+        "expandLabel": "Show full conversation",
+        "collapseLabel": "Collapse conversation",
+        "enableTranscriptSyntax": true,
+        "enableDirectiveSyntax": true
+      },
+      "configSchema": null,
+      "components": null,
+      "frames": null,
+      "requiresInstall": false,
+      "source": "github:jerlendds/quartz-chat-bubbles",
+      "repo": "https://github.com/jerlendds/quartz-chat-bubbles",
+      "stars": 1,
+      "license": "MIT",
+      "official": false,
+      "lastUpdated": "2026-08-31T16:53:56Z",
+      "installCommand": "npm install github:jerlendds/quartz-chat-bubbles",
+      "configureCommand": "npx quartz plugin add github:jerlendds/quartz-chat-bubbles"
     },
     {
       "name": "md-graphs",
