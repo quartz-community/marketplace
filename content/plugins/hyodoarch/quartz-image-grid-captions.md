@@ -3,14 +3,14 @@ title: "Image Grid Captions"
 description: "Obsidian版 Image Grid Captions と同一の fenced code block で、画像を高さ一定・トリミングなしの1行に表示する Quartz v5 Transformer です。関数名とTransformer名は ImageGridCaptions です。"
 author: "hyodoarch"
 pluginAuthor: "hyodoarch"
-version: "0.1.0"
+version: "0.2.1"
 category: "transformer"
 tags:
   - "status/community"
   - "plugin/transformer"
 stars: 0
 official: false
-modified: "2026-09-05T02:27:10Z"
+modified: "2026-09-05T12:19:25Z"
 repo: "https://github.com/hyodoarch/quartz-image-grid-captions"
 source: "github:hyodoarch/quartz-image-grid-captions"
 installCommand: "npx quartz plugin add github:hyodoarch/quartz-image-grid-captions"
@@ -25,7 +25,7 @@ aliases:
 > npx quartz plugin add github:hyodoarch/quartz-image-grid-captions
 > ```
 
-# Quartz Image Grid Captions 0.1.0
+# Quartz Image Grid Captions 0.2.1
 
 Obsidian版 Image Grid Captions と同一の fenced code block で、画像を高さ一定・トリミングなしの1行に表示する Quartz v5 Transformer です。関数名とTransformer名は ImageGridCaptions です。
 
@@ -36,7 +36,7 @@ Obsidian版 Image Grid Captions と同一の fenced code block で、画像を�
 | | |
 |---|---|
 | **Author** | hyodoarch |
-| **Version** | 0.1.0 |
+| **Version** | 0.2.1 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
