@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T03:58:18.459Z",
+  "generatedAt": "2026-09-09T11:00:44.659Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -119,6 +119,46 @@
       "lastUpdated": "2026-09-07T08:18:33Z",
       "installCommand": "npm install @alexchenh/quartz-cloudflare-media",
       "configureCommand": "npx quartz plugin add @alexchenh/quartz-cloudflare-media"
+    },
+    {
+      "name": "quartz-layout-box",
+      "displayName": "Layout Box",
+      "description": "Renders an HTML or Markdown snippet (file or inline) as a layout component.",
+      "version": "0.2.0",
+      "author": "boxi-os",
+      "homepage": null,
+      "keywords": [],
+      "category": "component",
+      "quartzVersion": ">=5.0.0",
+      "dependencies": [],
+      "defaultOrder": null,
+      "defaultEnabled": true,
+      "defaultOptions": {
+        "file": "snippet.html",
+        "dir": "quartz/static/snippets",
+        "placeholders": true,
+        "collapsible": false,
+        "collapsed": false,
+        "frontmatterKey": "layoutBox"
+      },
+      "configSchema": null,
+      "components": {
+        "LayoutBox": {
+          "displayName": "Layout Box",
+          "defaultPosition": "left",
+          "defaultPriority": 15
+        }
+      },
+      "frames": null,
+      "requiresInstall": false,
+      "source": "github:boxi-os/quartz-layout-box",
+      "repo": "https://github.com/boxi-os/quartz-layout-box",
+      "stars": 0,
+      "license": "MIT",
+      "official": false,
+      "lastUpdated": "2026-09-09T10:36:27Z",
+      "installCommand": "npm install github:boxi-os/quartz-layout-box",
+      "configureCommand": "npx quartz plugin add github:boxi-os/quartz-layout-box"
     },
     {
       "name": "tabsdown",
