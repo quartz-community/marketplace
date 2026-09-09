@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T11:00:44.659Z",
+  "generatedAt": "2026-09-09T16:16:28.707Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -156,9 +156,90 @@
       "stars": 0,
       "license": "MIT",
       "official": false,
-      "lastUpdated": "2026-09-09T10:36:27Z",
+      "lastUpdated": "2026-09-09T12:42:57Z",
       "installCommand": "npm install github:boxi-os/quartz-layout-box",
       "configureCommand": "npx quartz plugin add github:boxi-os/quartz-layout-box"
+    },
+    {
+      "name": "quartz-multilanguage",
+      "displayName": "Multilanguage",
+      "description": "Multilingual content for Quartz: language detection, translation linking, language switcher, hreflang and redirects.",
+      "version": "0.1.0",
+      "author": "boxi-os",
+      "homepage": null,
+      "keywords": [],
+      "category": [
+        "transformer",
+        "filter",
+        "emitter",
+        "component"
+      ],
+      "quartzVersion": ">=5.0.0",
+      "dependencies": [],
+      "defaultOrder": 65,
+      "defaultEnabled": true,
+      "defaultOptions": {
+        "languages": [
+          {
+            "code": "en",
+            "label": "English",
+            "locale": "en-US"
+          }
+        ],
+        "defaultLanguage": "en",
+        "detection": [
+          "folder",
+          "suffix",
+          "frontmatter"
+        ],
+        "linking": [
+          "frontmatter",
+          "aliases",
+          "path"
+        ],
+        "frontmatterKeys": {
+          "lang": "lang",
+          "key": "translationKey",
+          "translations": "translations"
+        },
+        "rootRedirect": "none",
+        "rememberChoice": true,
+        "seo": {
+          "hreflang": true,
+          "ogLocale": true,
+          "xDefault": "default"
+        },
+        "switcher": {
+          "style": "links",
+          "label": "label",
+          "showCurrent": true,
+          "missing": "home",
+          "separator": "|"
+        },
+        "missingTranslationNotice": false,
+        "fallbackPages": "none",
+        "rewriteCrossLanguageLinks": false,
+        "localizeDates": false,
+        "publishLanguages": []
+      },
+      "configSchema": null,
+      "components": {
+        "LanguageSwitcher": {
+          "displayName": "Language Switcher",
+          "defaultPosition": "left",
+          "defaultPriority": 32
+        }
+      },
+      "frames": null,
+      "requiresInstall": false,
+      "source": "github:boxi-os/quartz-multilanguage",
+      "repo": "https://github.com/boxi-os/quartz-multilanguage",
+      "stars": 0,
+      "license": "MIT",
+      "official": false,
+      "lastUpdated": "2026-09-09T12:42:58Z",
+      "installCommand": "npm install github:boxi-os/quartz-multilanguage",
+      "configureCommand": "npx quartz plugin add github:boxi-os/quartz-multilanguage"
     },
     {
       "name": "tabsdown",
