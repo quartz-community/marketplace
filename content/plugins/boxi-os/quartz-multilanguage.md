@@ -1,6 +1,6 @@
 ---
 title: "Multilanguage"
-description: "Multilingual content for Quartz v5. Quartz itself knows one locale per site; this plugin adds everything needed to publish the same notes in several languages from one vault:"
+description: "Multilingual content for Quartz v5. Quartz itself knows one locale per site; this plugin adds everything needed to publish the same notes in several languages from one vault."
 author: "boxi-os"
 pluginAuthor: "boxi-os"
 version: "0.1.0"
@@ -13,7 +13,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: false
-modified: "2026-09-09T12:42:58Z"
+modified: "2026-09-10T13:53:13Z"
 repo: "https://github.com/boxi-os/quartz-multilanguage"
 source: "github:boxi-os/quartz-multilanguage"
 installCommand: "npx quartz plugin add github:boxi-os/quartz-multilanguage"
@@ -30,7 +30,7 @@ aliases:
 
 # quartz-multilanguage
 
-Multilingual content for Quartz v5. Quartz itself knows one locale per site; this plugin adds everything needed to publish the same notes in several languages from one vault:
+Multilingual content for Quartz v5. Quartz itself knows one locale per site; this plugin adds everything needed to publish the same notes in several languages from one vault.
 
 [View full documentation on GitHub](https://github.com/boxi-os/quartz-multilanguage)
 
@@ -44,5 +44,5 @@ Multilingual content for Quartz v5. Quartz itself knows one locale per site; thi
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-09-09 |
+| **Last Updated** | 2026-09-10 |
 | **Source** | [GitHub](https://github.com/boxi-os/quartz-multilanguage) |
