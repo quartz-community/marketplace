@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T16:07:09.842Z",
+  "generatedAt": "2026-09-10T20:39:35.796Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -124,7 +124,7 @@
       "name": "quartz-layout-box",
       "displayName": "Layout Box",
       "description": "Renders an HTML or Markdown snippet (file or inline) as a layout component.",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "author": "boxi-os",
       "homepage": null,
       "keywords": [],
@@ -156,7 +156,7 @@
       "stars": 0,
       "license": "MIT",
       "official": false,
-      "lastUpdated": "2026-09-10T15:22:41Z",
+      "lastUpdated": "2026-09-10T18:28:16Z",
       "installCommand": "npm install github:boxi-os/quartz-layout-box",
       "configureCommand": "npx quartz plugin add github:boxi-os/quartz-layout-box"
     },
@@ -237,7 +237,7 @@
       "stars": 0,
       "license": "MIT",
       "official": false,
-      "lastUpdated": "2026-09-10T13:53:13Z",
+      "lastUpdated": "2026-09-10T18:19:13Z",
       "installCommand": "npm install github:boxi-os/quartz-multilanguage",
       "configureCommand": "npx quartz plugin add github:boxi-os/quartz-multilanguage"
     },
