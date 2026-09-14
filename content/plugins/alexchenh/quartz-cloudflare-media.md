@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 0
 official: false
-modified: "2026-09-11T04:19:55Z"
+modified: "2026-09-14T08:17:45Z"
 repo: "https://github.com/alexchenh/quartz-cloudflare-media"
 source: "github:alexchenh/quartz-cloudflare-media"
 installCommand: "npx quartz plugin add github:alexchenh/quartz-cloudflare-media"
@@ -41,5 +41,5 @@ Production-ready R2 and Cloudflare Images delivery for Quartz 5. Your Obsidian v
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-09-11 |
+| **Last Updated** | 2026-09-14 |
 | **Source** | [GitHub](https://github.com/alexchenh/quartz-cloudflare-media) |
