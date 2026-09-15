@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-07-23T23:11:50Z"
+modified: "2026-09-14T23:43:39Z"
 repo: "https://github.com/quartz-community/tag-list"
 source: "github:quartz-community/tag-list"
 installCommand: "npx quartz plugin add github:quartz-community/tag-list"
@@ -41,5 +41,5 @@ Displays the list of tags associated with the current page as clickable links.
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-07-23 |
+| **Last Updated** | 2026-09-14 |
 | **Source** | [GitHub](https://github.com/quartz-community/tag-list) |

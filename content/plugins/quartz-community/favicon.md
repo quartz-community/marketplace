@@ -10,7 +10,7 @@ tags:
   - "plugin/emitter"
 stars: 1
 official: true
-modified: "2026-07-23T23:11:15Z"
+modified: "2026-09-14T23:36:10Z"
 repo: "https://github.com/quartz-community/favicon"
 source: "github:quartz-community/favicon"
 installCommand: "npx quartz plugin add github:quartz-community/favicon"
@@ -41,5 +41,5 @@ Generates a favicon.ico from the site's quartz/static/icon.png file.
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-07-23 |
+| **Last Updated** | 2026-09-14 |
 | **Source** | [GitHub](https://github.com/quartz-community/favicon) |

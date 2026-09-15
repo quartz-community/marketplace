@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 1
 official: true
-modified: "2026-07-23T23:11:44Z"
+modified: "2026-09-14T23:43:44Z"
 repo: "https://github.com/quartz-community/search"
 source: "github:quartz-community/search"
 installCommand: "npx quartz plugin add github:quartz-community/search"
@@ -41,5 +41,5 @@ The Search component for Quartz - full-text search with FlexSearch integration.
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-07-23 |
+| **Last Updated** | 2026-09-14 |
 | **Source** | [GitHub](https://github.com/quartz-community/search) |

@@ -10,7 +10,7 @@ tags:
   - "plugin/filter"
 stars: 0
 official: true
-modified: "2026-07-23T23:11:40Z"
+modified: "2026-09-14T23:36:16Z"
 repo: "https://github.com/quartz-community/remove-draft"
 source: "github:quartz-community/remove-draft"
 installCommand: "npx quartz plugin add github:quartz-community/remove-draft"
@@ -41,5 +41,5 @@ Filters out pages with draft: true in their frontmatter.
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-07-23 |
+| **Last Updated** | 2026-09-14 |
 | **Source** | [GitHub](https://github.com/quartz-community/remove-draft) |

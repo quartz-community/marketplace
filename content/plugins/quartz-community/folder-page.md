@@ -11,7 +11,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-07-23T23:11:16Z"
+modified: "2026-09-14T23:42:59Z"
 repo: "https://github.com/quartz-community/folder-page"
 source: "github:quartz-community/folder-page"
 installCommand: "npx quartz plugin add github:quartz-community/folder-page"
@@ -42,5 +42,5 @@ Renders folder index pages showing a listing of all pages within that folder. Au
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-07-23 |
+| **Last Updated** | 2026-09-14 |
 | **Source** | [GitHub](https://github.com/quartz-community/folder-page) |

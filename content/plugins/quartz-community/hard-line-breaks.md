@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 0
 official: true
-modified: "2026-07-23T23:11:22Z"
+modified: "2026-09-14T23:36:10Z"
 repo: "https://github.com/quartz-community/hard-line-breaks"
 source: "github:quartz-community/hard-line-breaks"
 installCommand: "npx quartz plugin add github:quartz-community/hard-line-breaks"
@@ -41,5 +41,5 @@ Converts single newlines in markdown to hard line breaks (like pressing Shift+En
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-07-23 |
+| **Last Updated** | 2026-09-14 |
 | **Source** | [GitHub](https://github.com/quartz-community/hard-line-breaks) |

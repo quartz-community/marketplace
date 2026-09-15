@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 0
 official: true
-modified: "2026-07-23T23:11:07Z"
+modified: "2026-09-15T00:47:54Z"
 repo: "https://github.com/quartz-community/created-modified-date"
 source: "github:quartz-community/created-modified-date"
 installCommand: "npx quartz plugin add github:quartz-community/created-modified-date"
@@ -41,5 +41,5 @@ Extracts created and modified dates from frontmatter, git history, or filesystem
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-07-23 |
+| **Last Updated** | 2026-09-15 |
 | **Source** | [GitHub](https://github.com/quartz-community/created-modified-date) |

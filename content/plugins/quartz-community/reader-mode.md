@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-07-23T23:11:35Z"
+modified: "2026-09-14T23:43:35Z"
 repo: "https://github.com/quartz-community/reader-mode"
 source: "github:quartz-community/reader-mode"
 installCommand: "npx quartz plugin add github:quartz-community/reader-mode"
@@ -41,5 +41,5 @@ Adds a reader mode toggle button that hides sidebars for distraction-free readin
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-07-23 |
+| **Last Updated** | 2026-09-14 |
 | **Source** | [GitHub](https://github.com/quartz-community/reader-mode) |

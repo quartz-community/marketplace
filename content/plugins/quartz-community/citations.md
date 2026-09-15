@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 0
 official: true
-modified: "2026-07-23T23:10:58Z"
+modified: "2026-09-14T23:36:07Z"
 repo: "https://github.com/quartz-community/citations"
 source: "github:quartz-community/citations"
 installCommand: "npx quartz plugin add github:quartz-community/citations"
@@ -41,5 +41,5 @@ Adds academic citation support using a BibTeX bibliography file and configurable
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-07-23 |
+| **Last Updated** | 2026-09-14 |
 | **Source** | [GitHub](https://github.com/quartz-community/citations) |

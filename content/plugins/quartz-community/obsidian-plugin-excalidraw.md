@@ -12,7 +12,7 @@ tags:
   - "plugin/component"
 stars: 5
 official: true
-modified: "2026-07-23T23:11:27Z"
+modified: "2026-09-14T23:43:12Z"
 repo: "https://github.com/quartz-community/obsidian-plugin-excalidraw"
 source: "github:quartz-community/obsidian-plugin-excalidraw"
 installCommand: "npx quartz plugin add github:quartz-community/obsidian-plugin-excalidraw"
@@ -43,5 +43,5 @@ A page type plugin that renders Obsidian Excalidraw drawings (.excalidraw.md and
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 5 |
-| **Last Updated** | 2026-07-23 |
+| **Last Updated** | 2026-09-14 |
 | **Source** | [GitHub](https://github.com/quartz-community/obsidian-plugin-excalidraw) |

@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 0
 official: true
-modified: "2026-07-23T23:11:10Z"
+modified: "2026-09-14T23:43:17Z"
 repo: "https://github.com/quartz-community/description"
 source: "github:quartz-community/description"
 installCommand: "npx quartz plugin add github:quartz-community/description"
@@ -41,5 +41,5 @@ Generates page descriptions from content for use in meta tags and RSS feeds.
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-07-23 |
+| **Last Updated** | 2026-09-14 |
 | **Source** | [GitHub](https://github.com/quartz-community/description) |

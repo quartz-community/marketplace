@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-07-23T23:11:33Z"
+modified: "2026-09-14T23:43:27Z"
 repo: "https://github.com/quartz-community/page-title"
 source: "github:quartz-community/page-title"
 installCommand: "npx quartz plugin add github:quartz-community/page-title"
@@ -41,5 +41,5 @@ Renders the site-wide page title as a link to the home page.
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-07-23 |
+| **Last Updated** | 2026-09-14 |
 | **Source** | [GitHub](https://github.com/quartz-community/page-title) |

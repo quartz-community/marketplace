@@ -10,7 +10,7 @@ tags:
   - "plugin/emitter"
 stars: 0
 official: true
-modified: "2026-07-23T23:10:51Z"
+modified: "2026-09-14T23:42:30Z"
 repo: "https://github.com/quartz-community/alias-redirects"
 source: "github:quartz-community/alias-redirects"
 installCommand: "npx quartz plugin add github:quartz-community/alias-redirects"
@@ -41,5 +41,5 @@ Generates HTML redirect pages for frontmatter aliases and case-preserving URLs, 
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-07-23 |
+| **Last Updated** | 2026-09-14 |
 | **Source** | [GitHub](https://github.com/quartz-community/alias-redirects) |

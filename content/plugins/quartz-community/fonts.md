@@ -11,7 +11,7 @@ tags:
   - "plugin/emitter"
 stars: 1
 official: true
-modified: "2026-07-23T23:11:17Z"
+modified: "2026-09-14T23:43:30Z"
 repo: "https://github.com/quartz-community/fonts"
 source: "github:quartz-community/fonts"
 installCommand: "npx quartz plugin add github:quartz-community/fonts"
@@ -42,5 +42,5 @@ Fine-grained font control for Quartz sites. Supports per-heading fonts, automati
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-07-23 |
+| **Last Updated** | 2026-09-14 |
 | **Source** | [GitHub](https://github.com/quartz-community/fonts) |

@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 1
 official: true
-modified: "2026-07-23T23:11:32Z"
+modified: "2026-09-14T23:36:15Z"
 repo: "https://github.com/quartz-community/ox-hugo"
 source: "github:quartz-community/ox-hugo"
 installCommand: "npx quartz plugin add github:quartz-community/ox-hugo"
@@ -41,5 +41,5 @@ Transforms ox-hugo exported markdown to be compatible with Quartz, handling relr
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-07-23 |
+| **Last Updated** | 2026-09-14 |
 | **Source** | [GitHub](https://github.com/quartz-community/ox-hugo) |

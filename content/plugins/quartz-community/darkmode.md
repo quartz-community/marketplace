@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-07-23T23:11:09Z"
+modified: "2026-09-14T23:42:58Z"
 repo: "https://github.com/quartz-community/darkmode"
 source: "github:quartz-community/darkmode"
 installCommand: "npx quartz plugin add github:quartz-community/darkmode"
@@ -41,5 +41,5 @@ Adds a dark mode toggle button that switches between light and dark themes.
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-07-23 |
+| **Last Updated** | 2026-09-14 |
 | **Source** | [GitHub](https://github.com/quartz-community/darkmode) |

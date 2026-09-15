@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 1
 official: true
-modified: "2026-07-23T23:11:47Z"
+modified: "2026-09-14T23:43:43Z"
 repo: "https://github.com/quartz-community/stacked-pages"
 source: "github:quartz-community/stacked-pages"
 installCommand: "npx quartz plugin add github:quartz-community/stacked-pages"
@@ -41,5 +41,5 @@ Production-ready template for building, testing, and publishing Quartz community
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-07-23 |
+| **Last Updated** | 2026-09-14 |
 | **Source** | [GitHub](https://github.com/quartz-community/stacked-pages) |

@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T21:40:25.833Z",
+  "generatedAt": "2026-09-15T04:12:45.173Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -459,7 +459,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:10:51Z",
+      "lastUpdated": "2026-09-14T23:42:30Z",
       "installCommand": "npm install @quartz-community/alias-redirects",
       "configureCommand": "npx quartz plugin add @quartz-community/alias-redirects"
     },
@@ -492,7 +492,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:10:52Z",
+      "lastUpdated": "2026-09-14T23:42:36Z",
       "installCommand": "npm install @quartz-community/article-title",
       "configureCommand": "npx quartz plugin add @quartz-community/article-title"
     },
@@ -527,7 +527,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:10:54Z",
+      "lastUpdated": "2026-09-14T23:42:35Z",
       "installCommand": "npm install @quartz-community/backlinks",
       "configureCommand": "npx quartz plugin add @quartz-community/backlinks"
     },
@@ -561,7 +561,7 @@
       "stars": 4,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-24T00:17:30Z",
+      "lastUpdated": "2026-09-14T23:42:44Z",
       "installCommand": "npm install @quartz-community/bases-page",
       "configureCommand": "npx quartz plugin add @quartz-community/bases-page"
     },
@@ -599,7 +599,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:10:56Z",
+      "lastUpdated": "2026-09-14T23:42:39Z",
       "installCommand": "npm install @quartz-community/breadcrumbs",
       "configureCommand": "npx quartz plugin add @quartz-community/breadcrumbs"
     },
@@ -638,7 +638,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:10:57Z",
+      "lastUpdated": "2026-09-14T23:42:49Z",
       "installCommand": "npm install @quartz-community/canvas-page",
       "configureCommand": "npx quartz plugin add @quartz-community/canvas-page"
     },
@@ -670,7 +670,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:10:58Z",
+      "lastUpdated": "2026-09-14T23:36:07Z",
       "installCommand": "npm install @quartz-community/citations",
       "configureCommand": "npx quartz plugin add @quartz-community/citations"
     },
@@ -697,7 +697,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:00Z",
+      "lastUpdated": "2026-09-14T23:36:01Z",
       "installCommand": "npm install @quartz-community/cname",
       "configureCommand": "npx quartz plugin add @quartz-community/cname"
     },
@@ -733,7 +733,7 @@
       "stars": 2,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:01Z",
+      "lastUpdated": "2026-09-14T23:42:38Z",
       "installCommand": "npm install @quartz-community/comments",
       "configureCommand": "npx quartz plugin add @quartz-community/comments"
     },
@@ -767,7 +767,7 @@
       "stars": 3,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:02Z",
+      "lastUpdated": "2026-09-14T23:42:44Z",
       "installCommand": "npm install @quartz-community/content-index",
       "configureCommand": "npx quartz plugin add @quartz-community/content-index"
     },
@@ -803,7 +803,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:04Z",
+      "lastUpdated": "2026-09-14T23:42:51Z",
       "installCommand": "npm install @quartz-community/content-meta",
       "configureCommand": "npx quartz plugin add @quartz-community/content-meta"
     },
@@ -833,7 +833,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:05Z",
+      "lastUpdated": "2026-09-14T23:42:47Z",
       "installCommand": "npm install @quartz-community/content-page",
       "configureCommand": "npx quartz plugin add @quartz-community/content-page"
     },
@@ -867,7 +867,7 @@
       "stars": 1,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-24T00:18:41Z",
+      "lastUpdated": "2026-09-14T23:42:56Z",
       "installCommand": "npm install @quartz-community/crawl-links",
       "configureCommand": "npx quartz plugin add @quartz-community/crawl-links"
     },
@@ -901,7 +901,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:07Z",
+      "lastUpdated": "2026-09-15T00:47:54Z",
       "installCommand": "npm install @quartz-community/created-modified-date",
       "configureCommand": "npx quartz plugin add @quartz-community/created-modified-date"
     },
@@ -934,7 +934,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:09Z",
+      "lastUpdated": "2026-09-14T23:42:58Z",
       "installCommand": "npm install @quartz-community/darkmode",
       "configureCommand": "npx quartz plugin add @quartz-community/darkmode"
     },
@@ -965,7 +965,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:10Z",
+      "lastUpdated": "2026-09-14T23:43:17Z",
       "installCommand": "npm install @quartz-community/description",
       "configureCommand": "npx quartz plugin add @quartz-community/description"
     },
@@ -1004,7 +1004,7 @@
       "stars": 3,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-27T15:43:30Z",
+      "lastUpdated": "2026-09-14T23:43:04Z",
       "installCommand": "npm install @quartz-community/encrypted-pages",
       "configureCommand": "npx quartz plugin add @quartz-community/encrypted-pages"
     },
@@ -1031,7 +1031,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:12Z",
+      "lastUpdated": "2026-09-14T23:36:07Z",
       "installCommand": "npm install @quartz-community/explicit-publish",
       "configureCommand": "npx quartz plugin add @quartz-community/explicit-publish"
     },
@@ -1068,7 +1068,7 @@
       "stars": 1,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:14Z",
+      "lastUpdated": "2026-09-14T23:43:03Z",
       "installCommand": "npm install @quartz-community/explorer",
       "configureCommand": "npx quartz plugin add @quartz-community/explorer"
     },
@@ -1095,7 +1095,7 @@
       "stars": 1,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:15Z",
+      "lastUpdated": "2026-09-14T23:36:10Z",
       "installCommand": "npm install @quartz-community/favicon",
       "configureCommand": "npx quartz plugin add @quartz-community/favicon"
     },
@@ -1128,7 +1128,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:16Z",
+      "lastUpdated": "2026-09-14T23:42:59Z",
       "installCommand": "npm install @quartz-community/folder-page",
       "configureCommand": "npx quartz plugin add @quartz-community/folder-page"
     },
@@ -1161,7 +1161,7 @@
       "stars": 1,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:17Z",
+      "lastUpdated": "2026-09-14T23:43:30Z",
       "installCommand": "npm install @quartz-community/quartz-fonts",
       "configureCommand": "npx quartz plugin add @quartz-community/quartz-fonts"
     },
@@ -1199,7 +1199,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-27T18:23:54Z",
+      "lastUpdated": "2026-09-14T23:43:11Z",
       "installCommand": "npm install @quartz-community/footer",
       "configureCommand": "npx quartz plugin add @quartz-community/footer"
     },
@@ -1229,7 +1229,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:20Z",
+      "lastUpdated": "2026-09-14T23:36:12Z",
       "installCommand": "npm install @quartz-community/github-flavored-markdown",
       "configureCommand": "npx quartz plugin add @quartz-community/github-flavored-markdown"
     },
@@ -1293,7 +1293,7 @@
       "stars": 4,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:21Z",
+      "lastUpdated": "2026-09-14T23:43:17Z",
       "installCommand": "npm install @quartz-community/graph",
       "configureCommand": "npx quartz plugin add @quartz-community/graph"
     },
@@ -1320,7 +1320,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:22Z",
+      "lastUpdated": "2026-09-14T23:36:10Z",
       "installCommand": "npm install @quartz-community/hard-line-breaks",
       "configureCommand": "npx quartz plugin add @quartz-community/hard-line-breaks"
     },
@@ -1349,7 +1349,7 @@
       "stars": 1,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:24Z",
+      "lastUpdated": "2026-09-14T23:36:25Z",
       "installCommand": "npm install @quartz-community/latex",
       "configureCommand": "npx quartz plugin add @quartz-community/latex"
     },
@@ -1396,7 +1396,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:25Z",
+      "lastUpdated": "2026-09-14T23:43:01Z",
       "installCommand": "npm install @quartz-community/note-properties",
       "configureCommand": "npx quartz plugin add @quartz-community/note-properties"
     },
@@ -1437,7 +1437,7 @@
       "stars": 8,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:12:39Z",
+      "lastUpdated": "2026-09-14T23:43:11Z",
       "installCommand": "npm install @quartz-community/obsidian-flavored-markdown",
       "configureCommand": "npx quartz plugin add @quartz-community/obsidian-flavored-markdown"
     },
@@ -1476,7 +1476,7 @@
       "stars": 5,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:27Z",
+      "lastUpdated": "2026-09-14T23:43:12Z",
       "installCommand": "npm install @quartz-community/obsidian-plugin-excalidraw",
       "configureCommand": "npx quartz plugin add @quartz-community/obsidian-plugin-excalidraw"
     },
@@ -1509,7 +1509,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:28Z",
+      "lastUpdated": "2026-09-14T23:43:18Z",
       "installCommand": "npm install @quartz-community/obsidian-plugin-leaflet",
       "configureCommand": "npx quartz plugin add @quartz-community/obsidian-plugin-leaflet"
     },
@@ -1549,7 +1549,7 @@
       "stars": 1,
       "license": "NOASSERTION",
       "official": true,
-      "lastUpdated": "2026-07-27T16:22:34Z",
+      "lastUpdated": "2026-09-14T23:43:28Z",
       "installCommand": "npm install @quartz-community/obsidian-plugin-ttrpg-tools-maps",
       "configureCommand": "npx quartz plugin add @quartz-community/obsidian-plugin-ttrpg-tools-maps"
     },
@@ -1583,7 +1583,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-08-18T23:21:23Z",
+      "lastUpdated": "2026-09-14T23:43:30Z",
       "installCommand": "npm install @quartz-community/og-image",
       "configureCommand": "npx quartz plugin add @quartz-community/og-image"
     },
@@ -1616,7 +1616,7 @@
       "stars": 1,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:32Z",
+      "lastUpdated": "2026-09-14T23:36:15Z",
       "installCommand": "npm install @quartz-community/ox-hugo",
       "configureCommand": "npx quartz plugin add @quartz-community/ox-hugo"
     },
@@ -1649,7 +1649,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:33Z",
+      "lastUpdated": "2026-09-14T23:43:27Z",
       "installCommand": "npm install @quartz-community/page-title",
       "configureCommand": "npx quartz plugin add @quartz-community/page-title"
     },
@@ -1682,7 +1682,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:35Z",
+      "lastUpdated": "2026-09-14T23:43:35Z",
       "installCommand": "npm install @quartz-community/reader-mode",
       "configureCommand": "npx quartz plugin add @quartz-community/reader-mode"
     },
@@ -1721,7 +1721,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:36Z",
+      "lastUpdated": "2026-09-14T23:43:18Z",
       "installCommand": "npm install @quartz-community/recent-notes",
       "configureCommand": "npx quartz plugin add @quartz-community/recent-notes"
     },
@@ -1748,7 +1748,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:40Z",
+      "lastUpdated": "2026-09-14T23:36:16Z",
       "installCommand": "npm install @quartz-community/remove-draft",
       "configureCommand": "npx quartz plugin add @quartz-community/remove-draft"
     },
@@ -1785,7 +1785,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:41Z",
+      "lastUpdated": "2026-09-14T23:36:24Z",
       "installCommand": "npm install @quartz-community/roam",
       "configureCommand": "npx quartz plugin add @quartz-community/roam"
     },
@@ -1825,7 +1825,7 @@
       "stars": 1,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:44Z",
+      "lastUpdated": "2026-09-14T23:43:44Z",
       "installCommand": "npm install @quartz-community/search",
       "configureCommand": "npx quartz plugin add @quartz-community/search"
     },
@@ -1858,7 +1858,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:45Z",
+      "lastUpdated": "2026-09-14T23:36:26Z",
       "installCommand": "npm install @quartz-community/spacer",
       "configureCommand": "npx quartz plugin add @quartz-community/spacer"
     },
@@ -1896,7 +1896,7 @@
       "stars": 1,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:47Z",
+      "lastUpdated": "2026-09-14T23:43:43Z",
       "installCommand": "npm install @quartz-community/stacked-pages",
       "configureCommand": "npx quartz plugin add @quartz-community/stacked-pages"
     },
@@ -1931,7 +1931,7 @@
       "stars": 1,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:48Z",
+      "lastUpdated": "2026-09-14T23:36:27Z",
       "installCommand": "npm install @quartz-community/syntax-highlighting",
       "configureCommand": "npx quartz plugin add @quartz-community/syntax-highlighting"
     },
@@ -1973,7 +1973,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:49Z",
+      "lastUpdated": "2026-09-14T23:43:34Z",
       "installCommand": "npm install @quartz-community/table-of-contents",
       "configureCommand": "npx quartz plugin add @quartz-community/table-of-contents"
     },
@@ -2006,7 +2006,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:50Z",
+      "lastUpdated": "2026-09-14T23:43:39Z",
       "installCommand": "npm install @quartz-community/tag-list",
       "configureCommand": "npx quartz plugin add @quartz-community/tag-list"
     },
@@ -2038,7 +2038,7 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:51Z",
+      "lastUpdated": "2026-09-14T23:44:04Z",
       "installCommand": "npm install @quartz-community/tag-page",
       "configureCommand": "npx quartz plugin add @quartz-community/tag-page"
     },
@@ -2065,7 +2065,7 @@
       "stars": 2,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-07-23T23:11:54Z",
+      "lastUpdated": "2026-09-14T23:43:51Z",
       "installCommand": "npm install @quartz-community/unlisted-pages",
       "configureCommand": "npx quartz plugin add @quartz-community/unlisted-pages"
     },
@@ -2135,7 +2135,7 @@
       "stars": 1,
       "license": "MIT",
       "official": false,
-      "lastUpdated": "2026-07-27T09:37:20Z",
+      "lastUpdated": "2026-09-14T23:50:18Z",
       "installCommand": "npm install @quartz-themes/core",
       "configureCommand": "npx quartz plugin add @quartz-themes/core"
     },

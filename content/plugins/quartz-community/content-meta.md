@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-07-23T23:11:04Z"
+modified: "2026-09-14T23:42:51Z"
 repo: "https://github.com/quartz-community/content-meta"
 source: "github:quartz-community/content-meta"
 installCommand: "npx quartz plugin add github:quartz-community/content-meta"
@@ -41,5 +41,5 @@ Displays content metadata such as creation date and reading time.
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-07-23 |
+| **Last Updated** | 2026-09-14 |
 | **Source** | [GitHub](https://github.com/quartz-community/content-meta) |

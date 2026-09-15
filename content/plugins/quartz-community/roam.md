@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 0
 official: true
-modified: "2026-07-23T23:11:41Z"
+modified: "2026-09-14T23:36:24Z"
 repo: "https://github.com/quartz-community/roam"
 source: "github:quartz-community/roam"
 installCommand: "npx quartz plugin add github:quartz-community/roam"
@@ -41,5 +41,5 @@ Transforms Roam Research markdown syntax including {{or:}} selectors, TODO/DONE 
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-07-23 |
+| **Last Updated** | 2026-09-14 |
 | **Source** | [GitHub](https://github.com/quartz-community/roam) |

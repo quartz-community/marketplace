@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 8
 official: true
-modified: "2026-07-23T23:12:39Z"
+modified: "2026-09-14T23:43:11Z"
 repo: "https://github.com/quartz-community/obsidian-flavored-markdown"
 source: "github:quartz-community/obsidian-flavored-markdown"
 installCommand: "npx quartz plugin add github:quartz-community/obsidian-flavored-markdown"
@@ -41,5 +41,5 @@ Transforms Obsidian-specific markdown syntax including wikilinks, callouts, high
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 8 |
-| **Last Updated** | 2026-07-23 |
+| **Last Updated** | 2026-09-14 |
 | **Source** | [GitHub](https://github.com/quartz-community/obsidian-flavored-markdown) |
