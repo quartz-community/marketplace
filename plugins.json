@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T21:05:31.164Z",
+  "generatedAt": "2026-09-17T04:15:58.909Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -1931,7 +1931,7 @@
       "stars": 1,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-09-14T23:36:27Z",
+      "lastUpdated": "2026-09-16T21:25:42Z",
       "installCommand": "npm install @quartz-community/syntax-highlighting",
       "configureCommand": "npx quartz plugin add @quartz-community/syntax-highlighting"
     },
