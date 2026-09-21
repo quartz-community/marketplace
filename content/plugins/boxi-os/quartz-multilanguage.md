@@ -13,7 +13,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: false
-modified: "2026-09-14T07:26:49Z"
+modified: "2026-09-20T23:35:32Z"
 repo: "https://github.com/boxi-os/quartz-multilanguage"
 source: "github:boxi-os/quartz-multilanguage"
 installCommand: "npx quartz plugin add github:boxi-os/quartz-multilanguage"
@@ -44,5 +44,5 @@ Multilingual content for Quartz v5. Quartz itself knows one locale per site; thi
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-09-14 |
+| **Last Updated** | 2026-09-20 |
 | **Source** | [GitHub](https://github.com/boxi-os/quartz-multilanguage) |
