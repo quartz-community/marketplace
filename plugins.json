@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T04:05:51.774Z",
+  "generatedAt": "2026-09-23T11:08:26.988Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -2246,6 +2246,63 @@
       "lastUpdated": "2026-08-09T16:22:53Z",
       "installCommand": "npm install github:SongHanseo/quartikz",
       "configureCommand": "npx quartz plugin add github:SongHanseo/quartikz"
+    },
+    {
+      "name": "graph-landing",
+      "displayName": "Graph Landing",
+      "description": "Full-viewport knowledge-graph constellation for locale home pages.",
+      "version": "0.1.1",
+      "author": "Xia-Ataraxia",
+      "homepage": null,
+      "keywords": [],
+      "category": "pageType",
+      "quartzVersion": ">=5.0.0",
+      "dependencies": [],
+      "defaultOrder": 55,
+      "defaultEnabled": true,
+      "defaultOptions": {
+        "indexSource": "contentIndex"
+      },
+      "configSchema": {
+        "indexSource": {
+          "type": "string"
+        },
+        "tagCooccurrence": {
+          "type": "object"
+        },
+        "maxRenderedNodes": {
+          "type": "number"
+        },
+        "expandHops": {
+          "type": "number"
+        },
+        "renderMode": {
+          "type": "string"
+        },
+        "layout": {
+          "type": "object"
+        },
+        "lod": {
+          "type": "object"
+        },
+        "ambientVideoId": {
+          "type": "string"
+        },
+        "defaultLocale": {
+          "type": "string"
+        }
+      },
+      "components": null,
+      "frames": null,
+      "requiresInstall": false,
+      "source": "github:Xia-Ataraxia/quartz-graph-landing",
+      "repo": "https://github.com/Xia-Ataraxia/quartz-graph-landing",
+      "stars": 0,
+      "license": "MIT",
+      "official": false,
+      "lastUpdated": "2026-09-23T09:57:49Z",
+      "installCommand": "npm install github:Xia-Ataraxia/quartz-graph-landing",
+      "configureCommand": "npx quartz plugin add github:Xia-Ataraxia/quartz-graph-landing"
     }
   ]
 }
