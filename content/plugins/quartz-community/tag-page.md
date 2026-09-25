@@ -9,7 +9,7 @@ tags:
   - "status/official"
   - "plugin/pageType"
   - "plugin/component"
-stars: 0
+stars: 1
 official: true
 modified: "2026-09-14T23:44:04Z"
 repo: "https://github.com/quartz-community/tag-page"
@@ -41,6 +41,6 @@ Renders tag pages showing all content tagged with a specific tag. Automatically 
 | **Category** | pageType |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
-| **Stars** | ⭐ 0 |
+| **Stars** | ⭐ 1 |
 | **Last Updated** | 2026-09-14 |
 | **Source** | [GitHub](https://github.com/quartz-community/tag-page) |

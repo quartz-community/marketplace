@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T04:15:20.648Z",
+  "generatedAt": "2026-09-25T11:30:52.870Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -156,7 +156,7 @@
       "stars": 0,
       "license": "MIT",
       "official": false,
-      "lastUpdated": "2026-09-24T22:12:58Z",
+      "lastUpdated": "2026-09-25T06:17:30Z",
       "installCommand": "npm install github:boxi-os/quartz-layout-box",
       "configureCommand": "npx quartz plugin add github:boxi-os/quartz-layout-box"
     },
@@ -237,7 +237,7 @@
       "stars": 0,
       "license": "MIT",
       "official": false,
-      "lastUpdated": "2026-09-24T22:13:10Z",
+      "lastUpdated": "2026-09-25T06:14:26Z",
       "installCommand": "npm install github:boxi-os/quartz-multilanguage",
       "configureCommand": "npx quartz plugin add github:boxi-os/quartz-multilanguage"
     },
@@ -2035,7 +2035,7 @@
       "requiresInstall": false,
       "source": "@quartz-community/tag-page",
       "repo": "https://github.com/quartz-community/tag-page",
-      "stars": 0,
+      "stars": 1,
       "license": "MIT",
       "official": true,
       "lastUpdated": "2026-09-14T23:44:04Z",
