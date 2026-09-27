@@ -8,7 +8,7 @@ category: "pageType"
 tags:
   - "status/community"
   - "plugin/pageType"
-stars: 0
+stars: 1
 official: false
 modified: "2026-09-23T09:57:49Z"
 repo: "https://github.com/Xia-Ataraxia/quartz-graph-landing"
@@ -40,6 +40,6 @@ Full-viewport knowledge-graph constellation page type. All options are optional 
 | **Category** | pageType |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
-| **Stars** | ⭐ 0 |
+| **Stars** | ⭐ 1 |
 | **Last Updated** | 2026-09-23 |
 | **Source** | [GitHub](https://github.com/Xia-Ataraxia/quartz-graph-landing) |

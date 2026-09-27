@@ -8,7 +8,7 @@ category: "transformer"
 tags:
   - "status/community"
   - "plugin/transformer"
-stars: 1
+stars: 2
 official: false
 modified: "2026-09-16T06:27:02Z"
 repo: "https://github.com/grafanaKibana/quartz-tabsdown"
@@ -40,6 +40,6 @@ quartz-tabsdown renders Tabsdown Markdown as theme-native tabs in Quartz. The sa
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
-| **Stars** | ⭐ 1 |
+| **Stars** | ⭐ 2 |
 | **Last Updated** | 2026-09-16 |
 | **Source** | [GitHub](https://github.com/grafanaKibana/quartz-tabsdown) |

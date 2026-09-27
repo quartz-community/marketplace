@@ -8,7 +8,7 @@ category: "component"
 tags:
   - "status/community"
   - "plugin/component"
-stars: 0
+stars: 1
 official: false
 modified: "2026-09-25T06:17:30Z"
 repo: "https://github.com/boxi-os/quartz-layout-box"
@@ -40,6 +40,6 @@ A Quartz v5 component plugin that renders an HTML or Markdown snippet anywhere i
 | **Category** | component |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
-| **Stars** | ⭐ 0 |
+| **Stars** | ⭐ 1 |
 | **Last Updated** | 2026-09-25 |
 | **Source** | [GitHub](https://github.com/boxi-os/quartz-layout-box) |
