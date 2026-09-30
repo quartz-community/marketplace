@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
   - "plugin/pageType"
   - "plugin/component"
-stars: 5
+stars: 6
 official: true
 modified: "2026-09-14T23:42:44Z"
 repo: "https://github.com/quartz-community/bases-page"
@@ -42,6 +42,6 @@ A page type and component plugin for Quartz v5 that renders Obsidian Bases (.bas
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
-| **Stars** | ⭐ 5 |
+| **Stars** | ⭐ 6 |
 | **Last Updated** | 2026-09-14 |
 | **Source** | [GitHub](https://github.com/quartz-community/bases-page) |
