@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T15:59:33.744Z",
+  "generatedAt": "2026-10-03T20:49:01.744Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -2283,6 +2283,132 @@
       "lastUpdated": "2026-08-09T16:22:53Z",
       "installCommand": "npm install github:SongHanseo/quartikz",
       "configureCommand": "npx quartz plugin add github:SongHanseo/quartikz"
+    },
+    {
+      "name": "accessibility-suite",
+      "displayName": "Accessibility Suite",
+      "description": "accessibility features for quartz -- beeline reader, font switcher, reading ruler, and more",
+      "version": "1.0.0",
+      "author": "UndefeatedOrca",
+      "homepage": null,
+      "keywords": [],
+      "category": [
+        "component",
+        "emitter"
+      ],
+      "quartzVersion": ">=5.0.0",
+      "dependencies": [],
+      "defaultOrder": 50,
+      "defaultEnabled": true,
+      "defaultOptions": {
+        "outputDirectory": "accessibility-fonts",
+        "defaultFont": "default"
+      },
+      "configSchema": null,
+      "components": {
+        "QuartzAccessibilitySuite": {
+          "displayName": "Accessibility Suite",
+          "defaultPosition": "right",
+          "defaultPriority": 50
+        },
+        "AccessibilityControls": {
+          "displayName": "Accessibility Controls",
+          "defaultPosition": "right",
+          "defaultPriority": 50
+        },
+        "BeelineReader": {
+          "displayName": "BeeLine Reader",
+          "defaultPosition": "right",
+          "defaultPriority": 51
+        },
+        "FontSwitcher": {
+          "displayName": "Font Switcher",
+          "defaultPosition": "right",
+          "defaultPriority": 52
+        }
+      },
+      "frames": null,
+      "requiresInstall": false,
+      "source": "github:UndefeatedOrca/quartz-accessibility-suite",
+      "repo": "https://github.com/UndefeatedOrca/quartz-accessibility-suite",
+      "stars": 0,
+      "license": "MIT",
+      "official": false,
+      "lastUpdated": "2026-06-01T03:35:35Z",
+      "installCommand": "npm install github:UndefeatedOrca/quartz-accessibility-suite",
+      "configureCommand": "npx quartz plugin add github:UndefeatedOrca/quartz-accessibility-suite"
+    },
+    {
+      "name": "quartz-holiday-calendar",
+      "displayName": "Holiday Calendar",
+      "description": "No description provided",
+      "version": "1.0.0",
+      "author": "UndefeatedOrca",
+      "homepage": null,
+      "keywords": [],
+      "category": "component",
+      "quartzVersion": ">=5.0.0",
+      "dependencies": [],
+      "defaultOrder": null,
+      "defaultEnabled": true,
+      "defaultOptions": {
+        "showUpcomingDays": 30
+      },
+      "configSchema": null,
+      "components": {
+        "HolidayCalendar": {
+          "displayName": "Holiday Calendar",
+          "defaultPosition": "left",
+          "defaultPriority": 50
+        }
+      },
+      "frames": null,
+      "requiresInstall": false,
+      "source": "github:UndefeatedOrca/quartz-holiday-calendar",
+      "repo": "https://github.com/UndefeatedOrca/quartz-holiday-calendar",
+      "stars": 0,
+      "license": "MIT",
+      "official": false,
+      "lastUpdated": "2026-06-01T20:10:57Z",
+      "installCommand": "npm install github:UndefeatedOrca/quartz-holiday-calendar",
+      "configureCommand": "npx quartz plugin add github:UndefeatedOrca/quartz-holiday-calendar"
+    },
+    {
+      "name": "random-note",
+      "displayName": "Random Note",
+      "description": "A random note plugin for quartz",
+      "version": "1.0.0",
+      "author": "UndefeatedOrca",
+      "homepage": null,
+      "keywords": [],
+      "category": "component",
+      "quartzVersion": ">=5.0.0",
+      "dependencies": [],
+      "defaultOrder": 50,
+      "defaultEnabled": true,
+      "defaultOptions": {
+        "label": "Open a random note",
+        "includeCurrentPage": false
+      },
+      "configSchema": null,
+      "components": {
+        "RandomNote": {
+          "displayName": "Random Note",
+          "defaultPosition": "left",
+          "defaultGroup": "toolbar",
+          "defaultPriority": 55
+        }
+      },
+      "frames": null,
+      "requiresInstall": false,
+      "source": "github:UndefeatedOrca/quartz-random-note",
+      "repo": "https://github.com/UndefeatedOrca/quartz-random-note",
+      "stars": 0,
+      "license": "MIT",
+      "official": false,
+      "lastUpdated": "2026-06-02T15:20:38Z",
+      "installCommand": "npm install github:UndefeatedOrca/quartz-random-note",
+      "configureCommand": "npx quartz plugin add github:UndefeatedOrca/quartz-random-note"
     },
     {
       "name": "graph-landing",
