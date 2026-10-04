@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T05:08:59.242Z",
+  "generatedAt": "2026-10-04T12:02:59.625Z",
   "plugins": [
     {
       "name": "cloudflare-media",
