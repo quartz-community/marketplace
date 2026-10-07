@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 1
 official: false
-modified: "2026-10-07T12:48:06Z"
+modified: "2026-10-07T16:35:49Z"
 repo: "https://github.com/boxi-os/quartz-layout-box"
 source: "github:boxi-os/quartz-layout-box"
 installCommand: "npx quartz plugin add github:boxi-os/quartz-layout-box"

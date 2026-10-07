@@ -13,7 +13,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: false
-modified: "2026-10-07T12:48:10Z"
+modified: "2026-10-07T16:35:51Z"
 repo: "https://github.com/boxi-os/quartz-multilanguage"
 source: "github:boxi-os/quartz-multilanguage"
 installCommand: "npx quartz plugin add github:boxi-os/quartz-multilanguage"

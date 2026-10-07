@@ -1,16 +1,16 @@
 ---
 title: "Graph Landing"
-description: "Full-viewport knowledge-graph constellation page type. All options are optional and default to the plugin's original behavior — setting none of them reproduces the exact output of a plugin instance with no options block at all."
+description: "Full-viewport knowledge-graph constellation with luminous stars, degree-weighted hub attraction, and a slow automatic orbit. All configuration options are optional."
 author: "Xia-Ataraxia"
 pluginAuthor: "Xia-Ataraxia"
-version: "0.1.1"
+version: "0.14.1"
 category: "pageType"
 tags:
   - "status/community"
   - "plugin/pageType"
 stars: 1
 official: false
-modified: "2026-09-23T09:57:49Z"
+modified: "2026-10-07T17:35:24Z"
 repo: "https://github.com/Xia-Ataraxia/quartz-graph-landing"
 source: "github:Xia-Ataraxia/quartz-graph-landing"
 installCommand: "npx quartz plugin add github:Xia-Ataraxia/quartz-graph-landing"
@@ -27,7 +27,7 @@ aliases:
 
 # graph-landing
 
-Full-viewport knowledge-graph constellation page type. All options are optional and default to the plugin's original behavior — setting none of them reproduces the exact output of a plugin instance with no options block at all.
+Full-viewport knowledge-graph constellation with luminous stars, degree-weighted hub attraction, and a slow automatic orbit. All configuration options are optional.
 
 [View full documentation on GitHub](https://github.com/Xia-Ataraxia/quartz-graph-landing)
 
@@ -36,10 +36,10 @@ Full-viewport knowledge-graph constellation page type. All options are optional 
 | | |
 |---|---|
 | **Author** | Xia-Ataraxia |
-| **Version** | 0.1.1 |
+| **Version** | 0.14.1 |
 | **Category** | pageType |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-09-23 |
+| **Last Updated** | 2026-10-07 |
 | **Source** | [GitHub](https://github.com/Xia-Ataraxia/quartz-graph-landing) |
