@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T22:55:30.336Z",
+  "generatedAt": "2026-10-08T05:22:43.280Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -3068,8 +3068,8 @@
     {
       "name": "graph-landing",
       "displayName": "Graph Landing",
-      "description": "Full-viewport knowledge-graph constellation for locale home pages.",
-      "version": "0.14.1",
+      "description": "Full-viewport knowledge-graph constellation for the home page, with optional hero copy.",
+      "version": "0.18.0",
       "author": "Xia-Ataraxia",
       "homepage": null,
       "keywords": [],
@@ -3108,6 +3108,9 @@
         },
         "defaultLocale": {
           "type": "string"
+        },
+        "hero": {
+          "type": "object"
         }
       },
       "components": null,
@@ -3118,7 +3121,7 @@
       "stars": 1,
       "license": "MIT",
       "official": false,
-      "lastUpdated": "2026-10-07T17:35:24Z",
+      "lastUpdated": "2026-10-08T04:56:08Z",
       "installCommand": "npm install github:Xia-Ataraxia/quartz-graph-landing",
       "configureCommand": "npx quartz plugin add github:Xia-Ataraxia/quartz-graph-landing"
     }
