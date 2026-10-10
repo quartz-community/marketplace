@@ -8,7 +8,7 @@ category: "transformer"
 tags:
   - "status/community"
   - "plugin/transformer"
-stars: 0
+stars: 1
 official: false
 modified: "2026-08-09T16:22:53Z"
 repo: "https://github.com/SongHanseo/quartikz"
@@ -40,6 +40,6 @@ Build-time TikZ renderer for Quartz 5
 | **Category** | transformer |
 | **License** | Unknown |
 | **Quartz Version** | >=5.0.0 |
-| **Stars** | ⭐ 0 |
+| **Stars** | ⭐ 1 |
 | **Last Updated** | 2026-08-09 |
 | **Source** | [GitHub](https://github.com/SongHanseo/quartikz) |

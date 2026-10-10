@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T12:11:24.994Z",
+  "generatedAt": "2026-10-10T21:23:13.440Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -2932,7 +2932,7 @@
       "requiresInstall": true,
       "source": "github:SongHanseo/quartikz",
       "repo": "https://github.com/SongHanseo/quartikz",
-      "stars": 0,
+      "stars": 1,
       "license": "Unknown",
       "official": false,
       "lastUpdated": "2026-08-09T16:22:53Z",
