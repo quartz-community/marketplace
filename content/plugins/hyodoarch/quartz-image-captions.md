@@ -8,7 +8,7 @@ category: "transformer"
 tags:
   - "status/community"
   - "plugin/transformer"
-stars: 0
+stars: 1
 official: false
 modified: "2026-08-29T11:51:29Z"
 repo: "https://github.com/hyodoarch/quartz-image-captions"
@@ -40,6 +40,6 @@ Quartz v5 transformer compatible with the notation used by the Obsidian communit
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
-| **Stars** | ⭐ 0 |
+| **Stars** | ⭐ 1 |
 | **Last Updated** | 2026-08-29 |
 | **Source** | [GitHub](https://github.com/hyodoarch/quartz-image-captions) |

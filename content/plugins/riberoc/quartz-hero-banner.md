@@ -8,7 +8,7 @@ category: "component"
 tags:
   - "status/community"
   - "plugin/component"
-stars: 0
+stars: 1
 official: false
 modified: "2026-08-29T14:55:32Z"
 repo: "https://github.com/riberoc/quartz-hero-banner"
@@ -40,6 +40,6 @@ npm version CI License: MIT
 | **Category** | component |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
-| **Stars** | ⭐ 0 |
+| **Stars** | ⭐ 1 |
 | **Last Updated** | 2026-08-29 |
 | **Source** | [GitHub](https://github.com/riberoc/quartz-hero-banner) |
