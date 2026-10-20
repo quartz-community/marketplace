@@ -3,14 +3,14 @@ title: "Quartikz"
 description: "Build-time TikZ renderer for Quartz 5"
 author: "SongHanseo"
 pluginAuthor: "SongHanseo"
-version: "0.1.1"
+version: "0.1.2"
 category: "transformer"
 tags:
   - "status/community"
   - "plugin/transformer"
 stars: 1
 official: false
-modified: "2026-08-09T16:22:53Z"
+modified: "2026-10-20T16:35:30Z"
 repo: "https://github.com/SongHanseo/quartikz"
 source: "github:SongHanseo/quartikz"
 installCommand: "npx quartz plugin add github:SongHanseo/quartikz"
@@ -36,10 +36,10 @@ Build-time TikZ renderer for Quartz 5
 | | |
 |---|---|
 | **Author** | SongHanseo |
-| **Version** | 0.1.1 |
+| **Version** | 0.1.2 |
 | **Category** | transformer |
 | **License** | Unknown |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-08-09 |
+| **Last Updated** | 2026-10-20 |
 | **Source** | [GitHub](https://github.com/SongHanseo/quartikz) |

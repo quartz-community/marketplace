@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T11:11:50.741Z",
+  "generatedAt": "2026-10-20T16:36:44.219Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -2912,7 +2912,7 @@
       "name": "quartikz",
       "displayName": "Quartikz",
       "description": "build-time TikZ renderer plugin for quartz 5",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "author": "SongHanseo",
       "homepage": null,
       "keywords": [],
@@ -2922,8 +2922,18 @@
       "defaultOrder": 19,
       "defaultEnabled": true,
       "defaultOptions": {
-        "showConsole": true,
-        "embedFontCss": true
+        "className": "tikz-diagram",
+        "removeBlankLines": true,
+        "onError": "skip",
+        "showConsole": false,
+        "texPackages": {},
+        "tikzLibraries": "",
+        "tikzOptions": "",
+        "addToPreamble": "",
+        "embedFontCss": true,
+        "fontCssUrl": "",
+        "disableOptimize": false,
+        "disableSanitize": false
       },
       "configSchema": null,
       "components": null,
@@ -2934,7 +2944,7 @@
       "stars": 1,
       "license": "Unknown",
       "official": false,
-      "lastUpdated": "2026-08-09T16:22:53Z",
+      "lastUpdated": "2026-10-20T16:35:30Z",
       "installCommand": "npm install github:SongHanseo/quartikz",
       "configureCommand": "npx quartz plugin add github:SongHanseo/quartikz"
     },
