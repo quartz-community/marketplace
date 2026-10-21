@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 1
 official: false
-modified: "2026-10-20T16:35:30Z"
+modified: "2026-10-21T02:20:29Z"
 repo: "https://github.com/SongHanseo/quartikz"
 source: "github:SongHanseo/quartikz"
 installCommand: "npx quartz plugin add github:SongHanseo/quartikz"
@@ -41,5 +41,5 @@ Build-time TikZ renderer for Quartz 5
 | **License** | Unknown |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-10-20 |
+| **Last Updated** | 2026-10-21 |
 | **Source** | [GitHub](https://github.com/SongHanseo/quartikz) |

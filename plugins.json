@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T21:25:13.857Z",
+  "generatedAt": "2026-10-21T04:01:19.106Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -2128,7 +2128,7 @@
       "stars": 9,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-09-14T23:43:11Z",
+      "lastUpdated": "2026-10-20T23:29:18Z",
       "installCommand": "npm install @quartz-community/obsidian-flavored-markdown",
       "configureCommand": "npx quartz plugin add @quartz-community/obsidian-flavored-markdown"
     },
@@ -2904,7 +2904,7 @@
       "stars": 3,
       "license": "MIT",
       "official": false,
-      "lastUpdated": "2026-10-18T18:51:25Z",
+      "lastUpdated": "2026-10-20T22:03:24Z",
       "installCommand": "npm install quartz-navbar",
       "configureCommand": "npx quartz plugin add quartz-navbar"
     },
@@ -2931,7 +2931,7 @@
         "tikzOptions": "",
         "addToPreamble": "",
         "embedFontCss": true,
-        "fontCssUrl": "",
+        "fontCssUrl": "https://cdn.jsdelivr.net/npm/node-tikzjax@latest/css/fonts.css",
         "disableOptimize": false,
         "disableSanitize": false
       },
@@ -2944,7 +2944,7 @@
       "stars": 1,
       "license": "Unknown",
       "official": false,
-      "lastUpdated": "2026-10-20T16:35:30Z",
+      "lastUpdated": "2026-10-21T02:20:29Z",
       "installCommand": "npm install github:SongHanseo/quartikz",
       "configureCommand": "npx quartz plugin add github:SongHanseo/quartikz"
     },
