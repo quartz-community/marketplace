@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T11:27:45.947Z",
+  "generatedAt": "2026-10-21T16:54:48.504Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -116,7 +116,7 @@
       "stars": 0,
       "license": "MIT",
       "official": false,
-      "lastUpdated": "2026-10-19T08:20:20Z",
+      "lastUpdated": "2026-10-21T12:19:58Z",
       "installCommand": "npm install @alexchenh/quartz-cloudflare-media",
       "configureCommand": "npx quartz plugin add @alexchenh/quartz-cloudflare-media"
     },
