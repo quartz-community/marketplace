@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 2
 official: false
-modified: "2026-09-16T06:27:02Z"
+modified: "2026-10-23T19:13:55Z"
 repo: "https://github.com/grafanaKibana/quartz-tabsdown"
 source: "github:grafanaKibana/quartz-tabsdown"
 installCommand: "npx quartz plugin add github:grafanaKibana/quartz-tabsdown"
@@ -41,5 +41,5 @@ quartz-tabsdown renders Tabsdown Markdown as theme-native tabs in Quartz. The sa
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 2 |
-| **Last Updated** | 2026-09-16 |
+| **Last Updated** | 2026-10-23 |
 | **Source** | [GitHub](https://github.com/grafanaKibana/quartz-tabsdown) |
