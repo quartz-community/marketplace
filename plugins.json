@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T03:59:01.696Z",
+  "generatedAt": "2026-10-24T10:37:07.580Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -955,7 +955,7 @@
       "stars": 2,
       "license": "MIT",
       "official": false,
-      "lastUpdated": "2026-10-23T19:13:55Z",
+      "lastUpdated": "2026-10-24T10:27:47Z",
       "installCommand": "npm install github:grafanaKibana/quartz-tabsdown",
       "configureCommand": "npx quartz plugin add github:grafanaKibana/quartz-tabsdown"
     },
