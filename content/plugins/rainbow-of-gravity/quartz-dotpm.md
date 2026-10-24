@@ -13,7 +13,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: false
-modified: "2026-10-23T20:03:00Z"
+modified: "2026-10-23T22:35:25Z"
 repo: "https://github.com/rainbow-of-gravity/quartz-dotpm"
 source: "github:rainbow-of-gravity/quartz-dotpm"
 installCommand: "npx quartz plugin add github:rainbow-of-gravity/quartz-dotpm"
