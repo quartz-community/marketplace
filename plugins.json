@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T04:23:50.892Z",
+  "generatedAt": "2026-10-27T11:51:36.100Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -1981,7 +1981,7 @@
       "requiresInstall": false,
       "source": "@quartz-community/graph",
       "repo": "https://github.com/quartz-community/graph",
-      "stars": 6,
+      "stars": 7,
       "license": "MIT",
       "official": true,
       "lastUpdated": "2026-09-14T23:43:17Z",
