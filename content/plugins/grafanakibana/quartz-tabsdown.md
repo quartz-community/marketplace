@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 2
 official: false
-modified: "2026-10-28T12:13:41Z"
+modified: "2026-10-28T20:55:29Z"
 repo: "https://github.com/grafanaKibana/quartz-tabsdown"
 source: "github:grafanaKibana/quartz-tabsdown"
 installCommand: "npx quartz plugin add github:grafanaKibana/quartz-tabsdown"
