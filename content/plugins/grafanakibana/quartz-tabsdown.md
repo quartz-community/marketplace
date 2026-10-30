@@ -3,14 +3,14 @@ title: "Tabsdown"
 description: "- Renders Markdown, links, embeds, callouts, math, and syntax highlighting inside tabs. - Supports nested tabs, formatted labels, Lucide icons, and tab lists on any side. - Matches Quartz light and dark themes, with theme-following or custom tab corner radii. - Keeps every panel readable when JavaScript is unavailable. - Exposes an optional browser API for custom Quartz components."
 author: "grafanaKibana"
 pluginAuthor: "grafanaKibana"
-version: "0.6.2"
+version: "0.6.3"
 category: "transformer"
 tags:
   - "status/community"
   - "plugin/transformer"
 stars: 2
 official: false
-modified: "2026-10-30T12:20:27Z"
+modified: "2026-10-30T14:15:14Z"
 repo: "https://github.com/grafanaKibana/quartz-tabsdown"
 source: "github:grafanaKibana/quartz-tabsdown"
 installCommand: "npx quartz plugin add github:grafanaKibana/quartz-tabsdown"
@@ -36,7 +36,7 @@ aliases:
 | | |
 |---|---|
 | **Author** | grafanaKibana |
-| **Version** | 0.6.2 |
+| **Version** | 0.6.3 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
