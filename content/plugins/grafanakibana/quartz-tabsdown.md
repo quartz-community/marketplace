@@ -1,16 +1,16 @@
 ---
 title: "Tabsdown"
-description: "quartz-tabsdown renders Tabsdown Markdown as theme-native tabs in Quartz. The same marker layouts and fenced blocks work in Obsidian and on the published site."
+description: "- Renders Markdown, links, embeds, callouts, math, and syntax highlighting inside tabs. - Supports nested tabs, formatted labels, Lucide icons, and tab lists on any side. - Matches Quartz light and dark themes, with theme-following or custom tab corner radii. - Keeps every panel readable when JavaScript is unavailable. - Exposes an optional browser API for custom Quartz components."
 author: "grafanaKibana"
 pluginAuthor: "grafanaKibana"
-version: "0.6.1"
+version: "0.6.2"
 category: "transformer"
 tags:
   - "status/community"
   - "plugin/transformer"
 stars: 2
 official: false
-modified: "2026-10-28T20:55:29Z"
+modified: "2026-10-30T12:20:27Z"
 repo: "https://github.com/grafanaKibana/quartz-tabsdown"
 source: "github:grafanaKibana/quartz-tabsdown"
 installCommand: "npx quartz plugin add github:grafanaKibana/quartz-tabsdown"
@@ -25,9 +25,9 @@ aliases:
 > npx quartz plugin add github:grafanaKibana/quartz-tabsdown
 > ```
 
-# quartz-tabsdown
+## What it does
 
-quartz-tabsdown renders Tabsdown Markdown as theme-native tabs in Quartz. The same marker layouts and fenced blocks work in Obsidian and on the published site.
+- Renders Markdown, links, embeds, callouts, math, and syntax highlighting inside tabs. - Supports nested tabs, formatted labels, Lucide icons, and tab lists on any side. - Matches Quartz light and dark themes, with theme-following or custom tab corner radii. - Keeps every panel readable when JavaScript is unavailable. - Exposes an optional browser API for custom Quartz components.
 
 [View full documentation on GitHub](https://github.com/grafanaKibana/quartz-tabsdown)
 
@@ -36,10 +36,10 @@ quartz-tabsdown renders Tabsdown Markdown as theme-native tabs in Quartz. The sa
 | | |
 |---|---|
 | **Author** | grafanaKibana |
-| **Version** | 0.6.1 |
+| **Version** | 0.6.2 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 2 |
-| **Last Updated** | 2026-10-28 |
+| **Last Updated** | 2026-10-30 |
 | **Source** | [GitHub](https://github.com/grafanaKibana/quartz-tabsdown) |

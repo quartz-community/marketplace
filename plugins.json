@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T05:04:54.515Z",
+  "generatedAt": "2026-10-30T12:28:14.435Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -936,7 +936,7 @@
       "name": "tabsdown",
       "displayName": "Tabsdown",
       "description": "Tabbed Markdown blocks using the Obsidian Tabsdown syntax.",
-      "version": "0.6.1",
+      "version": "0.6.2",
       "author": "grafanaKibana",
       "homepage": null,
       "keywords": [],
@@ -955,7 +955,7 @@
       "stars": 2,
       "license": "MIT",
       "official": false,
-      "lastUpdated": "2026-10-28T20:55:29Z",
+      "lastUpdated": "2026-10-30T12:20:27Z",
       "installCommand": "npm install github:grafanaKibana/quartz-tabsdown",
       "configureCommand": "npx quartz plugin add github:grafanaKibana/quartz-tabsdown"
     },
