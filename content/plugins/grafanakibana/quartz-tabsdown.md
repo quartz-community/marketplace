@@ -1,16 +1,16 @@
 ---
 title: "Tabsdown"
-description: "- Renders Markdown, links, embeds, callouts, math, and syntax highlighting inside tabs. - Supports nested tabs, formatted labels, Lucide icons, and tab lists on any side. - Matches Quartz light and dark themes, with theme-following or custom tab corner radii. - Keeps every panel readable when JavaScript is unavailable. - Exposes an optional browser API for custom Quartz components."
+description: "Use Quartz 5 or later with Node 22+ and npm 10.9.2+. Run the installer from your Quartz site:"
 author: "grafanaKibana"
 pluginAuthor: "grafanaKibana"
-version: "0.6.3"
+version: "0.6.5"
 category: "transformer"
 tags:
   - "status/community"
   - "plugin/transformer"
 stars: 2
 official: false
-modified: "2026-10-30T14:15:14Z"
+modified: "2026-10-31T09:50:08Z"
 repo: "https://github.com/grafanaKibana/quartz-tabsdown"
 source: "github:grafanaKibana/quartz-tabsdown"
 installCommand: "npx quartz plugin add github:grafanaKibana/quartz-tabsdown"
@@ -25,9 +25,9 @@ aliases:
 > npx quartz plugin add github:grafanaKibana/quartz-tabsdown
 > ```
 
-## What it does
+## Get started
 
-- Renders Markdown, links, embeds, callouts, math, and syntax highlighting inside tabs. - Supports nested tabs, formatted labels, Lucide icons, and tab lists on any side. - Matches Quartz light and dark themes, with theme-following or custom tab corner radii. - Keeps every panel readable when JavaScript is unavailable. - Exposes an optional browser API for custom Quartz components.
+Use Quartz 5 or later with Node 22+ and npm 10.9.2+. Run the installer from your Quartz site:
 
 [View full documentation on GitHub](https://github.com/grafanaKibana/quartz-tabsdown)
 
@@ -36,10 +36,10 @@ aliases:
 | | |
 |---|---|
 | **Author** | grafanaKibana |
-| **Version** | 0.6.3 |
+| **Version** | 0.6.5 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 2 |
-| **Last Updated** | 2026-10-30 |
+| **Last Updated** | 2026-10-31 |
 | **Source** | [GitHub](https://github.com/grafanaKibana/quartz-tabsdown) |
