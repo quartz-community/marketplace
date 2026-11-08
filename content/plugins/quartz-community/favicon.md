@@ -10,7 +10,7 @@ tags:
   - "plugin/emitter"
 stars: 1
 official: true
-modified: "2026-11-08T12:00:48Z"
+modified: "2026-11-08T13:49:11Z"
 repo: "https://github.com/quartz-community/favicon"
 source: "github:quartz-community/favicon"
 installCommand: "npx quartz plugin add github:quartz-community/favicon"

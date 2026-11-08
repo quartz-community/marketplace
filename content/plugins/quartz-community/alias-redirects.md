@@ -10,7 +10,7 @@ tags:
   - "plugin/emitter"
 stars: 0
 official: true
-modified: "2026-11-08T11:59:59Z"
+modified: "2026-11-08T13:33:57Z"
 repo: "https://github.com/quartz-community/alias-redirects"
 source: "github:quartz-community/alias-redirects"
 installCommand: "npx quartz plugin add github:quartz-community/alias-redirects"

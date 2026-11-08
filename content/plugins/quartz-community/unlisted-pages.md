@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 2
 official: true
-modified: "2026-11-08T12:02:11Z"
+modified: "2026-11-08T13:49:28Z"
 repo: "https://github.com/quartz-community/unlisted-pages"
 source: "github:quartz-community/unlisted-pages"
 installCommand: "npx quartz plugin add github:quartz-community/unlisted-pages"

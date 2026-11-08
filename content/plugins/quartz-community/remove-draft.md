@@ -10,7 +10,7 @@ tags:
   - "plugin/filter"
 stars: 0
 official: true
-modified: "2026-11-08T12:01:43Z"
+modified: "2026-11-08T13:43:25Z"
 repo: "https://github.com/quartz-community/remove-draft"
 source: "github:quartz-community/remove-draft"
 installCommand: "npx quartz plugin add github:quartz-community/remove-draft"

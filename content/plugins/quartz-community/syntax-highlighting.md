@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 1
 official: true
-modified: "2026-11-08T12:01:57Z"
+modified: "2026-11-08T13:44:20Z"
 repo: "https://github.com/quartz-community/syntax-highlighting"
 source: "github:quartz-community/syntax-highlighting"
 installCommand: "npx quartz plugin add github:quartz-community/syntax-highlighting"

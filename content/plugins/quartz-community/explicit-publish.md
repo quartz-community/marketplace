@@ -10,7 +10,7 @@ tags:
   - "plugin/filter"
 stars: 0
 official: true
-modified: "2026-11-08T12:00:43Z"
+modified: "2026-11-08T13:48:36Z"
 repo: "https://github.com/quartz-community/explicit-publish"
 source: "github:quartz-community/explicit-publish"
 installCommand: "npx quartz plugin add github:quartz-community/explicit-publish"

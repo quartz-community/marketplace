@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 2
 official: true
-modified: "2026-11-08T12:00:21Z"
+modified: "2026-11-08T13:49:26Z"
 repo: "https://github.com/quartz-community/comments"
 source: "github:quartz-community/comments"
 installCommand: "npx quartz plugin add github:quartz-community/comments"

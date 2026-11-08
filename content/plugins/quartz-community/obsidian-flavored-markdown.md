@@ -1,6 +1,6 @@
 ---
 title: "Obsidian Flavored Markdown"
-description: "Transforms Obsidian-specific markdown syntax including wikilinks, callouts, highlights, mermaid diagrams, tags, and media embeds."
+description: "Transforms Obsidian-specific markdown syntax including wikilinks, callouts, highlights, Mermaid diagrams, tags, and media embeds."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
 version: "1.0.0"
@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 9
 official: true
-modified: "2026-11-08T12:01:17Z"
+modified: "2026-11-08T15:41:25Z"
 repo: "https://github.com/quartz-community/obsidian-flavored-markdown"
 source: "github:quartz-community/obsidian-flavored-markdown"
 installCommand: "npx quartz plugin add github:quartz-community/obsidian-flavored-markdown"
@@ -27,7 +27,7 @@ aliases:
 
 # @quartz-community/obsidian-flavored-markdown
 
-Transforms Obsidian-specific markdown syntax including wikilinks, callouts, highlights, mermaid diagrams, tags, and media embeds.
+Transforms Obsidian-specific markdown syntax including wikilinks, callouts, highlights, Mermaid diagrams, tags, and media embeds.
 
 [View full documentation on GitHub](https://github.com/quartz-community/obsidian-flavored-markdown)
 

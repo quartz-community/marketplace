@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 0
 official: true
-modified: "2026-11-08T12:01:22Z"
+modified: "2026-11-08T13:49:33Z"
 repo: "https://github.com/quartz-community/obsidian-plugin-leaflet"
 source: "github:quartz-community/obsidian-plugin-leaflet"
 installCommand: "npx quartz plugin add github:quartz-community/obsidian-plugin-leaflet"

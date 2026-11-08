@@ -10,7 +10,7 @@ tags:
   - "plugin/emitter"
 stars: 3
 official: true
-modified: "2026-11-08T12:00:25Z"
+modified: "2026-11-08T13:44:22Z"
 repo: "https://github.com/quartz-community/content-index"
 source: "github:quartz-community/content-index"
 installCommand: "npx quartz plugin add github:quartz-community/content-index"

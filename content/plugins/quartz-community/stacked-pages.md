@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 1
 official: true
-modified: "2026-11-08T12:01:52Z"
+modified: "2026-11-08T13:50:18Z"
 repo: "https://github.com/quartz-community/stacked-pages"
 source: "github:quartz-community/stacked-pages"
 installCommand: "npx quartz plugin add github:quartz-community/stacked-pages"

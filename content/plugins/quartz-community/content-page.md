@@ -11,7 +11,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-08T12:00:29Z"
+modified: "2026-11-08T13:33:51Z"
 repo: "https://github.com/quartz-community/content-page"
 source: "github:quartz-community/content-page"
 installCommand: "npx quartz plugin add github:quartz-community/content-page"

@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-08T12:02:04Z"
+modified: "2026-11-08T13:40:28Z"
 repo: "https://github.com/quartz-community/tag-list"
 source: "github:quartz-community/tag-list"
 installCommand: "npx quartz plugin add github:quartz-community/tag-list"

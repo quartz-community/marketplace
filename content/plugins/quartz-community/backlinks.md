@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-08T12:00:05Z"
+modified: "2026-11-08T13:44:05Z"
 repo: "https://github.com/quartz-community/backlinks"
 source: "github:quartz-community/backlinks"
 installCommand: "npx quartz plugin add github:quartz-community/backlinks"

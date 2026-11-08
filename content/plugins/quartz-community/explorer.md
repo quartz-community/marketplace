@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 1
 official: true
-modified: "2026-11-08T12:00:46Z"
+modified: "2026-11-08T13:36:51Z"
 repo: "https://github.com/quartz-community/explorer"
 source: "github:quartz-community/explorer"
 installCommand: "npx quartz plugin add github:quartz-community/explorer"

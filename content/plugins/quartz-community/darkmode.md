@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-08T12:00:36Z"
+modified: "2026-11-08T13:49:27Z"
 repo: "https://github.com/quartz-community/darkmode"
 source: "github:quartz-community/darkmode"
 installCommand: "npx quartz plugin add github:quartz-community/darkmode"

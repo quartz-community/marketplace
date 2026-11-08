@@ -11,7 +11,7 @@ tags:
   - "plugin/emitter"
 stars: 1
 official: true
-modified: "2026-11-08T12:00:55Z"
+modified: "2026-11-08T13:39:48Z"
 repo: "https://github.com/quartz-community/fonts"
 source: "github:quartz-community/fonts"
 installCommand: "npx quartz plugin add github:quartz-community/fonts"

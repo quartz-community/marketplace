@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 1
 official: true
-modified: "2026-11-08T12:00:33Z"
+modified: "2026-11-08T13:36:36Z"
 repo: "https://github.com/quartz-community/crawl-links"
 source: "github:quartz-community/crawl-links"
 installCommand: "npx quartz plugin add github:quartz-community/crawl-links"

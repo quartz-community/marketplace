@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-08T12:01:31Z"
+modified: "2026-11-08T13:50:23Z"
 repo: "https://github.com/quartz-community/page-title"
 source: "github:quartz-community/page-title"
 installCommand: "npx quartz plugin add github:quartz-community/page-title"

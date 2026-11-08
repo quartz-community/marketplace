@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 1
 official: false
-modified: "2026-11-08T12:18:16Z"
+modified: "2026-11-08T13:45:00Z"
 repo: "https://github.com/quartz-themes/core"
 source: "github:quartz-themes/core"
 installCommand: "npx quartz plugin add github:quartz-themes/core"

@@ -11,7 +11,7 @@ tags:
   - "plugin/component"
 stars: 1
 official: true
-modified: "2026-11-08T12:00:14Z"
+modified: "2026-11-08T13:34:09Z"
 repo: "https://github.com/quartz-community/canvas-page"
 source: "github:quartz-community/canvas-page"
 installCommand: "npx quartz plugin add github:quartz-community/canvas-page"

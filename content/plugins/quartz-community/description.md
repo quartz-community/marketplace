@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 0
 official: true
-modified: "2026-11-08T12:00:39Z"
+modified: "2026-11-08T13:44:23Z"
 repo: "https://github.com/quartz-community/description"
 source: "github:quartz-community/description"
 installCommand: "npx quartz plugin add github:quartz-community/description"

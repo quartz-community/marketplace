@@ -12,7 +12,7 @@ tags:
   - "plugin/component"
 stars: 6
 official: true
-modified: "2026-11-08T12:00:07Z"
+modified: "2026-11-08T13:48:42Z"
 repo: "https://github.com/quartz-community/bases-page"
 source: "github:quartz-community/bases-page"
 installCommand: "npx quartz plugin add github:quartz-community/bases-page"

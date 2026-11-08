@@ -11,7 +11,7 @@ tags:
   - "plugin/emitter"
 stars: 3
 official: true
-modified: "2026-11-08T12:00:41Z"
+modified: "2026-11-08T13:49:36Z"
 repo: "https://github.com/quartz-community/encrypted-pages"
 source: "github:quartz-community/encrypted-pages"
 installCommand: "npx quartz plugin add github:quartz-community/encrypted-pages"

@@ -10,7 +10,7 @@ tags:
   - "plugin/emitter"
 stars: 0
 official: true
-modified: "2026-11-08T12:00:19Z"
+modified: "2026-11-08T13:49:53Z"
 repo: "https://github.com/quartz-community/cname"
 source: "github:quartz-community/cname"
 installCommand: "npx quartz plugin add github:quartz-community/cname"

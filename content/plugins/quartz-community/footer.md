@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 1
 official: true
-modified: "2026-11-08T12:00:58Z"
+modified: "2026-11-08T13:40:05Z"
 repo: "https://github.com/quartz-community/footer"
 source: "github:quartz-community/footer"
 installCommand: "npx quartz plugin add github:quartz-community/footer"

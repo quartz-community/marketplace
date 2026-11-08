@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 1
 official: true
-modified: "2026-11-08T12:01:48Z"
+modified: "2026-11-08T13:44:07Z"
 repo: "https://github.com/quartz-community/search"
 source: "github:quartz-community/search"
 installCommand: "npx quartz plugin add github:quartz-community/search"

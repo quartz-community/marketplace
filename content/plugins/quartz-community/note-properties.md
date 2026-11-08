@@ -1,6 +1,6 @@
 ---
 title: "Note Properties"
-description: "Parses frontmatter properties and renders them as a visible properties view on the page, similar to Obsidian's properties panel."
+description: "Renders frontmatter properties as a visible properties view on the page, similar to Obsidian's properties panel."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
 version: "1.0.0"
@@ -11,7 +11,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-08T12:01:12Z"
+modified: "2026-11-08T17:18:09Z"
 repo: "https://github.com/quartz-community/note-properties"
 source: "github:quartz-community/note-properties"
 installCommand: "npx quartz plugin add github:quartz-community/note-properties"
@@ -28,7 +28,7 @@ aliases:
 
 # @quartz-community/note-properties
 
-Parses frontmatter properties and renders them as a visible properties view on the page, similar to Obsidian's properties panel.
+Renders frontmatter properties as a visible properties view on the page, similar to Obsidian's properties panel.
 
 [View full documentation on GitHub](https://github.com/quartz-community/note-properties)
 
