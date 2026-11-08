@@ -12,7 +12,7 @@ tags:
   - "plugin/component"
 stars: 2
 official: true
-modified: "2026-09-14T23:43:28Z"
+modified: "2026-11-08T12:01:24Z"
 repo: "https://github.com/quartz-community/obsidian-plugin-ttrpg-tools-maps"
 source: "github:quartz-community/obsidian-plugin-ttrpg-tools-maps"
 installCommand: "npx quartz plugin add github:quartz-community/obsidian-plugin-ttrpg-tools-maps"
@@ -43,5 +43,5 @@ A Quartz v5 community plugin that renders interactive, read-only TTRPG maps in a
 | **License** | NOASSERTION |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 2 |
-| **Last Updated** | 2026-09-14 |
+| **Last Updated** | 2026-11-08 |
 | **Source** | [GitHub](https://github.com/quartz-community/obsidian-plugin-ttrpg-tools-maps) |

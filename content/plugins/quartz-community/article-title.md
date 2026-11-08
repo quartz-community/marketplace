@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-09-14T23:42:36Z"
+modified: "2026-11-08T12:00:01Z"
 repo: "https://github.com/quartz-community/article-title"
 source: "github:quartz-community/article-title"
 installCommand: "npx quartz plugin add github:quartz-community/article-title"
@@ -41,5 +41,5 @@ Renders the article title from frontmatter as an h1 heading.
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-09-14 |
+| **Last Updated** | 2026-11-08 |
 | **Source** | [GitHub](https://github.com/quartz-community/article-title) |
