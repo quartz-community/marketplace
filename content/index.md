@@ -33,6 +33,7 @@ views:
       property: formula.is_official
       direction: ASC
     order:
+      - title
       - description
       - formula.is_official
       - formula.last_update
@@ -50,6 +51,7 @@ views:
       and:
         - file.hasTag("status/official")
     order:
+      - title
       - description
       - formula.is_official
       - formula.last_update
@@ -62,6 +64,7 @@ views:
       and:
         - file.hasTag("status/community")
     order:
+      - title
       - description
       - formula.is_official
       - formula.last_update
@@ -74,6 +77,7 @@ views:
       and:
         - file.hasTag("plugin/transformer")
     order:
+      - title
       - description
       - formula.is_official
       - formula.last_update
@@ -83,6 +87,7 @@ views:
       and:
         - file.hasTag("plugin/component")
     order:
+      - title
       - description
       - formula.is_official
       - formula.last_update
@@ -92,6 +97,7 @@ views:
       and:
         - file.hasTag("plugin/emitter")
     order:
+      - title
       - description
       - formula.is_official
       - formula.last_update
@@ -101,6 +107,7 @@ views:
       and:
         - file.hasTag("plugin/filter")
     order:
+      - title
       - description
       - formula.is_official
       - formula.last_update
@@ -110,6 +117,7 @@ views:
       and:
         - file.hasTag("plugin/pageType")
     order:
+      - title
       - description
       - formula.is_official
       - formula.last_update
