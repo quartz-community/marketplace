@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 0
 official: true
-modified: "2026-11-08T13:24:18Z"
+modified: "2026-11-09T04:08:34Z"
 repo: "https://github.com/quartz-community/github-flavored-markdown"
 source: "github:quartz-community/github-flavored-markdown"
 installCommand: "npx quartz plugin add github:quartz-community/github-flavored-markdown"
@@ -41,5 +41,5 @@ Adds GitHub Flavored Markdown support including tables, strikethrough, task list
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-11-08 |
+| **Last Updated** | 2026-11-09 |
 | **Source** | [GitHub](https://github.com/quartz-community/github-flavored-markdown) |

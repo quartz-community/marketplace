@@ -11,7 +11,7 @@ tags:
   - "plugin/component"
 stars: 1
 official: true
-modified: "2026-11-08T13:44:18Z"
+modified: "2026-11-09T04:14:38Z"
 repo: "https://github.com/quartz-community/tag-page"
 source: "github:quartz-community/tag-page"
 installCommand: "npx quartz plugin add github:quartz-community/tag-page"
@@ -42,5 +42,5 @@ Renders tag pages showing all content tagged with a specific tag. Automatically 
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-11-08 |
+| **Last Updated** | 2026-11-09 |
 | **Source** | [GitHub](https://github.com/quartz-community/tag-page) |

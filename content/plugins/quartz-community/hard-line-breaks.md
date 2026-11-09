@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 0
 official: true
-modified: "2026-11-08T13:23:33Z"
+modified: "2026-11-09T03:01:30Z"
 repo: "https://github.com/quartz-community/hard-line-breaks"
 source: "github:quartz-community/hard-line-breaks"
 installCommand: "npx quartz plugin add github:quartz-community/hard-line-breaks"
@@ -41,5 +41,5 @@ aliases:
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-11-08 |
+| **Last Updated** | 2026-11-09 |
 | **Source** | [GitHub](https://github.com/quartz-community/hard-line-breaks) |

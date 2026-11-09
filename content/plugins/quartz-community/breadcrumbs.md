@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-08T13:33:28Z"
+modified: "2026-11-09T04:02:33Z"
 repo: "https://github.com/quartz-community/breadcrumbs"
 source: "github:quartz-community/breadcrumbs"
 installCommand: "npx quartz plugin add github:quartz-community/breadcrumbs"
@@ -41,5 +41,5 @@ Displays breadcrumb navigation showing the page's position in the folder hierarc
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-11-08 |
+| **Last Updated** | 2026-11-09 |
 | **Source** | [GitHub](https://github.com/quartz-community/breadcrumbs) |

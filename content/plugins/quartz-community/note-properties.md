@@ -11,7 +11,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-08T17:18:09Z"
+modified: "2026-11-09T04:08:37Z"
 repo: "https://github.com/quartz-community/note-properties"
 source: "github:quartz-community/note-properties"
 installCommand: "npx quartz plugin add github:quartz-community/note-properties"
@@ -42,5 +42,5 @@ Renders frontmatter properties as a visible properties view on the page, similar
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-11-08 |
+| **Last Updated** | 2026-11-09 |
 | **Source** | [GitHub](https://github.com/quartz-community/note-properties) |

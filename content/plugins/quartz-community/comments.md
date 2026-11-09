@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 2
 official: true
-modified: "2026-11-08T13:49:26Z"
+modified: "2026-11-09T04:02:26Z"
 repo: "https://github.com/quartz-community/comments"
 source: "github:quartz-community/comments"
 installCommand: "npx quartz plugin add github:quartz-community/comments"
@@ -41,5 +41,5 @@ Adds a comment section to pages using Giscus (GitHub Discussions-based).
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 2 |
-| **Last Updated** | 2026-11-08 |
+| **Last Updated** | 2026-11-09 |
 | **Source** | [GitHub](https://github.com/quartz-community/comments) |

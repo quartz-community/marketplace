@@ -10,7 +10,7 @@ tags:
   - "plugin/filter"
 stars: 0
 official: true
-modified: "2026-11-08T13:48:36Z"
+modified: "2026-11-09T03:40:12Z"
 repo: "https://github.com/quartz-community/explicit-publish"
 source: "github:quartz-community/explicit-publish"
 installCommand: "npx quartz plugin add github:quartz-community/explicit-publish"
@@ -41,5 +41,5 @@ Only publishes pages that have publish: true in their frontmatter.
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-11-08 |
+| **Last Updated** | 2026-11-09 |
 | **Source** | [GitHub](https://github.com/quartz-community/explicit-publish) |

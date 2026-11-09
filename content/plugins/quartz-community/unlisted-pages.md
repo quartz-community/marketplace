@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 2
 official: true
-modified: "2026-11-08T13:49:28Z"
+modified: "2026-11-09T03:39:56Z"
 repo: "https://github.com/quartz-community/unlisted-pages"
 source: "github:quartz-community/unlisted-pages"
 installCommand: "npx quartz plugin add github:quartz-community/unlisted-pages"
@@ -41,5 +41,5 @@ Zero-config transformer that bridges frontmatter.unlisted to file.data.unlisted 
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 2 |
-| **Last Updated** | 2026-11-08 |
+| **Last Updated** | 2026-11-09 |
 | **Source** | [GitHub](https://github.com/quartz-community/unlisted-pages) |

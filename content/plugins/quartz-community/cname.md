@@ -10,7 +10,7 @@ tags:
   - "plugin/emitter"
 stars: 0
 official: true
-modified: "2026-11-08T13:49:53Z"
+modified: "2026-11-09T03:02:04Z"
 repo: "https://github.com/quartz-community/cname"
 source: "github:quartz-community/cname"
 installCommand: "npx quartz plugin add github:quartz-community/cname"
@@ -41,5 +41,5 @@ Generates a CNAME file from the baseUrl configuration for custom domain hosting 
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-11-08 |
+| **Last Updated** | 2026-11-09 |
 | **Source** | [GitHub](https://github.com/quartz-community/cname) |

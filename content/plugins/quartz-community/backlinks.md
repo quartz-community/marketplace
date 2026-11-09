@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-08T13:44:05Z"
+modified: "2026-11-09T04:02:27Z"
 repo: "https://github.com/quartz-community/backlinks"
 source: "github:quartz-community/backlinks"
 installCommand: "npx quartz plugin add github:quartz-community/backlinks"
@@ -41,5 +41,5 @@ Displays a list of pages that link back to the current page.
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-11-08 |
+| **Last Updated** | 2026-11-09 |
 | **Source** | [GitHub](https://github.com/quartz-community/backlinks) |

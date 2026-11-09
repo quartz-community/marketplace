@@ -11,7 +11,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-08T13:33:51Z"
+modified: "2026-11-09T04:05:28Z"
 repo: "https://github.com/quartz-community/content-page"
 source: "github:quartz-community/content-page"
 installCommand: "npx quartz plugin add github:quartz-community/content-page"
@@ -42,5 +42,5 @@ The default page type for regular content pages. Matches all pages except folder
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-11-08 |
+| **Last Updated** | 2026-11-09 |
 | **Source** | [GitHub](https://github.com/quartz-community/content-page) |

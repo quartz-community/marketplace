@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 1
 official: true
-modified: "2026-11-08T13:44:20Z"
+modified: "2026-11-09T04:14:18Z"
 repo: "https://github.com/quartz-community/syntax-highlighting"
 source: "github:quartz-community/syntax-highlighting"
 installCommand: "npx quartz plugin add github:quartz-community/syntax-highlighting"
@@ -41,5 +41,5 @@ Adds syntax highlighting to code blocks using rehype-pretty-code, with an option
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-11-08 |
+| **Last Updated** | 2026-11-09 |
 | **Source** | [GitHub](https://github.com/quartz-community/syntax-highlighting) |

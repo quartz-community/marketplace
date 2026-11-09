@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 1
 official: true
-modified: "2026-11-08T13:40:05Z"
+modified: "2026-11-09T04:08:20Z"
 repo: "https://github.com/quartz-community/footer"
 source: "github:quartz-community/footer"
 installCommand: "npx quartz plugin add github:quartz-community/footer"
@@ -41,5 +41,5 @@ Renders a footer with a "Created with Quartz" message and configurable links.
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-11-08 |
+| **Last Updated** | 2026-11-09 |
 | **Source** | [GitHub](https://github.com/quartz-community/footer) |

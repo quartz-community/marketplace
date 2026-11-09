@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 7
 official: true
-modified: "2026-11-08T13:40:28Z"
+modified: "2026-11-09T04:08:19Z"
 repo: "https://github.com/quartz-community/graph"
 source: "github:quartz-community/graph"
 installCommand: "npx quartz plugin add github:quartz-community/graph"
@@ -41,5 +41,5 @@ The Graph View component for Quartz - visualize your digital garden as an intera
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 7 |
-| **Last Updated** | 2026-11-08 |
+| **Last Updated** | 2026-11-09 |
 | **Source** | [GitHub](https://github.com/quartz-community/graph) |

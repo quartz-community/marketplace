@@ -11,7 +11,7 @@ tags:
   - "plugin/emitter"
 stars: 3
 official: true
-modified: "2026-11-08T13:49:36Z"
+modified: "2026-11-09T04:05:16Z"
 repo: "https://github.com/quartz-community/encrypted-pages"
 source: "github:quartz-community/encrypted-pages"
 installCommand: "npx quartz plugin add github:quartz-community/encrypted-pages"
@@ -42,5 +42,5 @@ Password-protected encrypted pages for Quartz v5.
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 3 |
-| **Last Updated** | 2026-11-08 |
+| **Last Updated** | 2026-11-09 |
 | **Source** | [GitHub](https://github.com/quartz-community/encrypted-pages) |

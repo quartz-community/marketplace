@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 1
 official: false
-modified: "2026-11-08T13:45:00Z"
+modified: "2026-11-09T02:20:51Z"
 repo: "https://github.com/quartz-themes/core"
 source: "github:quartz-themes/core"
 installCommand: "npx quartz plugin add github:quartz-themes/core"
@@ -41,5 +41,5 @@ Quartz transformer plugin for Obsidian themes — per-aspect mix-and-match confi
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-11-08 |
+| **Last Updated** | 2026-11-09 |
 | **Source** | [GitHub](https://github.com/quartz-themes/core) |
