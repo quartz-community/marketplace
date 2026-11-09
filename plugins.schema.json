@@ -99,7 +99,7 @@
         },
         "version": {
           "type": "string",
-          "description": "Semantic version of the plugin"
+          "description": "Semantic version of the plugin: the package.json version, falling back to the quartz manifest's version"
         },
         "author": {
           "type": "string",
@@ -184,6 +184,14 @@
           ],
           "description": "Page frames provided by this plugin, keyed by export name. Null if none"
         },
+        "deprecated": {
+          "type": ["string", "null"],
+          "description": "Deprecation message from the quartz manifest (`quartz.deprecated`). Null if the plugin is not deprecated"
+        },
+        "builtin": {
+          "type": ["string", "null"],
+          "description": "For official plugins built into Quartz since 5.1 (crawl-links, remove-draft, content-index): the `configuration` key that replaces them (links, drafts, contentIndex). They are configured there and never installed. Null otherwise"
+        },
         "requiresInstall": {
           "type": "boolean",
           "description": "Whether the plugin requires npm install after cloning (e.g. for native dependencies)"
@@ -208,7 +216,7 @@
         },
         "official": {
           "type": "boolean",
-          "description": "Whether this is an official quartz-community plugin"
+          "description": "Whether the plugin is first-party: published by quartz-community, or by quartz-themes (kept separate so the many themes don't crowd out other plugins)"
         },
         "lastUpdated": {
           "type": "string",

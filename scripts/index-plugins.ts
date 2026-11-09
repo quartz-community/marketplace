@@ -59,6 +59,7 @@ type QuartzMetadata = {
   components?: Record<string, ComponentManifest>
   frames?: Record<string, { exportName: string }>
   requiresInstall?: unknown
+  deprecated?: unknown
 }
 
 type PackageJson = {
@@ -92,6 +93,8 @@ type IndexedPlugin = {
   license: string
   installCommand: string
   source: string
+  deprecated: string | null
+  builtin: string | null
 }
 
 type PluginEntry = {
@@ -120,6 +123,8 @@ type PluginEntry = {
   lastUpdated: string
   installCommand: string
   configureCommand: string
+  deprecated: string | null
+  builtin: string | null
 }
 
 type PluginsJson = {
@@ -365,11 +370,14 @@ const createMarkdown = (plugin: IndexedPlugin): string => {
     `  - "${aliases}"`,
     "---",
     "",
-    "> [!info] Install",
-    "> ```bash",
-    `> ${plugin.installCommand}`,
-    "> ```",
-    "",
+    ...(plugin.builtin
+      ? [
+          "> [!note] Built into Quartz",
+          `> Since Quartz 5.1 this plugin is part of Quartz itself: configure it under \`configuration.${plugin.builtin}\` in \`quartz.config.yaml\` instead of installing it. An existing entry is applied automatically; \`npx quartz plugin doctor --fix\` moves it. See [built-in processing](https://quartz.jzhao.xyz/features/built-in-processing).`,
+          "",
+        ]
+      : ["> [!info] Install", "> ```bash", `> ${plugin.installCommand}`, "> ```", ""]),
+    ...(plugin.deprecated ? ["> [!warning] Deprecated", `> ${plugin.deprecated}`, ""] : []),
     readmeHeading,
     "",
     readmeExcerpt,
@@ -392,12 +400,39 @@ const createMarkdown = (plugin: IndexedPlugin): string => {
   ].join("\n")
 }
 
+// The package version is the plugin's version: `quartz.version` is often a stale copy (Quartz
+// 5.1 reads the package version too), so it is only a fallback and no longer required.
 const isQuartzFieldValid = (quartz: QuartzMetadata | undefined): quartz is QuartzMetadata => {
   if (!quartz) return false
   if (!isNonEmptyString(quartz.name)) return false
-  if (!isNonEmptyString(quartz.version)) return false
   return true
 }
+
+const OFFICIAL_OWNERS = new Set(["quartz-community", "quartz-themes"])
+const isOfficialOwner = (login: string): boolean => OFFICIAL_OWNERS.has(login)
+
+/**
+ * Official plugins that are built into Quartz since 5.1, and the `configuration` key that
+ * replaces them. Their entries are applied automatically; they are never installed.
+ */
+const BUILTIN_SINCE_5_1: Record<string, string> = {
+  "crawl-links": "links",
+  "remove-draft": "drafts",
+  "content-index": "contentIndex",
+}
+const builtinKeyOf = (owner: string, repoName: string): string | null =>
+  owner === "quartz-community" ? (BUILTIN_SINCE_5_1[repoName] ?? null) : null
+
+/** `quartz.deprecated`: a message (or `true`), shown on the plugin's page and in Syncer. */
+const deprecationOf = (quartz: QuartzMetadata): string | null =>
+  isNonEmptyString(quartz.deprecated)
+    ? quartz.deprecated.trim()
+    : quartz.deprecated === true
+      ? "This plugin is deprecated."
+      : null
+
+const pluginVersion = (packageJson: PackageJson, quartz: QuartzMetadata, fallback: string) =>
+  normalizeString(packageJson.version, normalizeString(quartz.version, fallback))
 
 const main = async (): Promise<void> => {
   const token = process.env.GITHUB_TOKEN
@@ -465,6 +500,7 @@ const main = async (): Promise<void> => {
     slug: string
     repoKey: string
     npmName: string | undefined
+    packageJson: PackageJson
     quartz: QuartzMetadata
     ghRepo: GitHubRepo
   }[] = []
@@ -510,7 +546,7 @@ const main = async (): Promise<void> => {
 
       const fallbackDescription = normalizeString(
         quartz.description,
-        normalizeString(repo.description, ""),
+        normalizeString(packageJson.description, normalizeString(repo.description, "")),
       )
       if (!readmeHeading) {
         readmeExcerpt = fallbackDescription
@@ -523,13 +559,16 @@ const main = async (): Promise<void> => {
       const categories = parseCategories(quartz.category)
       const primaryCategory = categories[0] ?? "uncategorized"
       const keywords = parseKeywords(quartz.keywords)
-      const isOfficial =
-        repo.owner.login === "quartz-community" || repo.owner.login === "quartz-themes"
+      const isOfficial = isOfficialOwner(repo.owner.login)
+      const builtin = builtinKeyOf(repo.owner.login, repoName)
+      const deprecated = deprecationOf(quartz)
       const tags = buildTags(
         categories.length ? categories : ["uncategorized"],
         keywords,
         isOfficial,
       )
+      if (builtin) tags.push("status/built-in")
+      if (deprecated) tags.push("status/deprecated")
       const pluginAuthor = normalizeString(quartz.author, owner)
       const displayName = normalizeString(
         quartz.displayName,
@@ -537,7 +576,7 @@ const main = async (): Promise<void> => {
       )
       const quartzVersion = normalizeString(quartz.quartzVersion, "unspecified")
       const name = normalizeString(quartz.name, repoName)
-      const version = normalizeString(quartz.version, "")
+      const version = pluginVersion(packageJson, quartz, "")
       const license = repo.license?.spdx_id ?? "Unknown"
       const slug = slugify(owner, repoName)
       const installCommand = `npx quartz plugin add github:${repoKey}`
@@ -558,18 +597,21 @@ const main = async (): Promise<void> => {
         version,
         quartzVersion,
         stars: repo.stargazers_count,
-        official: repo.owner.login === "quartz-community",
+        official: isOfficial,
         modified: repo.pushed_at,
         language: repo.language,
         license,
         installCommand,
         source: `github:${repoKey}`,
+        deprecated,
+        builtin,
       })
 
       pluginJsonEntries.push({
         slug,
         repoKey,
         npmName: packageJson.name,
+        packageJson,
         quartz,
         ghRepo: repo,
       })
@@ -634,21 +676,28 @@ const main = async (): Promise<void> => {
   const pluginEntries: PluginEntry[] = npmChecks
     .sort((a, b) => a.slug.localeCompare(b.slug))
     .map((entry) => {
-      const { quartz, ghRepo, repoKey, npmName, onNpm } = entry
+      const { quartz, packageJson, ghRepo, repoKey, npmName, onNpm } = entry
       const commands = buildInstallCommand(npmName, onNpm, repoKey)
       const categories = parseCategories(quartz.category)
       const description = normalizeString(
         quartz.description,
-        normalizeString(ghRepo.description, "No description provided"),
+        normalizeString(
+          packageJson.description,
+          normalizeString(ghRepo.description, "No description provided"),
+        ),
       )
 
       return {
         name: normalizeString(quartz.name, ghRepo.name),
         displayName: normalizeString(quartz.displayName, normalizeString(quartz.name, ghRepo.name)),
         description,
-        version: normalizeString(quartz.version, "0.0.0"),
+        version: pluginVersion(packageJson, quartz, "0.0.0"),
         author: normalizeString(quartz.author, ghRepo.owner.login),
-        homepage: isNonEmptyString(quartz.homepage) ? quartz.homepage : null,
+        homepage: isNonEmptyString(quartz.homepage)
+          ? quartz.homepage
+          : isNonEmptyString(packageJson.homepage)
+            ? packageJson.homepage
+            : null,
         keywords: parseKeywords(quartz.keywords),
         category:
           categories.length === 1
@@ -677,10 +726,12 @@ const main = async (): Promise<void> => {
         repo: `https://github.com/${repoKey}`,
         stars: ghRepo.stargazers_count,
         license: ghRepo.license?.spdx_id ?? "Unknown",
-        official: ghRepo.owner.login === "quartz-community",
+        official: isOfficialOwner(ghRepo.owner.login),
         lastUpdated: ghRepo.pushed_at,
         installCommand: commands.install,
         configureCommand: commands.configure,
+        deprecated: deprecationOf(quartz),
+        builtin: builtinKeyOf(ghRepo.owner.login, ghRepo.name),
       }
     })
 
