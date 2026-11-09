@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T05:31:51.663Z",
+  "generatedAt": "2026-11-09T15:42:52.566Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -2187,7 +2187,7 @@
       "stars": 9,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-11-09T04:08:35Z",
+      "lastUpdated": "2026-11-09T15:31:47Z",
       "installCommand": "npm install @quartz-community/obsidian-flavored-markdown",
       "configureCommand": "npx quartz plugin add @quartz-community/obsidian-flavored-markdown"
     },
