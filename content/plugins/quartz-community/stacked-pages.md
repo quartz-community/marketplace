@@ -1,6 +1,6 @@
 ---
 title: "Stacked Pages"
-description: "Production-ready template for building, testing, and publishing Quartz community plugins. It mirrors Quartz's native plugin patterns and uses a factory-function API similar to Astro integrations: plugins are created by functions that return objects with name and lifecycle hooks."
+description: "Binder-style stacked pages for Quartz: every page you open is added as a tab, and the tabs are shown as strips beside the page content, like the tabs of a ring binder. Pages you came from sit on the left of the current page, pages you went back from on the right, so you can retrace your path through your notes."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
 version: "1.0.3"
@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 1
 official: true
-modified: "2026-11-09T04:11:50Z"
+modified: "2026-11-09T22:05:01Z"
 repo: "https://github.com/quartz-community/stacked-pages"
 source: "github:quartz-community/stacked-pages"
 installCommand: "npx quartz plugin add github:quartz-community/stacked-pages"
@@ -25,9 +25,9 @@ aliases:
 > npx quartz plugin add github:quartz-community/stacked-pages
 > ```
 
-# Quartz Community Plugin Template
+# @quartz-community/stacked-pages
 
-Production-ready template for building, testing, and publishing Quartz community plugins. It mirrors Quartz's native plugin patterns and uses a factory-function API similar to Astro integrations: plugins are created by functions that return objects with name and lifecycle hooks.
+Binder-style stacked pages for Quartz: every page you open is added as a tab, and the tabs are shown as strips beside the page content, like the tabs of a ring binder. Pages you came from sit on the left of the current page, pages you went back from on the right, so you can retrace your path through your notes.
 
 [View full documentation on GitHub](https://github.com/quartz-community/stacked-pages)
 

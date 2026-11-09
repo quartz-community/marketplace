@@ -11,7 +11,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-09T04:14:22Z"
+modified: "2026-11-09T22:05:14Z"
 repo: "https://github.com/quartz-community/table-of-contents"
 source: "github:quartz-community/table-of-contents"
 installCommand: "npx quartz plugin add github:quartz-community/table-of-contents"

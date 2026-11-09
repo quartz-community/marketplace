@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 9
 official: true
-modified: "2026-11-09T15:31:47Z"
+modified: "2026-11-09T22:54:44Z"
 repo: "https://github.com/quartz-community/obsidian-flavored-markdown"
 source: "github:quartz-community/obsidian-flavored-markdown"
 installCommand: "npx quartz plugin add github:quartz-community/obsidian-flavored-markdown"

@@ -1,6 +1,6 @@
 ---
 title: "Favicon"
-description: "Generates a favicon.ico from the site's quartz/static/icon.png file."
+description: "Generates a favicon.ico (resized to 48x48px) from the site's quartz/static/icon.png file."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
 version: "1.0.1"
@@ -10,7 +10,7 @@ tags:
   - "plugin/emitter"
 stars: 1
 official: true
-modified: "2026-11-09T03:02:07Z"
+modified: "2026-11-09T22:02:42Z"
 repo: "https://github.com/quartz-community/favicon"
 source: "github:quartz-community/favicon"
 installCommand: "npx quartz plugin add github:quartz-community/favicon"
@@ -27,7 +27,7 @@ aliases:
 
 # @quartz-community/favicon
 
-Generates a favicon.ico from the site's quartz/static/icon.png file.
+Generates a favicon.ico (resized to 48x48px) from the site's quartz/static/icon.png file.
 
 [View full documentation on GitHub](https://github.com/quartz-community/favicon)
 

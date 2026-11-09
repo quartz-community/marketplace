@@ -3,14 +3,14 @@ title: "Roam"
 description: "Transforms Roam Research markdown syntax including {{or:}} selectors, TODO/DONE checkboxes, media embeds, and Roam-style highlights."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.1"
+version: "1.1.0"
 category: "transformer"
 tags:
   - "status/official"
   - "plugin/transformer"
 stars: 0
 official: true
-modified: "2026-11-09T03:03:26Z"
+modified: "2026-11-09T22:09:46Z"
 repo: "https://github.com/quartz-community/roam"
 source: "github:quartz-community/roam"
 installCommand: "npx quartz plugin add github:quartz-community/roam"
@@ -36,7 +36,7 @@ Transforms Roam Research markdown syntax including {{or:}} selectors, TODO/DONE 
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.1 |
+| **Version** | 1.1.0 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

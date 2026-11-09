@@ -1,6 +1,6 @@
 ---
 title: "Bases Page"
-description: "A page type and component plugin for Quartz v5 that renders Obsidian Bases (.base files) as database-like filtered views. This plugin (v0.2.0) provides a powerful way to visualize and interact with your Obsidian data in a structured format."
+description: "A page type and component plugin for Quartz v5 that renders Obsidian Bases (.base files) as database-like filtered views: tables, lists, cards, galleries and boards. Bases can also be embedded in notes (!Tasks.base, one view with !Tasks.base#Open tasks) or written inline as  `base  code blocks."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
 version: "1.2.1"
@@ -12,7 +12,7 @@ tags:
   - "plugin/component"
 stars: 6
 official: true
-modified: "2026-11-09T04:53:30Z"
+modified: "2026-11-09T22:54:51Z"
 repo: "https://github.com/quartz-community/bases-page"
 source: "github:quartz-community/bases-page"
 installCommand: "npx quartz plugin add github:quartz-community/bases-page"
@@ -29,7 +29,7 @@ aliases:
 
 # @quartz-community/bases-page
 
-A page type and component plugin for Quartz v5 that renders Obsidian Bases (.base files) as database-like filtered views. This plugin (v0.2.0) provides a powerful way to visualize and interact with your Obsidian data in a structured format.
+A page type and component plugin for Quartz v5 that renders Obsidian Bases (.base files) as database-like filtered views: tables, lists, cards, galleries and boards. Bases can also be embedded in notes (!Tasks.base, one view with !Tasks.base#Open tasks) or written inline as  `base  code blocks.
 
 [View full documentation on GitHub](https://github.com/quartz-community/bases-page)
 

@@ -1,6 +1,6 @@
 ---
 title: "Content Page"
-description: "The default page type for regular content pages. Matches all pages except folder index pages and tag pages."
+description: "The default page type for regular content pages. It matches every page that no more specific page type (such as folder-page or tag-page) claims first. Its layout can be adjusted under layout.byPageType.content in quartz.config.yaml."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
 version: "1.0.3"
@@ -11,7 +11,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-09T04:05:28Z"
+modified: "2026-11-09T22:01:55Z"
 repo: "https://github.com/quartz-community/content-page"
 source: "github:quartz-community/content-page"
 installCommand: "npx quartz plugin add github:quartz-community/content-page"
@@ -28,7 +28,7 @@ aliases:
 
 # @quartz-community/content-page
 
-The default page type for regular content pages. Matches all pages except folder index pages and tag pages.
+The default page type for regular content pages. It matches every page that no more specific page type (such as folder-page or tag-page) claims first. Its layout can be adjusted under layout.byPageType.content in quartz.config.yaml.
 
 [View full documentation on GitHub](https://github.com/quartz-community/content-page)
 

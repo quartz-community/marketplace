@@ -1,6 +1,6 @@
 ---
 title: "Quartz Themes"
-description: "Quartz transformer plugin for Obsidian themes — per-aspect mix-and-match configuration."
+description: "A Quartz transformer plugin that styles your site with an Obsidian community theme from Quartz Themes: hundreds of themes, converted from their Obsidian CSS, with per-aspect mix-and-match. The theme's CSS is added to every page, and Quartz's dark mode toggle switches between its light and dark variants."
 author: "quartz-themes"
 pluginAuthor: "quartz-themes"
 version: "2.0.1"
@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 1
 official: true
-modified: "2026-11-09T02:20:51Z"
+modified: "2026-11-09T22:05:41Z"
 repo: "https://github.com/quartz-themes/core"
 source: "github:quartz-themes/core"
 installCommand: "npx quartz plugin add github:quartz-themes/core"
@@ -25,9 +25,9 @@ aliases:
 > npx quartz plugin add github:quartz-themes/core
 > ```
 
+# @quartz-themes/core
 
-
-Quartz transformer plugin for Obsidian themes — per-aspect mix-and-match configuration.
+A Quartz transformer plugin that styles your site with an Obsidian community theme from Quartz Themes: hundreds of themes, converted from their Obsidian CSS, with per-aspect mix-and-match. The theme's CSS is added to every page, and Quartz's dark mode toggle switches between its light and dark variants.
 
 [View full documentation on GitHub](https://github.com/quartz-themes/core)
 

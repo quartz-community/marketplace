@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-09T04:11:14Z"
+modified: "2026-11-09T22:04:25Z"
 repo: "https://github.com/quartz-community/reader-mode"
 source: "github:quartz-community/reader-mode"
 installCommand: "npx quartz plugin add github:quartz-community/reader-mode"

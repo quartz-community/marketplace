@@ -10,7 +10,7 @@ tags:
   - "plugin/emitter"
 stars: 0
 official: true
-modified: "2026-11-09T03:02:01Z"
+modified: "2026-11-09T22:04:06Z"
 repo: "https://github.com/quartz-community/og-image"
 source: "github:quartz-community/og-image"
 installCommand: "npx quartz plugin add github:quartz-community/og-image"

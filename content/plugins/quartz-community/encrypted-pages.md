@@ -3,7 +3,7 @@ title: "Encrypted Pages"
 description: "Password-protected encrypted pages for Quartz v5."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.1.1"
+version: "1.2.0"
 category: "transformer"
 tags:
   - "status/official"
@@ -11,12 +11,12 @@ tags:
   - "plugin/emitter"
 stars: 3
 official: true
-modified: "2026-11-09T04:05:16Z"
+modified: "2026-11-09T22:58:23Z"
 repo: "https://github.com/quartz-community/encrypted-pages"
 source: "github:quartz-community/encrypted-pages"
 installCommand: "npx quartz plugin add github:quartz-community/encrypted-pages"
 license: "MIT"
-quartzVersion: ">=5.0.0"
+quartzVersion: ">=5.1.0"
 aliases:
   - "/plugins/encrypted-pages"
 ---
@@ -37,10 +37,10 @@ Password-protected encrypted pages for Quartz v5.
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.1.1 |
+| **Version** | 1.2.0 |
 | **Category** | transformer |
 | **License** | MIT |
-| **Quartz Version** | >=5.0.0 |
+| **Quartz Version** | >=5.1.0 |
 | **Stars** | ⭐ 3 |
 | **Last Updated** | 2026-11-09 |
 | **Source** | [GitHub](https://github.com/quartz-community/encrypted-pages) |

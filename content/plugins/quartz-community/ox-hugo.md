@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 1
 official: true
-modified: "2026-11-09T03:03:23Z"
+modified: "2026-11-09T22:04:12Z"
 repo: "https://github.com/quartz-community/ox-hugo"
 source: "github:quartz-community/ox-hugo"
 installCommand: "npx quartz plugin add github:quartz-community/ox-hugo"

@@ -1,6 +1,6 @@
 ---
 title: "Description"
-description: "Generates page descriptions from content for use in meta tags and RSS feeds."
+description: "Generates page descriptions for use in meta tags, the RSS feed and folder/tag listings."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
 version: "1.0.2"
@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 0
 official: true
-modified: "2026-11-09T03:01:20Z"
+modified: "2026-11-09T22:02:15Z"
 repo: "https://github.com/quartz-community/description"
 source: "github:quartz-community/description"
 installCommand: "npx quartz plugin add github:quartz-community/description"
@@ -27,7 +27,7 @@ aliases:
 
 # @quartz-community/description
 
-Generates page descriptions from content for use in meta tags and RSS feeds.
+Generates page descriptions for use in meta tags, the RSS feed and folder/tag listings.
 
 [View full documentation on GitHub](https://github.com/quartz-community/description)
 

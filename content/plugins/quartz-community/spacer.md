@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-09T04:11:28Z"
+modified: "2026-11-09T22:04:54Z"
 repo: "https://github.com/quartz-community/spacer"
 source: "github:quartz-community/spacer"
 installCommand: "npx quartz plugin add github:quartz-community/spacer"

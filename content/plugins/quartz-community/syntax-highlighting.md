@@ -1,6 +1,6 @@
 ---
 title: "Syntax Highlighting"
-description: "Adds syntax highlighting to code blocks using rehype-pretty-code, with an optional clipboard copy button."
+description: "Adds syntax highlighting to code blocks using rehype-pretty-code and Shiki, with an optional clipboard copy button."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
 version: "1.0.3"
@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 1
 official: true
-modified: "2026-11-09T04:14:18Z"
+modified: "2026-11-09T22:05:07Z"
 repo: "https://github.com/quartz-community/syntax-highlighting"
 source: "github:quartz-community/syntax-highlighting"
 installCommand: "npx quartz plugin add github:quartz-community/syntax-highlighting"
@@ -27,7 +27,7 @@ aliases:
 
 # @quartz-community/syntax-highlighting
 
-Adds syntax highlighting to code blocks using rehype-pretty-code, with an optional clipboard copy button.
+Adds syntax highlighting to code blocks using rehype-pretty-code and Shiki, with an optional clipboard copy button.
 
 [View full documentation on GitHub](https://github.com/quartz-community/syntax-highlighting)
 

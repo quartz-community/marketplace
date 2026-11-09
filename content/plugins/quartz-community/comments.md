@@ -1,6 +1,6 @@
 ---
 title: "Comments"
-description: "Adds a comment section to pages using Giscus (GitHub Discussions-based)."
+description: "Adds a comment section to pages using Giscus (GitHub Discussions-based). Giscus is currently the only provider."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
 version: "1.0.2"
@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 2
 official: true
-modified: "2026-11-09T04:02:26Z"
+modified: "2026-11-09T22:01:41Z"
 repo: "https://github.com/quartz-community/comments"
 source: "github:quartz-community/comments"
 installCommand: "npx quartz plugin add github:quartz-community/comments"
@@ -27,7 +27,7 @@ aliases:
 
 # @quartz-community/comments
 
-Adds a comment section to pages using Giscus (GitHub Discussions-based).
+Adds a comment section to pages using Giscus (GitHub Discussions-based). Giscus is currently the only provider.
 
 [View full documentation on GitHub](https://github.com/quartz-community/comments)
 

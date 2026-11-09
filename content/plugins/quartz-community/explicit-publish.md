@@ -3,19 +3,19 @@ title: "Explicit Publish"
 description: "Only publishes pages that have publish: true in their frontmatter."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.1.0"
+version: "1.2.0"
 category: "filter"
 tags:
   - "status/official"
   - "plugin/filter"
 stars: 0
 official: true
-modified: "2026-11-09T03:40:12Z"
+modified: "2026-11-09T23:01:15Z"
 repo: "https://github.com/quartz-community/explicit-publish"
 source: "github:quartz-community/explicit-publish"
 installCommand: "npx quartz plugin add github:quartz-community/explicit-publish"
 license: "MIT"
-quartzVersion: ">=5.0.0"
+quartzVersion: ">=5.1.0"
 aliases:
   - "/plugins/explicit-publish"
 ---
@@ -36,10 +36,10 @@ Only publishes pages that have publish: true in their frontmatter.
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.1.0 |
+| **Version** | 1.2.0 |
 | **Category** | filter |
 | **License** | MIT |
-| **Quartz Version** | >=5.0.0 |
+| **Quartz Version** | >=5.1.0 |
 | **Stars** | ⭐ 0 |
 | **Last Updated** | 2026-11-09 |
 | **Source** | [GitHub](https://github.com/quartz-community/explicit-publish) |

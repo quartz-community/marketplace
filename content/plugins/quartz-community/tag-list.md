@@ -1,6 +1,6 @@
 ---
 title: "Tag List"
-description: "Displays the list of tags associated with the current page as clickable links."
+description: "Displays the list of tags associated with the current page. Each tag links to its tag page (from @quartz-community/tag-page or a hand-written tags/ page); a tag without a tag page is shown as plain text."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
 version: "1.0.3"
@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-09T04:14:10Z"
+modified: "2026-11-09T22:05:21Z"
 repo: "https://github.com/quartz-community/tag-list"
 source: "github:quartz-community/tag-list"
 installCommand: "npx quartz plugin add github:quartz-community/tag-list"
@@ -27,7 +27,7 @@ aliases:
 
 # @quartz-community/tag-list
 
-Displays the list of tags associated with the current page as clickable links.
+Displays the list of tags associated with the current page. Each tag links to its tag page (from @quartz-community/tag-page or a hand-written tags/ page); a tag without a tag page is shown as plain text.
 
 [View full documentation on GitHub](https://github.com/quartz-community/tag-list)
 

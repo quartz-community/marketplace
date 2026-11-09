@@ -1,6 +1,6 @@
 ---
 title: "Content Meta"
-description: "Displays content metadata such as creation date and reading time."
+description: "Displays content metadata below the article title: the page's date and the estimated reading time."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
 version: "1.0.2"
@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-09T04:02:30Z"
+modified: "2026-11-09T22:01:48Z"
 repo: "https://github.com/quartz-community/content-meta"
 source: "github:quartz-community/content-meta"
 installCommand: "npx quartz plugin add github:quartz-community/content-meta"
@@ -27,7 +27,7 @@ aliases:
 
 # @quartz-community/content-meta
 
-Displays content metadata such as creation date and reading time.
+Displays content metadata below the article title: the page's date and the estimated reading time.
 
 [View full documentation on GitHub](https://github.com/quartz-community/content-meta)
 

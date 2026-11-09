@@ -1,6 +1,6 @@
 ---
 title: "Created/Modified Date"
-description: "Extracts created and modified dates from frontmatter, git history, or filesystem metadata."
+description: "Extracts created, modified and published dates from frontmatter, git history, or filesystem metadata."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
 version: "1.0.3"
@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 0
 official: true
-modified: "2026-11-09T17:35:33Z"
+modified: "2026-11-09T22:02:02Z"
 repo: "https://github.com/quartz-community/created-modified-date"
 source: "github:quartz-community/created-modified-date"
 installCommand: "npx quartz plugin add github:quartz-community/created-modified-date"
@@ -27,7 +27,7 @@ aliases:
 
 # @quartz-community/created-modified-date
 
-Extracts created and modified dates from frontmatter, git history, or filesystem metadata.
+Extracts created, modified and published dates from frontmatter, git history, or filesystem metadata.
 
 [View full documentation on GitHub](https://github.com/quartz-community/created-modified-date)
 

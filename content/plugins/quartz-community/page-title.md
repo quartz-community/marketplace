@@ -1,6 +1,6 @@
 ---
 title: "Page Title"
-description: "Renders the site-wide page title as a link to the home page."
+description: "Renders the site-wide page title (the pageTitle field in quartz.config.yaml) as a link to the home page."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
 version: "1.0.2"
@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-09T04:11:17Z"
+modified: "2026-11-09T22:04:19Z"
 repo: "https://github.com/quartz-community/page-title"
 source: "github:quartz-community/page-title"
 installCommand: "npx quartz plugin add github:quartz-community/page-title"
@@ -27,7 +27,7 @@ aliases:
 
 # @quartz-community/page-title
 
-Renders the site-wide page title as a link to the home page.
+Renders the site-wide page title (the pageTitle field in quartz.config.yaml) as a link to the home page.
 
 [View full documentation on GitHub](https://github.com/quartz-community/page-title)
 

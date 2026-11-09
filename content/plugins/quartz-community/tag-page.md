@@ -3,7 +3,7 @@ title: "Tag Page"
 description: "Renders tag pages showing all content tagged with a specific tag. Automatically generates virtual pages for all tags found across content."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.3"
+version: "1.0.5"
 category: "pageType"
 tags:
   - "status/official"
@@ -11,7 +11,7 @@ tags:
   - "plugin/component"
 stars: 1
 official: true
-modified: "2026-11-09T04:14:38Z"
+modified: "2026-11-09T22:29:30Z"
 repo: "https://github.com/quartz-community/tag-page"
 source: "github:quartz-community/tag-page"
 installCommand: "npx quartz plugin add github:quartz-community/tag-page"
@@ -37,7 +37,7 @@ Renders tag pages showing all content tagged with a specific tag. Automatically 
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.3 |
+| **Version** | 1.0.5 |
 | **Category** | pageType |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

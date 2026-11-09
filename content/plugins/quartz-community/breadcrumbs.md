@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-09T04:02:33Z"
+modified: "2026-11-09T22:01:12Z"
 repo: "https://github.com/quartz-community/breadcrumbs"
 source: "github:quartz-community/breadcrumbs"
 installCommand: "npx quartz plugin add github:quartz-community/breadcrumbs"

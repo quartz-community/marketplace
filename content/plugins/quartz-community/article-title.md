@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-09T04:02:26Z"
+modified: "2026-11-09T22:00:51Z"
 repo: "https://github.com/quartz-community/article-title"
 source: "github:quartz-community/article-title"
 installCommand: "npx quartz plugin add github:quartz-community/article-title"

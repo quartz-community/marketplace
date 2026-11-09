@@ -1,6 +1,6 @@
 ---
 title: "Fonts"
-description: "Fine-grained font control for Quartz sites. Supports per-heading fonts, automatic theme font discovery via QuartzTheme, and Obsidian-compatible defaults."
+description: "Fine-grained font control for Quartz sites. Supports per-heading fonts, automatic theme font discovery via Quartz Themes, Google Fonts loading (from the CDN or self-hosted), and otherwise falls back to the fonts set in configuration.theme.typography."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
 version: "1.0.2"
@@ -11,7 +11,7 @@ tags:
   - "plugin/emitter"
 stars: 1
 official: true
-modified: "2026-11-09T03:02:10Z"
+modified: "2026-11-09T22:02:56Z"
 repo: "https://github.com/quartz-community/fonts"
 source: "github:quartz-community/fonts"
 installCommand: "npx quartz plugin add github:quartz-community/fonts"
@@ -26,9 +26,9 @@ aliases:
 > npx quartz plugin add github:quartz-community/fonts
 > ```
 
-# @quartz-community/fonts
+# @quartz-community/quartz-fonts
 
-Fine-grained font control for Quartz sites. Supports per-heading fonts, automatic theme font discovery via QuartzTheme, and Obsidian-compatible defaults.
+Fine-grained font control for Quartz sites. Supports per-heading fonts, automatic theme font discovery via Quartz Themes, Google Fonts loading (from the CDN or self-hosted), and otherwise falls back to the fonts set in configuration.theme.typography.
 
 [View full documentation on GitHub](https://github.com/quartz-community/fonts)
 

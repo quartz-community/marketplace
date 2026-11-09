@@ -11,7 +11,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-09T04:08:37Z"
+modified: "2026-11-09T22:03:38Z"
 repo: "https://github.com/quartz-community/note-properties"
 source: "github:quartz-community/note-properties"
 installCommand: "npx quartz plugin add github:quartz-community/note-properties"

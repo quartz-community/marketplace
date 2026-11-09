@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-09T04:11:17Z"
+modified: "2026-11-09T22:04:34Z"
 repo: "https://github.com/quartz-community/recent-notes"
 source: "github:quartz-community/recent-notes"
 installCommand: "npx quartz plugin add github:quartz-community/recent-notes"

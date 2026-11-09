@@ -1,6 +1,6 @@
 ---
 title: "GitHub Flavored Markdown"
-description: "Adds GitHub Flavored Markdown support including tables, strikethrough, task lists, and autolinked headings."
+description: "Adds GitHub Flavored Markdown support including autolink literals, footnotes, strikethrough, tables, task lists, SmartyPants typography and linked headings."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
 version: "2.1.1"
@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 0
 official: true
-modified: "2026-11-09T04:08:34Z"
+modified: "2026-11-09T22:03:11Z"
 repo: "https://github.com/quartz-community/github-flavored-markdown"
 source: "github:quartz-community/github-flavored-markdown"
 installCommand: "npx quartz plugin add github:quartz-community/github-flavored-markdown"
@@ -27,7 +27,7 @@ aliases:
 
 # @quartz-community/github-flavored-markdown
 
-Adds GitHub Flavored Markdown support including tables, strikethrough, task lists, and autolinked headings.
+Adds GitHub Flavored Markdown support including autolink literals, footnotes, strikethrough, tables, task lists, SmartyPants typography and linked headings.
 
 [View full documentation on GitHub](https://github.com/quartz-community/github-flavored-markdown)
 

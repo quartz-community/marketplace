@@ -12,7 +12,7 @@ tags:
   - "plugin/component"
 stars: 2
 official: true
-modified: "2026-11-09T03:03:37Z"
+modified: "2026-11-09T22:03:59Z"
 repo: "https://github.com/quartz-community/obsidian-plugin-ttrpg-tools-maps"
 source: "github:quartz-community/obsidian-plugin-ttrpg-tools-maps"
 installCommand: "npx quartz plugin add github:quartz-community/obsidian-plugin-ttrpg-tools-maps"

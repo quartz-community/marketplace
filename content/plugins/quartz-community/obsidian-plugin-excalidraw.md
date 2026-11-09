@@ -12,7 +12,7 @@ tags:
   - "plugin/component"
 stars: 5
 official: true
-modified: "2026-11-09T04:08:59Z"
+modified: "2026-11-09T22:03:52Z"
 repo: "https://github.com/quartz-community/obsidian-plugin-excalidraw"
 source: "github:quartz-community/obsidian-plugin-excalidraw"
 installCommand: "npx quartz plugin add github:quartz-community/obsidian-plugin-excalidraw"

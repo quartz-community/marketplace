@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 7
 official: true
-modified: "2026-11-09T04:08:19Z"
+modified: "2026-11-09T22:03:17Z"
 repo: "https://github.com/quartz-community/graph"
 source: "github:quartz-community/graph"
 installCommand: "npx quartz plugin add github:quartz-community/graph"
