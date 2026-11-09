@@ -3,7 +3,7 @@ title: "Reader Mode"
 description: "Adds a reader mode toggle button that hides sidebars for distraction-free reading."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.0.2"
 category: "component"
 tags:
   - "status/official"
@@ -36,7 +36,7 @@ Adds a reader mode toggle button that hides sidebars for distraction-free readin
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.0.2 |
 | **Category** | component |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

@@ -3,7 +3,7 @@ title: "Canvas Page"
 description: "> Fork of @quartz-community/canvas-page — Hexo-compatible fork with _posts/ prefix stripping and canvas badge."
 author: "quartz-plugins"
 pluginAuthor: "quartz-plugins"
-version: "1.0.0"
+version: "0.2.0"
 category: "pageType"
 tags:
   - "status/community"
@@ -37,7 +37,7 @@ aliases:
 | | |
 |---|---|
 | **Author** | quartz-plugins |
-| **Version** | 1.0.0 |
+| **Version** | 0.2.0 |
 | **Category** | pageType |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

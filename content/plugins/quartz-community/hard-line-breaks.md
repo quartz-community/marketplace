@@ -3,11 +3,12 @@ title: "Hard Line Breaks"
 description: "> [!warning] Deprecated > Line breaks are handled by ObsidianFlavoredMarkdown 2.0+: a single line break renders as ` by default (preset: legacy), as in Obsidian. Set its strictLineBreaks option to true` for spaces instead. Keep this plugin only if your site doesn't use ObsidianFlavoredMarkdown."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.1.0"
 category: "transformer"
 tags:
   - "status/official"
   - "plugin/transformer"
+  - "status/deprecated"
 stars: 0
 official: true
 modified: "2026-11-09T03:01:30Z"
@@ -25,6 +26,9 @@ aliases:
 > npx quartz plugin add github:quartz-community/hard-line-breaks
 > ```
 
+> [!warning] Deprecated
+> Line breaks are handled by ObsidianFlavoredMarkdown 2.0+: a single line break renders as <br> by default (preset: legacy), as in Obsidian; set its strictLineBreaks option to true for spaces. Keep this plugin only if your site doesn't use ObsidianFlavoredMarkdown.
+
 # @quartz-community/hard-line-breaks
 
 > [!warning] Deprecated > Line breaks are handled by ObsidianFlavoredMarkdown 2.0+: a single line break renders as ` by default (preset: legacy), as in Obsidian. Set its strictLineBreaks option to true` for spaces instead. Keep this plugin only if your site doesn't use ObsidianFlavoredMarkdown.
@@ -36,7 +40,7 @@ aliases:
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.1.0 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

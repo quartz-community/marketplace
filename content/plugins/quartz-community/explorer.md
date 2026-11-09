@@ -3,7 +3,7 @@ title: "Explorer"
 description: "The Explorer component for Quartz - navigate your digital garden with an interactive file tree."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.0.3"
 category: "component"
 tags:
   - "status/official"
@@ -36,7 +36,7 @@ The Explorer component for Quartz - navigate your digital garden with an interac
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.0.3 |
 | **Category** | component |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

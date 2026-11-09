@@ -3,7 +3,7 @@ title: "Quartz Filters"
 description: "Filter the Explorer by frontmatter, in plain words, and save the filters you use often."
 author: "speedypleath"
 pluginAuthor: "speedypleath"
-version: "1.0.0"
+version: "0.3.1"
 category: "emitter"
 tags:
   - "status/community"
@@ -37,7 +37,7 @@ Filter the Explorer by frontmatter, in plain words, and save the filters you use
 | | |
 |---|---|
 | **Author** | speedypleath |
-| **Version** | 1.0.0 |
+| **Version** | 0.3.1 |
 | **Category** | emitter |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

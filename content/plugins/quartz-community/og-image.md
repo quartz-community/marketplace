@@ -3,7 +3,7 @@ title: "OG Image"
 description: "Generates Open Graph social preview images for each page using Satori and Sharp."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.1.1"
 category: "emitter"
 tags:
   - "status/official"
@@ -36,7 +36,7 @@ Generates Open Graph social preview images for each page using Satori and Sharp.
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.1.1 |
 | **Category** | emitter |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

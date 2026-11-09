@@ -3,11 +3,12 @@ title: "Remove Drafts"
 description: "Filters out pages with draft: true in their frontmatter."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.0.1"
 category: "filter"
 tags:
   - "status/official"
   - "plugin/filter"
+  - "status/built-in"
 stars: 0
 official: true
 modified: "2026-11-09T03:01:33Z"
@@ -20,10 +21,8 @@ aliases:
   - "/plugins/remove-draft"
 ---
 
-> [!info] Install
-> ```bash
-> npx quartz plugin add github:quartz-community/remove-draft
-> ```
+> [!note] Built into Quartz
+> Since Quartz 5.1 this plugin is part of Quartz itself: configure it under `configuration.drafts` in `quartz.config.yaml` instead of installing it. An existing entry is applied automatically; `npx quartz plugin doctor --fix` moves it. See [built-in processing](https://quartz.jzhao.xyz/features/built-in-processing).
 
 # @quartz-community/remove-draft
 
@@ -36,7 +35,7 @@ Filters out pages with draft: true in their frontmatter.
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.0.1 |
 | **Category** | filter |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

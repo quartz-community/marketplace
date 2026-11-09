@@ -3,7 +3,7 @@ title: "Explicit Publish"
 description: "Only publishes pages that have publish: true in their frontmatter."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.1.0"
 category: "filter"
 tags:
   - "status/official"
@@ -36,7 +36,7 @@ Only publishes pages that have publish: true in their frontmatter.
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.1.0 |
 | **Category** | filter |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

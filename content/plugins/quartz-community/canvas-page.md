@@ -3,7 +3,7 @@ title: "Canvas Page"
 description: "A page type plugin that renders JSON Canvas (.canvas) files as interactive, pannable and zoomable canvas pages. Supports the full JSON Canvas 1.0 spec, including text nodes with Markdown rendering, file nodes that link to other pages, link nodes for external URLs, group nodes for visual organization, and edges between nodes rendered as SVG paths with optional labels, arrow markers, and colors."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.0.3"
 category: "pageType"
 tags:
   - "status/official"
@@ -37,7 +37,7 @@ A page type plugin that renders JSON Canvas (.canvas) files as interactive, pann
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.0.3 |
 | **Category** | pageType |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

@@ -3,7 +3,7 @@ title: "Chat Bubbles"
 description: "A Quartz v5 transformer plugin that turns Markdown chat syntax into chat-style bubbles. Chats are only collapsible when the Markdown explicitly opts in."
 author: "jerlendds"
 pluginAuthor: "jerlendds"
-version: "1.0.0"
+version: "0.1.0"
 category: "transformer"
 tags:
   - "status/community"
@@ -36,7 +36,7 @@ A Quartz v5 transformer plugin that turns Markdown chat syntax into chat-style b
 | | |
 |---|---|
 | **Author** | jerlendds |
-| **Version** | 1.0.0 |
+| **Version** | 0.1.0 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

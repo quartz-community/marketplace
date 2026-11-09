@@ -3,7 +3,7 @@ title: "Random Note"
 description: "A Quartz v5 community component plugin that adds a die-shaped random note button. It is intended to sit in the toolbar with small chrome controls like reader mode and dark mode."
 author: "UndefeatedOrca"
 pluginAuthor: "UndefeatedOrca"
-version: "1.0.0"
+version: "0.1.0"
 category: "component"
 tags:
   - "status/community"
@@ -36,7 +36,7 @@ A Quartz v5 community component plugin that adds a die-shaped random note button
 | | |
 |---|---|
 | **Author** | UndefeatedOrca |
-| **Version** | 1.0.0 |
+| **Version** | 0.1.0 |
 | **Category** | component |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

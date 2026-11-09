@@ -3,7 +3,7 @@ title: "Content Page"
 description: "The default page type for regular content pages. Matches all pages except folder index pages and tag pages."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.0.3"
 category: "pageType"
 tags:
   - "status/official"
@@ -37,7 +37,7 @@ The default page type for regular content pages. Matches all pages except folder
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.0.3 |
 | **Category** | pageType |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

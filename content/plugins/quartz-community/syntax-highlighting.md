@@ -3,7 +3,7 @@ title: "Syntax Highlighting"
 description: "Adds syntax highlighting to code blocks using rehype-pretty-code, with an optional clipboard copy button."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.0.3"
 category: "transformer"
 tags:
   - "status/official"
@@ -36,7 +36,7 @@ Adds syntax highlighting to code blocks using rehype-pretty-code, with an option
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.0.3 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

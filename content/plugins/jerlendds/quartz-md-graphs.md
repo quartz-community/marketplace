@@ -3,7 +3,7 @@ title: "Markdown Graphs"
 description: " View demo..."
 author: "jerlendds"
 pluginAuthor: "jerlendds"
-version: "1.0.0"
+version: "0.1.0"
 category: "transformer"
 tags:
   - "status/community"
@@ -36,7 +36,7 @@ aliases:
 | | |
 |---|---|
 | **Author** | jerlendds |
-| **Version** | 1.0.0 |
+| **Version** | 0.1.0 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

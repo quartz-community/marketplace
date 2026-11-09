@@ -3,7 +3,7 @@ title: "Description"
 description: "Generates page descriptions from content for use in meta tags and RSS feeds."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.0.2"
 category: "transformer"
 tags:
   - "status/official"
@@ -36,7 +36,7 @@ Generates page descriptions from content for use in meta tags and RSS feeds.
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.0.2 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

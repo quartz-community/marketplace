@@ -3,7 +3,7 @@ title: "Dark Mode"
 description: "Adds a dark mode toggle button that switches between light and dark themes."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.0.2"
 category: "component"
 tags:
   - "status/official"
@@ -36,7 +36,7 @@ Adds a dark mode toggle button that switches between light and dark themes.
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.0.2 |
 | **Category** | component |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

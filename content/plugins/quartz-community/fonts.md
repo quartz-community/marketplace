@@ -3,7 +3,7 @@ title: "Fonts"
 description: "Fine-grained font control for Quartz sites. Supports per-heading fonts, automatic theme font discovery via QuartzTheme, and Obsidian-compatible defaults."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.0.2"
 category: "transformer"
 tags:
   - "status/official"
@@ -37,7 +37,7 @@ Fine-grained font control for Quartz sites. Supports per-heading fonts, automati
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.0.2 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

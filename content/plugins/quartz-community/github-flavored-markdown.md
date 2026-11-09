@@ -3,7 +3,7 @@ title: "GitHub Flavored Markdown"
 description: "Adds GitHub Flavored Markdown support including tables, strikethrough, task lists, and autolinked headings."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "2.1.1"
 category: "transformer"
 tags:
   - "status/official"
@@ -36,7 +36,7 @@ Adds GitHub Flavored Markdown support including tables, strikethrough, task list
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 2.1.1 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

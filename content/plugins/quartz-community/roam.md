@@ -3,7 +3,7 @@ title: "Roam"
 description: "Transforms Roam Research markdown syntax including {{or:}} selectors, TODO/DONE checkboxes, media embeds, and Roam-style highlights."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.0.1"
 category: "transformer"
 tags:
   - "status/official"
@@ -36,7 +36,7 @@ Transforms Roam Research markdown syntax including {{or:}} selectors, TODO/DONE 
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.0.1 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

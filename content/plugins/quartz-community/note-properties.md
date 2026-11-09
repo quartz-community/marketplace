@@ -3,7 +3,7 @@ title: "Note Properties"
 description: "Renders frontmatter properties as a visible properties view on the page, similar to Obsidian's properties panel."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.1.4"
 category: "transformer"
 tags:
   - "status/official"
@@ -37,7 +37,7 @@ Renders frontmatter properties as a visible properties view on the page, similar
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.1.4 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

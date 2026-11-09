@@ -3,7 +3,7 @@ title: "Spacer"
 description: "A component plugin that renders a flexible spacer element that pushes adjacent components apart within a layout group. It uses CSS flex: 2 1 auto to fill available space, making it useful for spacing out items in toolbars or sidebars (for example, separating the search bar from the darkmode toggle in the left sidebar toolbar)."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "0.1.0"
+version: "1.0.2"
 category: "component"
 tags:
   - "status/official"
@@ -36,7 +36,7 @@ A component plugin that renders a flexible spacer element that pushes adjacent c
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 0.1.0 |
+| **Version** | 1.0.2 |
 | **Category** | component |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

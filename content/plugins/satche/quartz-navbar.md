@@ -3,7 +3,7 @@ title: "Navbar"
 description: "This Quartz v5 plugin provide options to add navigation links to your website. It also display a navbar on top of the page, that you can populate with other plugins."
 author: "satche"
 pluginAuthor: "satche"
-version: "0.0.1"
+version: "0.2.2"
 category: "component"
 tags:
   - "status/community"
@@ -37,7 +37,7 @@ This Quartz v5 plugin provide options to add navigation links to your website. I
 | | |
 |---|---|
 | **Author** | satche |
-| **Version** | 0.0.1 |
+| **Version** | 0.2.2 |
 | **Category** | component |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

@@ -3,7 +3,7 @@ title: "Folder Page"
 description: "Renders folder index pages showing a listing of all pages within that folder. Automatically generates virtual index pages for folders that don't have one."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.0.3"
 category: "pageType"
 tags:
   - "status/official"
@@ -37,7 +37,7 @@ Renders folder index pages showing a listing of all pages within that folder. Au
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.0.3 |
 | **Category** | pageType |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

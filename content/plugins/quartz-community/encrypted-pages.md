@@ -3,7 +3,7 @@ title: "Encrypted Pages"
 description: "Password-protected encrypted pages for Quartz v5."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.1.1"
 category: "transformer"
 tags:
   - "status/official"
@@ -37,7 +37,7 @@ Password-protected encrypted pages for Quartz v5.
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.1.1 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

@@ -3,7 +3,7 @@ title: "Content Meta"
 description: "Displays content metadata such as creation date and reading time."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.0.2"
 category: "component"
 tags:
   - "status/official"
@@ -36,7 +36,7 @@ Displays content metadata such as creation date and reading time.
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.0.2 |
 | **Category** | component |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

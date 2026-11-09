@@ -3,7 +3,7 @@ title: "Bases Page"
 description: "A page type and component plugin for Quartz v5 that renders Obsidian Bases (.base files) as database-like filtered views. This plugin (v0.2.0) provides a powerful way to visualize and interact with your Obsidian data in a structured format."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.2.1"
 category: "transformer"
 tags:
   - "status/official"
@@ -38,7 +38,7 @@ A page type and component plugin for Quartz v5 that renders Obsidian Bases (.bas
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.2.1 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

@@ -3,7 +3,7 @@ title: "Table of Contents"
 description: "Renders an interactive table of contents for pages. Also includes a transformer that extracts heading structure from markdown."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.0.3"
 category: "transformer"
 tags:
   - "status/official"
@@ -37,7 +37,7 @@ Renders an interactive table of contents for pages. Also includes a transformer 
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.0.3 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

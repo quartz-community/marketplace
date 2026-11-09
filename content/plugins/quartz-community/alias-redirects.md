@@ -3,14 +3,14 @@ title: "Alias Redirects"
 description: "Generates HTML redirect pages for frontmatter aliases and case-preserving URLs, so old URLs redirect to the canonical page."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.0.3"
 category: "emitter"
 tags:
   - "status/official"
   - "plugin/emitter"
 stars: 0
 official: true
-modified: "2026-11-09T03:01:57Z"
+modified: "2026-11-09T17:34:26Z"
 repo: "https://github.com/quartz-community/alias-redirects"
 source: "github:quartz-community/alias-redirects"
 installCommand: "npx quartz plugin add github:quartz-community/alias-redirects"
@@ -36,7 +36,7 @@ Generates HTML redirect pages for frontmatter aliases and case-preserving URLs, 
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.0.3 |
 | **Category** | emitter |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

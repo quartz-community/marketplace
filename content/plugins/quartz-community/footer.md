@@ -3,7 +3,7 @@ title: "Footer"
 description: "Renders a footer with a \"Created with Quartz\" message and configurable links."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.1.1"
 category: "component"
 tags:
   - "status/official"
@@ -36,7 +36,7 @@ Renders a footer with a "Created with Quartz" message and configurable links.
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.1.1 |
 | **Category** | component |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

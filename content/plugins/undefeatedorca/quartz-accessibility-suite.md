@@ -3,7 +3,7 @@ title: "Accessibility Suite"
 description: "Optional accessibility components for Quartz sites."
 author: "UndefeatedOrca"
 pluginAuthor: "UndefeatedOrca"
-version: "1.0.0"
+version: "0.1.0"
 category: "component"
 tags:
   - "status/community"
@@ -37,7 +37,7 @@ Optional accessibility components for Quartz sites.
 | | |
 |---|---|
 | **Author** | UndefeatedOrca |
-| **Version** | 1.0.0 |
+| **Version** | 0.1.0 |
 | **Category** | component |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

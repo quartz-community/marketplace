@@ -3,7 +3,7 @@ title: "Stacked Pages"
 description: "Production-ready template for building, testing, and publishing Quartz community plugins. It mirrors Quartz's native plugin patterns and uses a factory-function API similar to Astro integrations: plugins are created by functions that return objects with name and lifecycle hooks."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.0.3"
 category: "component"
 tags:
   - "status/official"
@@ -36,7 +36,7 @@ Production-ready template for building, testing, and publishing Quartz community
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.0.3 |
 | **Category** | component |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

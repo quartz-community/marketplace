@@ -3,7 +3,7 @@ title: "Unlisted Pages"
 description: "Zero-config transformer that bridges frontmatter.unlisted to file.data.unlisted so any page can opt out of discovery surfaces while remaining accessible by direct URL."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.1.0"
 category: "transformer"
 tags:
   - "status/official"
@@ -36,7 +36,7 @@ Zero-config transformer that bridges frontmatter.unlisted to file.data.unlisted 
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.1.0 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

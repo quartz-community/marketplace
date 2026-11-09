@@ -3,7 +3,7 @@ title: "Ox-Hugo"
 description: "Transforms ox-hugo exported markdown to be compatible with Quartz, handling relref links, Hugo shortcodes, figure tags, and org-mode LaTeX."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.0.1"
 category: "transformer"
 tags:
   - "status/official"
@@ -36,7 +36,7 @@ Transforms ox-hugo exported markdown to be compatible with Quartz, handling relr
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.0.1 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

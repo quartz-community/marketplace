@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T15:42:52.566Z",
+  "generatedAt": "2026-11-09T19:40:32.070Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -9,7 +9,7 @@
       "description": "Serve published Quartz media from Cloudflare R2 and Images",
       "version": "1.0.0",
       "author": "alexchenh",
-      "homepage": null,
+      "homepage": "https://github.com/alexchenh/quartz-cloudflare-media#readme",
       "keywords": [],
       "category": "transformer",
       "quartzVersion": ">=5.0.0",
@@ -118,7 +118,9 @@
       "official": false,
       "lastUpdated": "2026-10-30T14:49:07Z",
       "installCommand": "npm install @alexchenh/quartz-cloudflare-media",
-      "configureCommand": "npx quartz plugin add @alexchenh/quartz-cloudflare-media"
+      "configureCommand": "npx quartz plugin add @alexchenh/quartz-cloudflare-media",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "quartz-layout-box",
@@ -126,7 +128,7 @@
       "description": "Renders an HTML or Markdown snippet (file or inline) as a layout component.",
       "version": "0.4.2",
       "author": "boxi-os",
-      "homepage": null,
+      "homepage": "https://github.com/boxi-os/quartz-layout-box",
       "keywords": [],
       "category": "component",
       "quartzVersion": ">=5.0.0",
@@ -346,7 +348,9 @@
       "official": false,
       "lastUpdated": "2026-10-26T19:40:13Z",
       "installCommand": "npm install github:boxi-os/quartz-layout-box",
-      "configureCommand": "npx quartz plugin add github:boxi-os/quartz-layout-box"
+      "configureCommand": "npx quartz plugin add github:boxi-os/quartz-layout-box",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "quartz-multilanguage",
@@ -354,7 +358,7 @@
       "description": "Multilingual content for Quartz: language detection, translation linking, language switcher, hreflang and redirects.",
       "version": "0.3.0",
       "author": "boxi-os",
-      "homepage": null,
+      "homepage": "https://github.com/boxi-os/quartz-multilanguage",
       "keywords": [],
       "category": [
         "transformer",
@@ -893,15 +897,17 @@
       "official": false,
       "lastUpdated": "2026-11-04T21:14:57Z",
       "installCommand": "npm install github:boxi-os/quartz-multilanguage",
-      "configureCommand": "npx quartz plugin add github:boxi-os/quartz-multilanguage"
+      "configureCommand": "npx quartz plugin add github:boxi-os/quartz-multilanguage",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "remark42",
       "displayName": "Remark42",
-      "description": "Quartz plugin for Remark42 comments.",
+      "description": "Remark42 comments component for Quartz 5",
       "version": "2.0.0",
       "author": "cidus",
-      "homepage": null,
+      "homepage": "https://github.com/cidus/remark42.quartz",
       "keywords": [],
       "category": "component",
       "quartzVersion": ">=5.0.0",
@@ -930,7 +936,9 @@
       "official": false,
       "lastUpdated": "2026-10-01T19:14:41Z",
       "installCommand": "npm install github:cidus/remark42.quartz",
-      "configureCommand": "npx quartz plugin add github:cidus/remark42.quartz"
+      "configureCommand": "npx quartz plugin add github:cidus/remark42.quartz",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "graph-landing",
@@ -938,7 +946,7 @@
       "description": "Full-viewport knowledge-graph constellation for the home page, with optional hero copy.",
       "version": "0.19.0",
       "author": "GoBeromsu",
-      "homepage": null,
+      "homepage": "https://github.com/GoBeromsu/Quartaz/tree/v5/plugins/graph-landing#readme",
       "keywords": [],
       "category": "pageType",
       "quartzVersion": ">=5.0.0",
@@ -990,7 +998,9 @@
       "official": false,
       "lastUpdated": "2026-10-08T05:33:52Z",
       "installCommand": "npm install github:GoBeromsu/quartz-graph-landing",
-      "configureCommand": "npx quartz plugin add github:GoBeromsu/quartz-graph-landing"
+      "configureCommand": "npx quartz plugin add github:GoBeromsu/quartz-graph-landing",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "tabsdown",
@@ -998,7 +1008,7 @@
       "description": "Tabbed Markdown blocks using the Obsidian Tabsdown syntax.",
       "version": "0.6.5",
       "author": "grafanaKibana",
-      "homepage": null,
+      "homepage": "https://github.com/grafanaKibana/quartz-tabsdown",
       "keywords": [],
       "category": "transformer",
       "quartzVersion": ">=5.0.0",
@@ -1017,12 +1027,14 @@
       "official": false,
       "lastUpdated": "2026-10-31T09:50:08Z",
       "installCommand": "npm install github:grafanaKibana/quartz-tabsdown",
-      "configureCommand": "npx quartz plugin add github:grafanaKibana/quartz-tabsdown"
+      "configureCommand": "npx quartz plugin add github:grafanaKibana/quartz-tabsdown",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "quartz-auto-link-card-enhanced",
       "displayName": "Quartz Auto Link Card Enhanced",
-      "description": "Auto Link Card Enhanced を quartz で表示させる。",
+      "description": "Quartz v5 transformer for Obsidian Auto Card Link Enhanced cardlink blocks.",
       "version": "0.1.0",
       "author": "hyodoarch",
       "homepage": null,
@@ -1044,12 +1056,14 @@
       "official": false,
       "lastUpdated": "2026-09-01T13:04:03Z",
       "installCommand": "npm install github:hyodoarch/quartz-auto-link-card-enhanced",
-      "configureCommand": "npx quartz plugin add github:hyodoarch/quartz-auto-link-card-enhanced"
+      "configureCommand": "npx quartz plugin add github:hyodoarch/quartz-auto-link-card-enhanced",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "image-captions",
       "displayName": "Image Captions",
-      "description": "Image Captions compatibility plugin for Quartz 5",
+      "description": "Quartz v5 transformer compatible with Obsidian Image Captions notation.",
       "version": "0.2.0",
       "author": "hyodoarch",
       "homepage": null,
@@ -1076,7 +1090,9 @@
       "official": false,
       "lastUpdated": "2026-08-29T11:51:29Z",
       "installCommand": "npm install github:hyodoarch/quartz-image-captions",
-      "configureCommand": "npx quartz plugin add github:hyodoarch/quartz-image-captions"
+      "configureCommand": "npx quartz plugin add github:hyodoarch/quartz-image-captions",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "image-grid-captions",
@@ -1084,7 +1100,7 @@
       "description": "Equal-height, uncropped image rows with Obsidian-compatible captions for Quartz v5.",
       "version": "0.2.1",
       "author": "hyodoarch",
-      "homepage": null,
+      "homepage": "https://github.com/hyodoarch/quartz-image-grid-captions#readme",
       "keywords": [],
       "category": "transformer",
       "quartzVersion": ">=5.0.0",
@@ -1103,15 +1119,17 @@
       "official": false,
       "lastUpdated": "2026-09-05T12:19:25Z",
       "installCommand": "npm install github:hyodoarch/quartz-image-grid-captions",
-      "configureCommand": "npx quartz plugin add github:hyodoarch/quartz-image-grid-captions"
+      "configureCommand": "npx quartz plugin add github:hyodoarch/quartz-image-grid-captions",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "chat-bubbles",
       "displayName": "Chat Bubbles",
-      "description": "A plugin for displaying chat bubbles on a Quartz page (https://quartz.jzhao.xyz/) via custom MD syntax",
-      "version": "1.0.0",
+      "description": "Quartz transformer plugin for expandable chat-style Markdown bubbles.",
+      "version": "0.1.0",
       "author": "jerlendds",
-      "homepage": null,
+      "homepage": "https://github.com/jerlendds/quartz-chat-bubbles",
       "keywords": [],
       "category": "transformer",
       "quartzVersion": ">=5.0.0",
@@ -1138,15 +1156,17 @@
       "official": false,
       "lastUpdated": "2026-08-31T16:53:56Z",
       "installCommand": "npm install github:jerlendds/quartz-chat-bubbles",
-      "configureCommand": "npx quartz plugin add github:jerlendds/quartz-chat-bubbles"
+      "configureCommand": "npx quartz plugin add github:jerlendds/quartz-chat-bubbles",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "md-graphs",
       "displayName": "Markdown Graphs",
-      "description": "ASCII-framed graphs for Quartz 5 websites (https://quartz.jzhao.xyz/)",
-      "version": "1.0.0",
+      "description": "ASCII-framed semantic graph blocks for Quartz 5.",
+      "version": "0.1.0",
       "author": "jerlendds",
-      "homepage": null,
+      "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
       "category": "transformer",
       "quartzVersion": ">=5.0.0",
@@ -1183,15 +1203,17 @@
       "official": false,
       "lastUpdated": "2026-08-30T23:11:05Z",
       "installCommand": "npm install github:jerlendds/quartz-md-graphs",
-      "configureCommand": "npx quartz plugin add github:jerlendds/quartz-md-graphs"
+      "configureCommand": "npx quartz plugin add github:jerlendds/quartz-md-graphs",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "alias-redirects",
       "displayName": "Alias Redirects",
-      "description": "Quartz's default alias redirects plugin.",
-      "version": "1.0.0",
+      "description": "Alias redirects emitter plugin for Quartz.",
+      "version": "1.0.3",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
       "category": "emitter",
       "quartzVersion": ">=5.0.0",
@@ -1210,17 +1232,19 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-11-09T03:01:57Z",
+      "lastUpdated": "2026-11-09T17:34:26Z",
       "installCommand": "npm install @quartz-community/alias-redirects",
-      "configureCommand": "npx quartz plugin add @quartz-community/alias-redirects"
+      "configureCommand": "npx quartz plugin add @quartz-community/alias-redirects",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "article-title",
       "displayName": "Article Title",
-      "description": "Quartz's default article title plugin.",
-      "version": "1.0.0",
+      "description": "ArticleTitle component for Quartz - displays the page title as an h1",
+      "version": "1.0.2",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/article-title",
       "keywords": [],
       "category": "component",
       "quartzVersion": ">=5.0.0",
@@ -1245,15 +1269,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:02:26Z",
       "installCommand": "npm install @quartz-community/article-title",
-      "configureCommand": "npx quartz plugin add @quartz-community/article-title"
+      "configureCommand": "npx quartz plugin add @quartz-community/article-title",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "backlinks",
       "displayName": "Backlinks",
-      "description": "Quartz's default backlinks plugin.",
-      "version": "1.0.0",
+      "description": "Backlinks component for Quartz - shows pages that link to current page",
+      "version": "1.0.3",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/backlinks",
       "keywords": [],
       "category": "component",
       "quartzVersion": ">=5.0.0",
@@ -1280,15 +1306,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:02:27Z",
       "installCommand": "npm install @quartz-community/backlinks",
-      "configureCommand": "npx quartz plugin add @quartz-community/backlinks"
+      "configureCommand": "npx quartz plugin add @quartz-community/backlinks",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "bases-page",
       "displayName": "Bases Page",
-      "description": "Quartz's default bases page plugin.",
-      "version": "1.0.0",
+      "description": "Obsidian Bases page type plugin for Quartz v5. Renders database-like filtered views of notes from .base files.",
+      "version": "1.2.1",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
       "category": [
         "transformer",
@@ -1313,15 +1341,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:53:30Z",
       "installCommand": "npm install @quartz-community/bases-page",
-      "configureCommand": "npx quartz plugin add @quartz-community/bases-page"
+      "configureCommand": "npx quartz plugin add @quartz-community/bases-page",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "breadcrumbs",
       "displayName": "Breadcrumbs",
-      "description": "Quartz's default breadcrumbs plugin.",
-      "version": "1.0.0",
+      "description": "Breadcrumbs navigation component for Quartz",
+      "version": "1.0.3",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/breadcrumbs",
       "keywords": [],
       "category": "component",
       "quartzVersion": ">=5.0.0",
@@ -1351,15 +1381,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:02:33Z",
       "installCommand": "npm install @quartz-community/breadcrumbs",
-      "configureCommand": "npx quartz plugin add @quartz-community/breadcrumbs"
+      "configureCommand": "npx quartz plugin add @quartz-community/breadcrumbs",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "canvas-page",
       "displayName": "Canvas Page",
-      "description": "Quartz's default canvas page plugin.",
-      "version": "1.0.0",
+      "description": "JSON Canvas (Obsidian .canvas) page type plugin for Quartz v5. Renders interactive canvas visualizations with nodes and edges.",
+      "version": "1.0.3",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
       "category": [
         "pageType",
@@ -1390,15 +1422,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:02:19Z",
       "installCommand": "npm install @quartz-community/canvas-page",
-      "configureCommand": "npx quartz plugin add @quartz-community/canvas-page"
+      "configureCommand": "npx quartz plugin add @quartz-community/canvas-page",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "citations",
       "displayName": "Citations",
-      "description": "Quartz's default citations plugin.",
-      "version": "1.0.0",
+      "description": "Citations and bibliography transformer plugin for Quartz",
+      "version": "1.0.1",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/citations",
       "keywords": [],
       "category": "transformer",
       "quartzVersion": ">=5.0.0",
@@ -1422,15 +1456,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T03:01:16Z",
       "installCommand": "npm install @quartz-community/citations",
-      "configureCommand": "npx quartz plugin add @quartz-community/citations"
+      "configureCommand": "npx quartz plugin add @quartz-community/citations",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "cname",
       "displayName": "CNAME",
-      "description": "Quartz's default cname plugin.",
-      "version": "1.0.0",
+      "description": "CNAME emitter plugin for Quartz.",
+      "version": "1.0.1",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
       "category": "emitter",
       "quartzVersion": ">=5.0.0",
@@ -1449,15 +1485,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T03:02:04Z",
       "installCommand": "npm install @quartz-community/cname",
-      "configureCommand": "npx quartz plugin add @quartz-community/cname"
+      "configureCommand": "npx quartz plugin add @quartz-community/cname",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "comments",
       "displayName": "Comments",
-      "description": "Quartz's default comments plugin.",
-      "version": "1.0.0",
+      "description": "Comments component for Quartz - Giscus integration",
+      "version": "1.0.2",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/comments",
       "keywords": [],
       "category": "component",
       "quartzVersion": ">=5.0.0",
@@ -1485,15 +1523,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:02:26Z",
       "installCommand": "npm install @quartz-community/comments",
-      "configureCommand": "npx quartz plugin add @quartz-community/comments"
+      "configureCommand": "npx quartz plugin add @quartz-community/comments",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "content-index",
       "displayName": "Content Index",
-      "description": "Quartz's default content index plugin.",
-      "version": "1.0.0",
+      "description": "Content index emitter plugin for Quartz. Generates sitemap, RSS feed, and content index JSON.",
+      "version": "1.0.2",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
       "category": "emitter",
       "quartzVersion": ">=5.0.0",
@@ -1519,15 +1559,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T03:01:54Z",
       "installCommand": "npm install @quartz-community/content-index",
-      "configureCommand": "npx quartz plugin add @quartz-community/content-index"
+      "configureCommand": "npx quartz plugin add @quartz-community/content-index",
+      "deprecated": null,
+      "builtin": "contentIndex"
     },
     {
       "name": "content-meta",
       "displayName": "Content Meta",
-      "description": "Quartz's default content meta plugin.",
-      "version": "1.0.0",
+      "description": "ContentMeta component for Quartz - displays date and reading time",
+      "version": "1.0.2",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/content-meta",
       "keywords": [],
       "category": "component",
       "quartzVersion": ">=5.0.0",
@@ -1555,15 +1597,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:02:30Z",
       "installCommand": "npm install @quartz-community/content-meta",
-      "configureCommand": "npx quartz plugin add @quartz-community/content-meta"
+      "configureCommand": "npx quartz plugin add @quartz-community/content-meta",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "content-page",
       "displayName": "Content Page",
-      "description": "Quartz's default content page plugin.",
-      "version": "1.0.0",
+      "description": "Content page type plugin for Quartz.",
+      "version": "1.0.3",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
       "category": [
         "pageType",
@@ -1585,15 +1629,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:05:28Z",
       "installCommand": "npm install @quartz-community/content-page",
-      "configureCommand": "npx quartz plugin add @quartz-community/content-page"
+      "configureCommand": "npx quartz plugin add @quartz-community/content-page",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "crawl-links",
       "displayName": "Crawl Links",
-      "description": "Quartz's default crawl links plugin.",
-      "version": "1.0.0",
+      "description": "Crawl links transformer plugin for Quartz",
+      "version": "1.0.3",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/crawl-links",
       "keywords": [],
       "category": "transformer",
       "quartzVersion": ">=5.0.0",
@@ -1619,15 +1665,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:05:17Z",
       "installCommand": "npm install @quartz-community/crawl-links",
-      "configureCommand": "npx quartz plugin add @quartz-community/crawl-links"
+      "configureCommand": "npx quartz plugin add @quartz-community/crawl-links",
+      "deprecated": null,
+      "builtin": "links"
     },
     {
       "name": "created-modified-date",
       "displayName": "Created/Modified Date",
-      "description": "Quartz's default created modified date plugin.",
-      "version": "1.0.0",
+      "description": "Created and modified date transformer plugin for Quartz",
+      "version": "1.0.3",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/created-modified-date",
       "keywords": [],
       "category": "transformer",
       "quartzVersion": ">=5.0.0",
@@ -1651,17 +1699,19 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-11-09T03:01:23Z",
+      "lastUpdated": "2026-11-09T17:35:33Z",
       "installCommand": "npm install @quartz-community/created-modified-date",
-      "configureCommand": "npx quartz plugin add @quartz-community/created-modified-date"
+      "configureCommand": "npx quartz plugin add @quartz-community/created-modified-date",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "darkmode",
       "displayName": "Dark Mode",
-      "description": "Quartz's default darkmode plugin.",
-      "version": "1.0.0",
+      "description": "Darkmode toggle component for Quartz - light/dark theme switcher",
+      "version": "1.0.2",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/darkmode",
       "keywords": [],
       "category": "component",
       "quartzVersion": ">=5.0.0",
@@ -1686,15 +1736,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:05:12Z",
       "installCommand": "npm install @quartz-community/darkmode",
-      "configureCommand": "npx quartz plugin add @quartz-community/darkmode"
+      "configureCommand": "npx quartz plugin add @quartz-community/darkmode",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "description",
       "displayName": "Description",
-      "description": "Quartz's default description plugin.",
-      "version": "1.0.0",
+      "description": "Description transformer plugin for Quartz",
+      "version": "1.0.2",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/description",
       "keywords": [],
       "category": "transformer",
       "quartzVersion": ">=5.0.0",
@@ -1717,15 +1769,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T03:01:20Z",
       "installCommand": "npm install @quartz-community/description",
-      "configureCommand": "npx quartz plugin add @quartz-community/description"
+      "configureCommand": "npx quartz plugin add @quartz-community/description",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "encrypted-pages",
       "displayName": "Encrypted Pages",
-      "description": "Quartz's default encrypted pages plugin.",
-      "version": "1.0.0",
+      "description": "Password-protected encrypted pages for Quartz. Encrypts page content at build time with AES-256-GCM and decrypts client-side using the Web Crypto API.",
+      "version": "1.1.1",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
       "category": [
         "transformer",
@@ -1756,15 +1810,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:05:16Z",
       "installCommand": "npm install @quartz-community/encrypted-pages",
-      "configureCommand": "npx quartz plugin add @quartz-community/encrypted-pages"
+      "configureCommand": "npx quartz plugin add @quartz-community/encrypted-pages",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "explicit-publish",
       "displayName": "Explicit Publish",
-      "description": "Quartz's default explicit publish plugin.",
-      "version": "1.0.0",
+      "description": "Filter plugin that only publishes pages with explicit publish flag",
+      "version": "1.1.0",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/explicit-publish",
       "keywords": [],
       "category": "filter",
       "quartzVersion": ">=5.0.0",
@@ -1783,15 +1839,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T03:40:12Z",
       "installCommand": "npm install @quartz-community/explicit-publish",
-      "configureCommand": "npx quartz plugin add @quartz-community/explicit-publish"
+      "configureCommand": "npx quartz plugin add @quartz-community/explicit-publish",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "explorer",
       "displayName": "Explorer",
-      "description": "Quartz's default explorer plugin.",
-      "version": "1.0.0",
+      "description": "Explorer component for Quartz - navigate your content with an interactive file tree.",
+      "version": "1.0.3",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
       "category": "component",
       "quartzVersion": ">=5.0.0",
@@ -1820,15 +1878,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:05:38Z",
       "installCommand": "npm install @quartz-community/explorer",
-      "configureCommand": "npx quartz plugin add @quartz-community/explorer"
+      "configureCommand": "npx quartz plugin add @quartz-community/explorer",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "favicon",
       "displayName": "Favicon",
-      "description": "Quartz's default favicon plugin.",
-      "version": "1.0.0",
+      "description": "Favicon emitter plugin for Quartz.",
+      "version": "1.0.1",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
       "category": "emitter",
       "quartzVersion": ">=5.0.0",
@@ -1847,15 +1907,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T03:02:07Z",
       "installCommand": "npm install @quartz-community/favicon",
-      "configureCommand": "npx quartz plugin add @quartz-community/favicon"
+      "configureCommand": "npx quartz plugin add @quartz-community/favicon",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "folder-page",
       "displayName": "Folder Page",
-      "description": "Quartz's default folder page plugin.",
-      "version": "1.0.0",
+      "description": "Folder page type plugin for Quartz.",
+      "version": "1.0.3",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
       "category": [
         "pageType",
@@ -1880,15 +1942,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:05:31Z",
       "installCommand": "npm install @quartz-community/folder-page",
-      "configureCommand": "npx quartz plugin add @quartz-community/folder-page"
+      "configureCommand": "npx quartz plugin add @quartz-community/folder-page",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "fonts",
       "displayName": "Fonts",
-      "description": "Quartz's default fonts plugin.",
-      "version": "1.0.0",
+      "description": "Fine-grained font control for Quartz sites. Supports per-heading fonts, theme font discovery, and Obsidian-compatible defaults.",
+      "version": "1.0.2",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
       "category": [
         "transformer",
@@ -1913,15 +1977,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T03:02:10Z",
       "installCommand": "npm install @quartz-community/quartz-fonts",
-      "configureCommand": "npx quartz plugin add @quartz-community/quartz-fonts"
+      "configureCommand": "npx quartz plugin add @quartz-community/quartz-fonts",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "footer",
       "displayName": "Footer",
-      "description": "Quartz's default footer plugin.",
-      "version": "1.0.0",
+      "description": "Footer component for Quartz - displays site footer with links and version",
+      "version": "1.1.1",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/footer",
       "keywords": [],
       "category": "component",
       "quartzVersion": ">=5.0.0",
@@ -1951,15 +2017,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:08:20Z",
       "installCommand": "npm install @quartz-community/footer",
-      "configureCommand": "npx quartz plugin add @quartz-community/footer"
+      "configureCommand": "npx quartz plugin add @quartz-community/footer",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "github-flavored-markdown",
       "displayName": "GitHub Flavored Markdown",
-      "description": "Quartz's default github flavored markdown plugin.",
-      "version": "1.0.0",
+      "description": "GitHub Flavored Markdown transformer plugin for Quartz",
+      "version": "2.1.1",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/github-flavored-markdown",
       "keywords": [],
       "category": "transformer",
       "quartzVersion": ">=5.0.0",
@@ -1981,15 +2049,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:08:34Z",
       "installCommand": "npm install @quartz-community/github-flavored-markdown",
-      "configureCommand": "npx quartz plugin add @quartz-community/github-flavored-markdown"
+      "configureCommand": "npx quartz plugin add @quartz-community/github-flavored-markdown",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "graph",
       "displayName": "Graph",
-      "description": "Quartz's default graph plugin.",
-      "version": "1.0.0",
+      "description": "Interactive graph visualization component for Quartz - visualize your content as a network graph.",
+      "version": "1.0.3",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
       "category": "component",
       "quartzVersion": ">=5.0.0",
@@ -2045,15 +2115,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:08:19Z",
       "installCommand": "npm install @quartz-community/graph",
-      "configureCommand": "npx quartz plugin add @quartz-community/graph"
+      "configureCommand": "npx quartz plugin add @quartz-community/graph",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "hard-line-breaks",
       "displayName": "Hard Line Breaks",
-      "description": "Quartz's default hard line breaks plugin.",
-      "version": "1.0.0",
+      "description": "Hard line breaks transformer plugin for Quartz",
+      "version": "1.1.0",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/hard-line-breaks",
       "keywords": [],
       "category": "transformer",
       "quartzVersion": ">=5.0.0",
@@ -2072,15 +2144,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T03:01:30Z",
       "installCommand": "npm install @quartz-community/hard-line-breaks",
-      "configureCommand": "npx quartz plugin add @quartz-community/hard-line-breaks"
+      "configureCommand": "npx quartz plugin add @quartz-community/hard-line-breaks",
+      "deprecated": "Line breaks are handled by ObsidianFlavoredMarkdown 2.0+: a single line break renders as <br> by default (preset: legacy), as in Obsidian; set its strictLineBreaks option to true for spaces. Keep this plugin only if your site doesn't use ObsidianFlavoredMarkdown.",
+      "builtin": null
     },
     {
       "name": "latex",
       "displayName": "LaTeX",
-      "description": "Quartz's default latex plugin.",
-      "version": "1.0.0",
+      "description": "LaTeX/KaTeX/MathJax/Typst math rendering plugin for Quartz",
+      "version": "1.0.1",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/latex",
       "keywords": [],
       "category": "transformer",
       "quartzVersion": ">=5.0.0",
@@ -2101,15 +2175,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T03:01:12Z",
       "installCommand": "npm install @quartz-community/latex",
-      "configureCommand": "npx quartz plugin add @quartz-community/latex"
+      "configureCommand": "npx quartz plugin add @quartz-community/latex",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "note-properties",
       "displayName": "Note Properties",
-      "description": "Quartz's default note properties plugin.",
-      "version": "1.0.0",
+      "description": "Frontmatter processing and note properties display for Quartz",
+      "version": "1.1.4",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/note-properties",
       "keywords": [],
       "category": [
         "transformer",
@@ -2146,15 +2222,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:08:37Z",
       "installCommand": "npm install @quartz-community/note-properties",
-      "configureCommand": "npx quartz plugin add @quartz-community/note-properties"
+      "configureCommand": "npx quartz plugin add @quartz-community/note-properties",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "obsidian-flavored-markdown",
       "displayName": "Obsidian Flavored Markdown",
-      "description": "Quartz's default obsidian flavored markdown plugin.",
-      "version": "1.0.0",
+      "description": "Obsidian Flavored Markdown transformer plugin for Quartz",
+      "version": "2.1.3",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/obsidian-flavored-markdown",
       "keywords": [],
       "category": "transformer",
       "quartzVersion": ">=5.0.0",
@@ -2189,15 +2267,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T15:31:47Z",
       "installCommand": "npm install @quartz-community/obsidian-flavored-markdown",
-      "configureCommand": "npx quartz plugin add @quartz-community/obsidian-flavored-markdown"
+      "configureCommand": "npx quartz plugin add @quartz-community/obsidian-flavored-markdown",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "obsidian-plugin-excalidraw",
       "displayName": "Excalidraw",
-      "description": "Quartz integration for Obsidian Excalidraw plugin by zsviczian.",
-      "version": "1.0.0",
+      "description": "Excalidraw page type plugin for Quartz v5. Renders Obsidian Excalidraw drawings as interactive SVG pages.",
+      "version": "1.1.1",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
       "category": [
         "pageType",
@@ -2228,48 +2308,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:08:59Z",
       "installCommand": "npm install @quartz-community/obsidian-plugin-excalidraw",
-      "configureCommand": "npx quartz plugin add @quartz-community/obsidian-plugin-excalidraw"
-    },
-    {
-      "name": "plugin-template",
-      "displayName": "Plugin Template",
-      "description": "Quartz integration for Obsidian Leaflet plugin by Javalent.",
-      "version": "1.0.0",
-      "author": "quartz-community",
-      "homepage": null,
-      "keywords": [],
-      "category": "transformer",
-      "quartzVersion": ">=5.0.0",
-      "dependencies": [],
-      "defaultOrder": 50,
-      "defaultEnabled": true,
-      "defaultOptions": {},
-      "configSchema": null,
-      "components": {
-        "ExampleComponent": {
-          "displayName": "Example Component",
-          "defaultPosition": "right",
-          "defaultPriority": 50
-        }
-      },
-      "frames": null,
-      "requiresInstall": false,
-      "source": "@quartz-community/obsidian-plugin-leaflet",
-      "repo": "https://github.com/quartz-community/obsidian-plugin-leaflet",
-      "stars": 0,
-      "license": "MIT",
-      "official": true,
-      "lastUpdated": "2026-11-09T03:03:34Z",
-      "installCommand": "npm install @quartz-community/obsidian-plugin-leaflet",
-      "configureCommand": "npx quartz plugin add @quartz-community/obsidian-plugin-leaflet"
+      "configureCommand": "npx quartz plugin add @quartz-community/obsidian-plugin-excalidraw",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "ttrpg-tools-maps",
       "displayName": "TTRPG Tools: Maps",
-      "description": "Quartz integration for TTRPG Tools: Maps Obsidian plugin",
-      "version": "0.1.0",
+      "description": "Renders TTRPG Tools: Maps data (zoommap code blocks + .markers.json) as interactive read-only maps in Quartz v5.",
+      "version": "1.0.2",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
       "category": [
         "transformer",
@@ -2301,15 +2350,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T03:03:37Z",
       "installCommand": "npm install @quartz-community/obsidian-plugin-ttrpg-tools-maps",
-      "configureCommand": "npx quartz plugin add @quartz-community/obsidian-plugin-ttrpg-tools-maps"
+      "configureCommand": "npx quartz plugin add @quartz-community/obsidian-plugin-ttrpg-tools-maps",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "og-image",
       "displayName": "OG Image",
-      "description": "Quartz's default og image plugin.",
-      "version": "1.0.0",
+      "description": "OG image emitter plugin for Quartz. Generates social preview images using satori and sharp.",
+      "version": "1.1.1",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
       "category": "emitter",
       "quartzVersion": ">=5.0.0",
@@ -2336,15 +2387,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T03:02:01Z",
       "installCommand": "npm install @quartz-community/og-image",
-      "configureCommand": "npx quartz plugin add @quartz-community/og-image"
+      "configureCommand": "npx quartz plugin add @quartz-community/og-image",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "ox-hugo",
       "displayName": "Ox-Hugo",
-      "description": "Quartz's default ox hugo plugin.",
-      "version": "1.0.0",
+      "description": "Ox-Hugo flavoured markdown transformer plugin for Quartz",
+      "version": "1.0.1",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/ox-hugo",
       "keywords": [],
       "category": "transformer",
       "quartzVersion": ">=5.0.0",
@@ -2369,15 +2422,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T03:03:23Z",
       "installCommand": "npm install @quartz-community/ox-hugo",
-      "configureCommand": "npx quartz plugin add @quartz-community/ox-hugo"
+      "configureCommand": "npx quartz plugin add @quartz-community/ox-hugo",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "page-title",
       "displayName": "Page Title",
-      "description": "Quartz's default page title plugin.",
-      "version": "1.0.0",
+      "description": "PageTitle component for Quartz - displays the site title with link to root",
+      "version": "1.0.2",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/page-title",
       "keywords": [],
       "category": "component",
       "quartzVersion": ">=5.0.0",
@@ -2402,15 +2457,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:11:17Z",
       "installCommand": "npm install @quartz-community/page-title",
-      "configureCommand": "npx quartz plugin add @quartz-community/page-title"
+      "configureCommand": "npx quartz plugin add @quartz-community/page-title",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "reader-mode",
       "displayName": "Reader Mode",
-      "description": "Quartz's default reader mode plugin.",
-      "version": "1.0.0",
+      "description": "ReaderMode toggle component for Quartz - hides sidebars for focused reading",
+      "version": "1.0.2",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/reader-mode",
       "keywords": [],
       "category": "component",
       "quartzVersion": ">=5.0.0",
@@ -2435,15 +2492,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:11:14Z",
       "installCommand": "npm install @quartz-community/reader-mode",
-      "configureCommand": "npx quartz plugin add @quartz-community/reader-mode"
+      "configureCommand": "npx quartz plugin add @quartz-community/reader-mode",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "recent-notes",
       "displayName": "Recent Notes",
-      "description": "Quartz's default recent notes plugin.",
-      "version": "1.0.0",
+      "description": "Recent Notes component for Quartz - displays recently modified pages",
+      "version": "1.0.3",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/recent-notes",
       "keywords": [],
       "category": "component",
       "quartzVersion": ">=5.0.0",
@@ -2474,15 +2533,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:11:17Z",
       "installCommand": "npm install @quartz-community/recent-notes",
-      "configureCommand": "npx quartz plugin add @quartz-community/recent-notes"
+      "configureCommand": "npx quartz plugin add @quartz-community/recent-notes",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "remove-draft",
       "displayName": "Remove Drafts",
-      "description": "Quartz's default remove draft plugin.",
-      "version": "1.0.0",
+      "description": "Filter plugin that removes draft pages from Quartz builds",
+      "version": "1.0.1",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/remove-draft",
       "keywords": [],
       "category": "filter",
       "quartzVersion": ">=5.0.0",
@@ -2501,15 +2562,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T03:01:33Z",
       "installCommand": "npm install @quartz-community/remove-draft",
-      "configureCommand": "npx quartz plugin add @quartz-community/remove-draft"
+      "configureCommand": "npx quartz plugin add @quartz-community/remove-draft",
+      "deprecated": null,
+      "builtin": "drafts"
     },
     {
       "name": "roam",
       "displayName": "Roam",
-      "description": "Quartz's default roam plugin.",
-      "version": "1.0.0",
+      "description": "Roam Research flavored markdown transformer plugin for Quartz",
+      "version": "1.0.1",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/roam",
       "keywords": [],
       "category": "transformer",
       "quartzVersion": ">=5.0.0",
@@ -2538,15 +2601,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T03:03:26Z",
       "installCommand": "npm install @quartz-community/roam",
-      "configureCommand": "npx quartz plugin add @quartz-community/roam"
+      "configureCommand": "npx quartz plugin add @quartz-community/roam",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "search",
       "displayName": "Search",
-      "description": "Quartz's default search plugin.",
-      "version": "1.0.0",
+      "description": "Search component for Quartz - full-text search with FlexSearch.",
+      "version": "1.0.3",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/search",
       "keywords": [],
       "category": "component",
       "quartzVersion": ">=5.0.0",
@@ -2578,15 +2643,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:11:43Z",
       "installCommand": "npm install @quartz-community/search",
-      "configureCommand": "npx quartz plugin add @quartz-community/search"
+      "configureCommand": "npx quartz plugin add @quartz-community/search",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "spacer",
       "displayName": "Spacer",
-      "description": "Quartz's default spacer plugin.",
-      "version": "0.1.0",
+      "description": "A flexible spacer component for Quartz layouts.",
+      "version": "1.0.2",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
       "category": "component",
       "quartzVersion": ">=5.0.0",
@@ -2611,15 +2678,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:11:28Z",
       "installCommand": "npm install @quartz-community/spacer",
-      "configureCommand": "npx quartz plugin add @quartz-community/spacer"
+      "configureCommand": "npx quartz plugin add @quartz-community/spacer",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "stacked-pages",
       "displayName": "Stacked Pages",
-      "description": "Quartz's default stacked pages plugin.",
-      "version": "1.0.0",
+      "description": "Binder-style stacked page tabs for Quartz v5.",
+      "version": "1.0.3",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
       "category": "component",
       "quartzVersion": ">=5.0.0",
@@ -2649,15 +2718,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:11:50Z",
       "installCommand": "npm install @quartz-community/stacked-pages",
-      "configureCommand": "npx quartz plugin add @quartz-community/stacked-pages"
+      "configureCommand": "npx quartz plugin add @quartz-community/stacked-pages",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "syntax-highlighting",
       "displayName": "Syntax Highlighting",
-      "description": "Quartz's default syntax highlighting plugin.",
-      "version": "1.0.0",
+      "description": "Syntax highlighting transformer plugin for Quartz",
+      "version": "1.0.3",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/syntax-highlighting",
       "keywords": [],
       "category": "transformer",
       "quartzVersion": ">=5.0.0",
@@ -2684,15 +2755,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:14:18Z",
       "installCommand": "npm install @quartz-community/syntax-highlighting",
-      "configureCommand": "npx quartz plugin add @quartz-community/syntax-highlighting"
+      "configureCommand": "npx quartz plugin add @quartz-community/syntax-highlighting",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "table-of-contents",
       "displayName": "Table of Contents",
-      "description": "Quartz's default table of contents plugin.",
-      "version": "1.0.0",
+      "description": "Table of Contents component for Quartz",
+      "version": "1.0.3",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/table-of-contents",
       "keywords": [],
       "category": [
         "transformer",
@@ -2726,15 +2799,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:14:22Z",
       "installCommand": "npm install @quartz-community/table-of-contents",
-      "configureCommand": "npx quartz plugin add @quartz-community/table-of-contents"
+      "configureCommand": "npx quartz plugin add @quartz-community/table-of-contents",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "tag-list",
       "displayName": "Tag List",
-      "description": "Quartz's default tag list plugin.",
-      "version": "1.0.0",
+      "description": "TagList component for Quartz - displays page tags as linked badges",
+      "version": "1.0.3",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/tag-list",
       "keywords": [],
       "category": "component",
       "quartzVersion": ">=5.0.0",
@@ -2759,15 +2834,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:14:10Z",
       "installCommand": "npm install @quartz-community/tag-list",
-      "configureCommand": "npx quartz plugin add @quartz-community/tag-list"
+      "configureCommand": "npx quartz plugin add @quartz-community/tag-list",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "tag-page",
       "displayName": "Tag Page",
-      "description": "Quartz's default tag page plugin.",
-      "version": "1.0.0",
+      "description": "Tag page type plugin for Quartz.",
+      "version": "1.0.3",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
       "category": [
         "pageType",
@@ -2791,15 +2868,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T04:14:38Z",
       "installCommand": "npm install @quartz-community/tag-page",
-      "configureCommand": "npx quartz plugin add @quartz-community/tag-page"
+      "configureCommand": "npx quartz plugin add @quartz-community/tag-page",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "unlisted-pages",
       "displayName": "Unlisted Pages",
-      "description": "Quartz's default unlisted pages plugin.",
-      "version": "1.0.0",
+      "description": "Bridges `frontmatter.unlisted` to `file.data.unlisted` so any page can opt out of discovery surfaces (contentIndex, RSS, sitemap, graph, explorer, search, backlinks, recent-notes, folder-page, tag-page) while remaining accessible by direct URL.",
+      "version": "1.1.0",
       "author": "quartz-community",
-      "homepage": null,
+      "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
       "category": "transformer",
       "quartzVersion": ">=5.0.0",
@@ -2818,15 +2897,17 @@
       "official": true,
       "lastUpdated": "2026-11-09T03:39:56Z",
       "installCommand": "npm install @quartz-community/unlisted-pages",
-      "configureCommand": "npx quartz plugin add @quartz-community/unlisted-pages"
+      "configureCommand": "npx quartz plugin add @quartz-community/unlisted-pages",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "canvas-page",
       "displayName": "Canvas Page",
-      "description": "JSON Canvas (Obsidian .canvas) page type plugin for Quartz v5 — Hexo-compatible fork with _posts/ prefix stripping",
-      "version": "1.0.0",
+      "description": "JSON Canvas (Obsidian .canvas) page type plugin for Quartz v5 — Hexo-compatible fork with _posts/ prefix stripping and canvas badge.",
+      "version": "0.2.0",
       "author": "quartz-plugins",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-plugins/canvas-page",
       "keywords": [],
       "category": [
         "pageType",
@@ -2857,15 +2938,17 @@
       "official": false,
       "lastUpdated": "2026-08-05T03:35:31Z",
       "installCommand": "npm install github:quartz-plugins/canvas-page",
-      "configureCommand": "npx quartz plugin add github:quartz-plugins/canvas-page"
+      "configureCommand": "npx quartz plugin add github:quartz-plugins/canvas-page",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "@quartz-themes/core",
       "displayName": "Quartz Themes",
-      "description": "Quartz transformer plugin for Obsidian themes — per-aspect mix-and-match configuration",
-      "version": "1.0.0",
+      "description": "Quartz transformer plugin for Obsidian themes — per-aspect mix-and-match configuration.",
+      "version": "2.0.1",
       "author": "quartz-themes",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-themes/core",
       "keywords": [],
       "category": "transformer",
       "quartzVersion": ">=5.0.0",
@@ -2885,18 +2968,20 @@
       "repo": "https://github.com/quartz-themes/core",
       "stars": 1,
       "license": "MIT",
-      "official": false,
+      "official": true,
       "lastUpdated": "2026-11-09T02:20:51Z",
       "installCommand": "npm install @quartz-themes/core",
-      "configureCommand": "npx quartz plugin add @quartz-themes/core"
+      "configureCommand": "npx quartz plugin add @quartz-themes/core",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "dotpm",
       "displayName": "dotpm",
-      "description": "A dotpm or obsidian-project-manager plugin for quartz to display projects",
+      "description": "Quartz v5 plugin that renders dotpm (Obsidian project manager) projects with dotpm's own Table, Timeline and Board views.",
       "version": "0.1.0",
       "author": "rainbow-of-gravity",
-      "homepage": null,
+      "homepage": "https://github.com/rainbow-of-gravity/quartz-dotpm",
       "keywords": [],
       "category": [
         "transformer",
@@ -2930,15 +3015,17 @@
       "official": false,
       "lastUpdated": "2026-10-23T22:35:25Z",
       "installCommand": "npm install github:rainbow-of-gravity/quartz-dotpm",
-      "configureCommand": "npx quartz plugin add github:rainbow-of-gravity/quartz-dotpm"
+      "configureCommand": "npx quartz plugin add github:rainbow-of-gravity/quartz-dotpm",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "hero-banner",
       "displayName": "Hero Banner",
-      "description": "A way of adding a banner at the top of your notes.",
+      "description": "A Quartz v5 component plugin that turns Obsidian cover images into responsive hero banners.",
       "version": "0.1.0",
       "author": "riberoc",
-      "homepage": null,
+      "homepage": "https://github.com/riberoc/quartz-hero-banner",
       "keywords": [],
       "category": "component",
       "quartzVersion": ">=5.0.0",
@@ -2972,13 +3059,15 @@
       "official": false,
       "lastUpdated": "2026-08-29T14:55:32Z",
       "installCommand": "npm install github:riberoc/quartz-hero-banner",
-      "configureCommand": "npx quartz plugin add github:riberoc/quartz-hero-banner"
+      "configureCommand": "npx quartz plugin add github:riberoc/quartz-hero-banner",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "navbar",
       "displayName": "Navbar",
       "description": "A Quartz plugin to add navbar on top of the page",
-      "version": "0.0.1",
+      "version": "0.2.2",
       "author": "satche",
       "homepage": null,
       "keywords": [],
@@ -3008,12 +3097,14 @@
       "official": false,
       "lastUpdated": "2026-10-27T13:08:41Z",
       "installCommand": "npm install quartz-navbar",
-      "configureCommand": "npx quartz plugin add quartz-navbar"
+      "configureCommand": "npx quartz plugin add quartz-navbar",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "quartikz",
       "displayName": "Quartikz",
-      "description": "build-time TikZ renderer plugin for quartz 5",
+      "description": "build time tikz render plugin for quartz 5",
       "version": "0.1.2",
       "author": "SongHanseo",
       "homepage": null,
@@ -3048,15 +3139,17 @@
       "official": false,
       "lastUpdated": "2026-10-21T02:20:29Z",
       "installCommand": "npm install github:SongHanseo/quartikz",
-      "configureCommand": "npx quartz plugin add github:SongHanseo/quartikz"
+      "configureCommand": "npx quartz plugin add github:SongHanseo/quartikz",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "quartz-filters",
       "displayName": "Quartz Filters",
-      "description": "A Quartz plugin for filtering content with natural-language frontmatter queries.",
-      "version": "1.0.0",
+      "description": "Filter the Quartz Explorer by frontmatter with plain-words queries, and save filters as bookmarks.",
+      "version": "0.3.1",
       "author": "speedypleath",
-      "homepage": null,
+      "homepage": "https://speedypleath.github.io/",
       "keywords": [],
       "category": [
         "emitter",
@@ -3087,15 +3180,17 @@
       "official": false,
       "lastUpdated": "2026-11-07T18:33:21Z",
       "installCommand": "npm install @speedypleath/quartz-filters",
-      "configureCommand": "npx quartz plugin add @speedypleath/quartz-filters"
+      "configureCommand": "npx quartz plugin add @speedypleath/quartz-filters",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "accessibility-suite",
       "displayName": "Accessibility Suite",
-      "description": "accessibility features for quartz -- beeline reader, font switcher, reading ruler, and more",
-      "version": "1.0.0",
+      "description": "Optional accessibility components for Quartz sites.",
+      "version": "0.1.0",
       "author": "UndefeatedOrca",
-      "homepage": null,
+      "homepage": "https://github.com/quartz-community/quartz-accessibility-suite",
       "keywords": [],
       "category": [
         "component",
@@ -3141,12 +3236,14 @@
       "official": false,
       "lastUpdated": "2026-06-01T03:35:35Z",
       "installCommand": "npm install github:UndefeatedOrca/quartz-accessibility-suite",
-      "configureCommand": "npx quartz plugin add github:UndefeatedOrca/quartz-accessibility-suite"
+      "configureCommand": "npx quartz plugin add github:UndefeatedOrca/quartz-accessibility-suite",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "quartz-holiday-calendar",
       "displayName": "Holiday Calendar",
-      "description": "No description provided",
+      "description": "A sidebar component for Quartz that displays upcoming holidays linked to your notes.",
       "version": "1.0.0",
       "author": "UndefeatedOrca",
       "homepage": null,
@@ -3176,15 +3273,17 @@
       "official": false,
       "lastUpdated": "2026-06-01T20:10:57Z",
       "installCommand": "npm install github:UndefeatedOrca/quartz-holiday-calendar",
-      "configureCommand": "npx quartz plugin add github:UndefeatedOrca/quartz-holiday-calendar"
+      "configureCommand": "npx quartz plugin add github:UndefeatedOrca/quartz-holiday-calendar",
+      "deprecated": null,
+      "builtin": null
     },
     {
       "name": "random-note",
       "displayName": "Random Note",
-      "description": "A random note plugin for quartz",
-      "version": "1.0.0",
+      "description": "A Quartz v5 component plugin that opens a random Markdown note.",
+      "version": "0.1.0",
       "author": "UndefeatedOrca",
-      "homepage": null,
+      "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
       "category": "component",
       "quartzVersion": ">=5.0.0",
@@ -3213,7 +3312,9 @@
       "official": false,
       "lastUpdated": "2026-06-02T15:20:38Z",
       "installCommand": "npm install github:UndefeatedOrca/quartz-random-note",
-      "configureCommand": "npx quartz plugin add github:UndefeatedOrca/quartz-random-note"
+      "configureCommand": "npx quartz plugin add github:UndefeatedOrca/quartz-random-note",
+      "deprecated": null,
+      "builtin": null
     }
   ]
 }

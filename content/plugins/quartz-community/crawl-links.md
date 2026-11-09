@@ -3,11 +3,12 @@ title: "Crawl Links"
 description: "Processes and resolves internal and external links, tracks outgoing links, and optionally adds external link icons."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.0.3"
 category: "transformer"
 tags:
   - "status/official"
   - "plugin/transformer"
+  - "status/built-in"
 stars: 1
 official: true
 modified: "2026-11-09T04:05:17Z"
@@ -20,10 +21,8 @@ aliases:
   - "/plugins/crawl-links"
 ---
 
-> [!info] Install
-> ```bash
-> npx quartz plugin add github:quartz-community/crawl-links
-> ```
+> [!note] Built into Quartz
+> Since Quartz 5.1 this plugin is part of Quartz itself: configure it under `configuration.links` in `quartz.config.yaml` instead of installing it. An existing entry is applied automatically; `npx quartz plugin doctor --fix` moves it. See [built-in processing](https://quartz.jzhao.xyz/features/built-in-processing).
 
 # @quartz-community/crawl-links
 
@@ -36,7 +35,7 @@ Processes and resolves internal and external links, tracks outgoing links, and o
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.0.3 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

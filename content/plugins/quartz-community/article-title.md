@@ -3,7 +3,7 @@ title: "Article Title"
 description: "Renders the article title from frontmatter as an h1 heading."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.0"
+version: "1.0.2"
 category: "component"
 tags:
   - "status/official"
@@ -36,7 +36,7 @@ Renders the article title from frontmatter as an h1 heading.
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.0 |
+| **Version** | 1.0.2 |
 | **Category** | component |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
