@@ -127,14 +127,17 @@ views:
 
 To list your plugin in this marketplace:
 
-1. Ensure your plugin has a valid `quartz` field in its `package.json` (see the [plugin template](https://github.com/quartz-community/plugin-template))
-2. Add the `quartz-plugin` topic to your GitHub repository
-3. Your plugin will appear here within 6 hours
+1. Give your plugin a `quartz` field in its `package.json`, at least `name` and `category` (see the [plugin manifest reference](https://quartz.jzhao.xyz/advanced/plugin-manifest) and the [plugin template](https://github.com/quartz-community/plugin-template)). Declare `quartzVersion` when it needs a newer Quartz (e.g. `">=5.1.0"`), `capabilities` for what it provides and needs, and `deprecated` when it is no longer maintained. The version shown here is your package's `version`.
+2. Add the `quartz-plugin` topic to your GitHub repository.
+3. Your plugin will appear here within 6 hours.
 
 ## Installing Plugins
 
+Each plugin's page shows its install command: the npm package when it is published there, otherwise its GitHub repository.
+
 ```bash
-npx quartz plugin add github:<owner>/<repo>
+npx quartz plugin add @scope/plugin-name   # from npm
+npx quartz plugin add github:<owner>/<repo> # from GitHub
 ```
 
 See the [Quartz documentation](https://quartz.jzhao.xyz) for more details.
