@@ -11,7 +11,8 @@
     },
     "schemaVersion": {
       "type": "integer",
-      "const": 1
+      "const": 2,
+      "description": "2 adds capabilities, optionSchema, npmName and issues to each plugin (all optional to read; 1 entries are a subset)"
     },
     "generatedAt": {
       "type": "string",
@@ -40,9 +41,25 @@
         },
         "defaultPriority": {
           "type": "number"
+        },
+        "name": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "quartzVersion": {
+          "type": "string"
+        },
+        "author": {
+          "type": "string"
+        },
+        "homepage": {
+          "type": "string"
         }
       },
-      "additionalProperties": false
+      "additionalProperties": true,
+      "description": "A component's manifest entry. Other keys a plugin adds are kept (Quartz ignores them)."
     },
     "FrameEntry": {
       "type": "object",
@@ -81,7 +98,11 @@
         "official",
         "lastUpdated",
         "installCommand",
-        "configureCommand"
+        "configureCommand",
+        "optionSchema",
+        "capabilities",
+        "npmName",
+        "issues"
       ],
       "additionalProperties": false,
       "properties": {
@@ -144,6 +165,17 @@
           },
           "description": "Plugin sources this plugin depends on"
         },
+        "capabilities": {
+          "oneOf": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "What the plugin provides and needs (`quartz.capabilities`: `provides`, `requires`, `optional`), see https://quartz.jzhao.xyz/advanced/plugin-capabilities. Null if not specified"
+        },
         "defaultOrder": {
           "type": ["number", "null"],
           "description": "Default execution order (0-100, lower runs first). Null if not specified"
@@ -153,12 +185,37 @@
           "description": "Whether the plugin is enabled by default on install. Null if not specified"
         },
         "defaultOptions": {
-          "oneOf": [{ "type": "object" }, { "type": "null" }],
+          "oneOf": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ],
           "description": "Default configuration values applied when no user options are specified. Null if not specified"
         },
         "configSchema": {
-          "oneOf": [{ "type": "object" }, { "type": "null" }],
+          "oneOf": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ],
           "description": "JSON Schema describing the plugin's configuration options. Null if not specified"
+        },
+        "optionSchema": {
+          "oneOf": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "The plugin's flat option map (`quartz.optionSchema`: option name → `{ type, values?, description? }`), as Quartz Syncer and Quartz's option checks read it. Null if not specified"
         },
         "components": {
           "oneOf": [
@@ -168,7 +225,9 @@
                 "$ref": "#/$defs/ComponentManifest"
               }
             },
-            { "type": "null" }
+            {
+              "type": "null"
+            }
           ],
           "description": "UI components provided by this plugin, keyed by export name. Null if none"
         },
@@ -180,7 +239,9 @@
                 "$ref": "#/$defs/FrameEntry"
               }
             },
-            { "type": "null" }
+            {
+              "type": "null"
+            }
           ],
           "description": "Page frames provided by this plugin, keyed by export name. Null if none"
         },
@@ -200,10 +261,19 @@
           "type": "string",
           "description": "Plugin source identifier. npm package name if published, otherwise \"github:owner/repo\""
         },
+        "npmName": {
+          "type": ["string", "null"],
+          "description": "The npm package name, when the package is published on npm. Null otherwise"
+        },
         "repo": {
           "type": "string",
           "format": "uri",
           "description": "GitHub repository URL"
+        },
+        "issues": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "description": "Where to report problems: package.json `bugs` (URL), else the repository's issue tracker. Null for non-GitHub repositories"
         },
         "stars": {
           "type": "integer",
