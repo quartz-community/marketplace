@@ -1,5 +1,6 @@
 import { promises as fs } from "node:fs"
 import path from "node:path"
+import { checkSchema } from "./schema-check.js"
 
 type Blacklist = {
   repos: string[]
@@ -60,6 +61,8 @@ type QuartzMetadata = {
   frames?: Record<string, { exportName: string }>
   requiresInstall?: unknown
   deprecated?: unknown
+  optionSchema?: unknown
+  capabilities?: unknown
 }
 
 type PackageJson = {
@@ -68,6 +71,7 @@ type PackageJson = {
   version?: string
   author?: string
   homepage?: string
+  bugs?: string | { url?: string }
   quartz?: QuartzMetadata
 }
 
@@ -125,6 +129,10 @@ type PluginEntry = {
   configureCommand: string
   deprecated: string | null
   builtin: string | null
+  optionSchema: Record<string, unknown> | null
+  capabilities: Record<string, unknown> | null
+  npmName: string | null
+  issues: string | null
 }
 
 type PluginsJson = {
@@ -158,6 +166,7 @@ const BLACKLIST_PATH = path.join(ROOT, "blacklist.json")
 const PLUGINS_DIR = path.join(ROOT, "content", "plugins")
 const REPORT_PATH = path.join(ROOT, "scripts", "index-report.json")
 const PLUGINS_JSON_PATH = path.join(ROOT, "plugins.json")
+const SCHEMA_PATH = path.join(ROOT, "plugins.schema.json")
 
 const GITHUB_API = "https://api.github.com"
 const SEARCH_URL = `${GITHUB_API}/search/repositories?q=topic:quartz-plugin+is:public&sort=stars&per_page=100`
@@ -431,6 +440,20 @@ const deprecationOf = (quartz: QuartzMetadata): string | null =>
       ? "This plugin is deprecated."
       : null
 
+const PLUGIN_CATEGORIES = new Set(["transformer", "filter", "emitter", "pageType", "component"])
+
+const asObject = (value: unknown): Record<string, unknown> | null =>
+  value != null && typeof value === "object" && !Array.isArray(value)
+    ? (value as Record<string, unknown>)
+    : null
+
+/** package.json `bugs` (a URL or `{ url }`), else the GitHub repository's issue tracker. */
+const issuesUrl = (packageJson: PackageJson, repoKey: string): string | null => {
+  const bugs = typeof packageJson.bugs === "string" ? packageJson.bugs : packageJson.bugs?.url
+  if (isNonEmptyString(bugs) && /^https?:\/\//.test(bugs)) return bugs
+  return `https://github.com/${repoKey}/issues`
+}
+
 const pluginVersion = (packageJson: PackageJson, quartz: QuartzMetadata, fallback: string) =>
   normalizeString(packageJson.version, normalizeString(quartz.version, fallback))
 
@@ -678,7 +701,8 @@ const main = async (): Promise<void> => {
     .map((entry) => {
       const { quartz, packageJson, ghRepo, repoKey, npmName, onNpm } = entry
       const commands = buildInstallCommand(npmName, onNpm, repoKey)
-      const categories = parseCategories(quartz.category)
+      // only the categories Quartz knows (a CLI tool declaring "utility" is uncategorized)
+      const categories = parseCategories(quartz.category).filter((c) => PLUGIN_CATEGORIES.has(c))
       const description = normalizeString(
         quartz.description,
         normalizeString(
@@ -732,18 +756,38 @@ const main = async (): Promise<void> => {
         configureCommand: commands.configure,
         deprecated: deprecationOf(quartz),
         builtin: builtinKeyOf(ghRepo.owner.login, ghRepo.name),
+        optionSchema: asObject(quartz.optionSchema),
+        capabilities: asObject(quartz.capabilities),
+        npmName: onNpm && npmName ? npmName : null,
+        issues: issuesUrl(packageJson, repoKey),
       }
     })
 
   const pluginsJson: PluginsJson = {
     $schema: "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
-    schemaVersion: 1,
+    schemaVersion: 2,
     generatedAt: new Date().toISOString(),
     plugins: pluginEntries,
   }
 
+  // Check the output against plugins.schema.json: an entry that doesn't fit is left out (and
+  // reported) rather than published to Quartz Syncer
+  const schema = await readJsonFile<Parameters<typeof checkSchema>[1]>(SCHEMA_PATH)
+  const validEntries = pluginsJson.plugins.filter((entry) => {
+    const problems = checkSchema(entry, { $ref: "#/$defs/PluginEntry" }, schema, entry.name)
+    if (problems.length === 0) return true
+    errors.push({ repo: entry.repo, error: `left out of plugins.json: ${problems.join("; ")}` })
+    log("error", "Plugin entry does not match plugins.schema.json", { repo: entry.repo, problems })
+    return false
+  })
+  pluginsJson.plugins = validEntries
+  const topLevel = checkSchema(pluginsJson, schema)
+  if (topLevel.length > 0) {
+    throw new Error(`plugins.json does not match plugins.schema.json: ${topLevel.join("; ")}`)
+  }
+
   await fs.writeFile(PLUGINS_JSON_PATH, JSON.stringify(pluginsJson, null, 2) + "\n", "utf8")
-  log("info", "Generated plugins.json", { count: pluginEntries.length })
+  log("info", "Generated plugins.json", { count: pluginsJson.plugins.length })
 
   const report: IndexReport = {
     timestamp: new Date().toISOString(),
