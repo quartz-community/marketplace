@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
-  "schemaVersion": 1,
-  "generatedAt": "2026-11-09T23:03:21.077Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-10T00:34:03.508Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -120,7 +120,11 @@
       "installCommand": "npm install @alexchenh/quartz-cloudflare-media",
       "configureCommand": "npx quartz plugin add @alexchenh/quartz-cloudflare-media",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": "@alexchenh/quartz-cloudflare-media",
+      "issues": "https://github.com/alexchenh/quartz-cloudflare-media/issues"
     },
     {
       "name": "quartz-layout-box",
@@ -350,7 +354,11 @@
       "installCommand": "npm install github:boxi-os/quartz-layout-box",
       "configureCommand": "npx quartz plugin add github:boxi-os/quartz-layout-box",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": null,
+      "issues": "https://github.com/boxi-os/quartz-layout-box/issues"
     },
     {
       "name": "quartz-multilanguage",
@@ -899,7 +907,11 @@
       "installCommand": "npm install github:boxi-os/quartz-multilanguage",
       "configureCommand": "npx quartz plugin add github:boxi-os/quartz-multilanguage",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": null,
+      "issues": "https://github.com/boxi-os/quartz-multilanguage/issues"
     },
     {
       "name": "remark42",
@@ -938,7 +950,58 @@
       "installCommand": "npm install github:cidus/remark42.quartz",
       "configureCommand": "npx quartz plugin add github:cidus/remark42.quartz",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "host": {
+          "type": "string"
+        },
+        "site_id": {
+          "type": "string"
+        },
+        "idField": {
+          "type": "string"
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "max_shown_comments": {
+          "type": "number"
+        },
+        "max_last_comments": {
+          "type": "number"
+        },
+        "theme": {
+          "type": "enum",
+          "values": [
+            "light",
+            "dark"
+          ]
+        },
+        "page_title": {
+          "type": "string"
+        },
+        "locale": {
+          "type": "string"
+        },
+        "show_email_subscription": {
+          "type": "boolean"
+        },
+        "show_rss_subscription": {
+          "type": "boolean"
+        },
+        "simple_view": {
+          "type": "boolean"
+        },
+        "no_footer": {
+          "type": "boolean"
+        }
+      },
+      "capabilities": null,
+      "npmName": null,
+      "issues": "https://github.com/cidus/remark42.quartz/issues"
     },
     {
       "name": "graph-landing",
@@ -1000,7 +1063,11 @@
       "installCommand": "npm install github:GoBeromsu/quartz-graph-landing",
       "configureCommand": "npx quartz plugin add github:GoBeromsu/quartz-graph-landing",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": null,
+      "issues": "https://github.com/GoBeromsu/Quartaz/issues"
     },
     {
       "name": "tabsdown",
@@ -1029,7 +1096,11 @@
       "installCommand": "npm install github:grafanaKibana/quartz-tabsdown",
       "configureCommand": "npx quartz plugin add github:grafanaKibana/quartz-tabsdown",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": null,
+      "issues": "https://github.com/grafanaKibana/quartz-tabsdown/issues"
     },
     {
       "name": "quartz-auto-link-card-enhanced",
@@ -1058,7 +1129,11 @@
       "installCommand": "npm install github:hyodoarch/quartz-auto-link-card-enhanced",
       "configureCommand": "npx quartz plugin add github:hyodoarch/quartz-auto-link-card-enhanced",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": null,
+      "issues": "https://github.com/hyodoarch/quartz-auto-link-card-enhanced/issues"
     },
     {
       "name": "image-captions",
@@ -1092,7 +1167,11 @@
       "installCommand": "npm install github:hyodoarch/quartz-image-captions",
       "configureCommand": "npx quartz plugin add github:hyodoarch/quartz-image-captions",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": null,
+      "issues": "https://github.com/hyodoarch/quartz-image-captions/issues"
     },
     {
       "name": "image-grid-captions",
@@ -1121,7 +1200,11 @@
       "installCommand": "npm install github:hyodoarch/quartz-image-grid-captions",
       "configureCommand": "npx quartz plugin add github:hyodoarch/quartz-image-grid-captions",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": null,
+      "issues": "https://github.com/hyodoarch/quartz-image-grid-captions/issues"
     },
     {
       "name": "chat-bubbles",
@@ -1158,7 +1241,40 @@
       "installCommand": "npm install github:jerlendds/quartz-chat-bubbles",
       "configureCommand": "npx quartz plugin add github:jerlendds/quartz-chat-bubbles",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "maxHeight": {
+          "type": "number"
+        },
+        "defaultCollapsed": {
+          "type": "boolean"
+        },
+        "defaultSide": {
+          "type": "enum",
+          "values": [
+            "left",
+            "right"
+          ]
+        },
+        "threadClass": {
+          "type": "string"
+        },
+        "expandLabel": {
+          "type": "string"
+        },
+        "collapseLabel": {
+          "type": "string"
+        },
+        "enableTranscriptSyntax": {
+          "type": "boolean"
+        },
+        "enableDirectiveSyntax": {
+          "type": "boolean"
+        }
+      },
+      "capabilities": null,
+      "npmName": null,
+      "issues": "https://github.com/jerlendds/quartz-chat-bubbles/issues"
     },
     {
       "name": "md-graphs",
@@ -1205,7 +1321,69 @@
       "installCommand": "npm install github:jerlendds/quartz-md-graphs",
       "configureCommand": "npx quartz plugin add github:jerlendds/quartz-md-graphs",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "palette": {
+          "type": "enum",
+          "values": [
+            "solid",
+            "duo",
+            "trio",
+            "greenday",
+            "orange",
+            "smelly",
+            "bluebee",
+            "indigosea",
+            "purple",
+            "pink",
+            "fire",
+            "deepsea",
+            "pinkteam",
+            "burning",
+            "blueteam",
+            "theme",
+            "mint",
+            "green",
+            "cyan",
+            "blue",
+            "sunset",
+            "ocean",
+            "neon",
+            "aurora",
+            "prism",
+            "mono",
+            "multi"
+          ]
+        },
+        "accentColor": {
+          "type": "string"
+        },
+        "accentColor2": {
+          "type": "string"
+        },
+        "accentColor3": {
+          "type": "string"
+        },
+        "inkColor": {
+          "type": "string"
+        },
+        "mutedColor": {
+          "type": "string"
+        },
+        "frame": {
+          "type": "enum",
+          "values": [
+            "ascii",
+            "none"
+          ]
+        },
+        "strict": {
+          "type": "boolean"
+        }
+      },
+      "capabilities": null,
+      "npmName": null,
+      "issues": "https://github.com/jerlendds/quartz-md-graphs/issues"
     },
     {
       "name": "alias-redirects",
@@ -1236,7 +1414,11 @@
       "installCommand": "npm install @quartz-community/alias-redirects",
       "configureCommand": "npx quartz plugin add @quartz-community/alias-redirects",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": "@quartz-community/alias-redirects",
+      "issues": "https://github.com/quartz-community/alias-redirects/issues"
     },
     {
       "name": "article-title",
@@ -1271,7 +1453,11 @@
       "installCommand": "npm install @quartz-community/article-title",
       "configureCommand": "npx quartz plugin add @quartz-community/article-title",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": "@quartz-community/article-title",
+      "issues": "https://github.com/quartz-community/article-title/issues"
     },
     {
       "name": "backlinks",
@@ -1308,13 +1494,40 @@
       "installCommand": "npm install @quartz-community/backlinks",
       "configureCommand": "npx quartz plugin add @quartz-community/backlinks",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "hideWhenEmpty": {
+          "type": "boolean"
+        }
+      },
+      "capabilities": {
+        "requires": {
+          "data": [
+            {
+              "name": "links",
+              "from": "crawl-links",
+              "reason": "the backlinks list is always empty"
+            }
+          ]
+        },
+        "optional": {
+          "data": [
+            {
+              "name": "frontmatter",
+              "from": "note-properties",
+              "reason": "backlink titles fall back to file names"
+            }
+          ]
+        }
+      },
+      "npmName": "@quartz-community/backlinks",
+      "issues": "https://github.com/quartz-community/backlinks/issues"
     },
     {
       "name": "bases-page",
       "displayName": "Bases Page",
       "description": "Obsidian Bases page type plugin for Quartz v5. Renders database-like filtered views of notes from .base files.",
-      "version": "1.2.1",
+      "version": "1.3.0",
       "author": "quartz-community",
       "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
@@ -1323,7 +1536,7 @@
         "pageType",
         "component"
       ],
-      "quartzVersion": ">=5.0.0",
+      "quartzVersion": ">=5.1.0",
       "dependencies": [],
       "defaultOrder": 50,
       "defaultEnabled": true,
@@ -1339,11 +1552,27 @@
       "stars": 6,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-11-09T22:54:51Z",
+      "lastUpdated": "2026-11-09T23:14:22Z",
       "installCommand": "npm install @quartz-community/bases-page",
       "configureCommand": "npx quartz plugin add @quartz-community/bases-page",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "defaultViewType": {
+          "type": "string"
+        },
+        "linkResolution": {
+          "type": "enum",
+          "values": [
+            "absolute",
+            "relative",
+            "shortest"
+          ]
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/bases-page",
+      "issues": "https://github.com/quartz-community/bases-page/issues"
     },
     {
       "name": "breadcrumbs",
@@ -1383,7 +1612,24 @@
       "installCommand": "npm install @quartz-community/breadcrumbs",
       "configureCommand": "npx quartz plugin add @quartz-community/breadcrumbs",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "spacerSymbol": {
+          "type": "string"
+        },
+        "rootName": {
+          "type": "string"
+        },
+        "resolveFrontmatterTitle": {
+          "type": "boolean"
+        },
+        "showCurrentPage": {
+          "type": "boolean"
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/breadcrumbs",
+      "issues": "https://github.com/quartz-community/breadcrumbs/issues"
     },
     {
       "name": "canvas-page",
@@ -1424,7 +1670,24 @@
       "installCommand": "npm install @quartz-community/canvas-page",
       "configureCommand": "npx quartz plugin add @quartz-community/canvas-page",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "enableInteraction": {
+          "type": "boolean"
+        },
+        "initialZoom": {
+          "type": "number"
+        },
+        "minZoom": {
+          "type": "number"
+        },
+        "maxZoom": {
+          "type": "number"
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/canvas-page",
+      "issues": "https://github.com/quartz-community/canvas-page/issues"
     },
     {
       "name": "citations",
@@ -1458,7 +1721,24 @@
       "installCommand": "npm install @quartz-community/citations",
       "configureCommand": "npx quartz plugin add @quartz-community/citations",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "bibliographyFile": {
+          "type": "string"
+        },
+        "suppressBibliography": {
+          "type": "boolean"
+        },
+        "linkCitations": {
+          "type": "boolean"
+        },
+        "csl": {
+          "type": "string"
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/citations",
+      "issues": "https://github.com/quartz-community/citations/issues"
     },
     {
       "name": "cname",
@@ -1487,7 +1767,11 @@
       "installCommand": "npm install @quartz-community/cname",
       "configureCommand": "npx quartz plugin add @quartz-community/cname",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": "@quartz-community/cname",
+      "issues": "https://github.com/quartz-community/cname/issues"
     },
     {
       "name": "comments",
@@ -1525,7 +1809,71 @@
       "installCommand": "npm install @quartz-community/comments",
       "configureCommand": "npx quartz plugin add @quartz-community/comments",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "provider": {
+          "type": "enum",
+          "values": [
+            "giscus"
+          ]
+        },
+        "options": {
+          "type": "object",
+          "properties": {
+            "repo": {
+              "type": "string"
+            },
+            "repoId": {
+              "type": "string"
+            },
+            "category": {
+              "type": "string"
+            },
+            "categoryId": {
+              "type": "string"
+            },
+            "mapping": {
+              "type": "enum",
+              "values": [
+                "url",
+                "title",
+                "og:title",
+                "specific",
+                "number",
+                "pathname"
+              ]
+            },
+            "strict": {
+              "type": "boolean"
+            },
+            "reactionsEnabled": {
+              "type": "boolean"
+            },
+            "inputPosition": {
+              "type": "enum",
+              "values": [
+                "top",
+                "bottom"
+              ]
+            },
+            "lightTheme": {
+              "type": "string"
+            },
+            "darkTheme": {
+              "type": "string"
+            },
+            "themeUrl": {
+              "type": "string"
+            },
+            "lang": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/comments",
+      "issues": "https://github.com/quartz-community/comments/issues"
     },
     {
       "name": "content-index",
@@ -1561,7 +1909,55 @@
       "installCommand": "npm install @quartz-community/content-index",
       "configureCommand": "npx quartz plugin add @quartz-community/content-index",
       "deprecated": null,
-      "builtin": "contentIndex"
+      "builtin": "contentIndex",
+      "optionSchema": {
+        "enableSiteMap": {
+          "type": "boolean"
+        },
+        "enableRSS": {
+          "type": "boolean"
+        },
+        "rssLimit": {
+          "type": "number"
+        },
+        "rssFullHtml": {
+          "type": "boolean"
+        },
+        "rssSlug": {
+          "type": "string"
+        },
+        "includeEmptyFiles": {
+          "type": "boolean"
+        }
+      },
+      "capabilities": {
+        "provides": {
+          "files": [
+            "static/contentIndex.json"
+          ]
+        },
+        "optional": {
+          "data": [
+            {
+              "name": "links",
+              "from": "crawl-links",
+              "reason": "graph view has no edges"
+            },
+            {
+              "name": "text",
+              "from": "description",
+              "reason": "search has no page content to index"
+            },
+            {
+              "name": "frontmatter",
+              "from": "note-properties",
+              "reason": "titles and tags are missing from the index"
+            }
+          ]
+        }
+      },
+      "npmName": "@quartz-community/content-index",
+      "issues": "https://github.com/quartz-community/content-index/issues"
     },
     {
       "name": "content-meta",
@@ -1599,7 +1995,18 @@
       "installCommand": "npm install @quartz-community/content-meta",
       "configureCommand": "npx quartz plugin add @quartz-community/content-meta",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "showReadingTime": {
+          "type": "boolean"
+        },
+        "showComma": {
+          "type": "boolean"
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/content-meta",
+      "issues": "https://github.com/quartz-community/content-meta/issues"
     },
     {
       "name": "content-page",
@@ -1631,7 +2038,11 @@
       "installCommand": "npm install @quartz-community/content-page",
       "configureCommand": "npx quartz plugin add @quartz-community/content-page",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": "@quartz-community/content-page",
+      "issues": "https://github.com/quartz-community/content-page/issues"
     },
     {
       "name": "crawl-links",
@@ -1667,7 +2078,60 @@
       "installCommand": "npm install @quartz-community/crawl-links",
       "configureCommand": "npx quartz plugin add @quartz-community/crawl-links",
       "deprecated": null,
-      "builtin": "links"
+      "builtin": "links",
+      "optionSchema": {
+        "markdownLinkResolution": {
+          "type": "enum",
+          "values": [
+            "shortest",
+            "absolute",
+            "relative"
+          ]
+        },
+        "prettyLinks": {
+          "type": "boolean"
+        },
+        "openLinksInNewTab": {
+          "type": "boolean"
+        },
+        "lazyLoad": {
+          "type": "boolean"
+        },
+        "externalLinkIcon": {
+          "type": "boolean"
+        },
+        "disableBrokenWikilinks": {
+          "type": "boolean"
+        }
+      },
+      "capabilities": {
+        "provides": {
+          "data": [
+            "links"
+          ],
+          "dom": [
+            ".internal",
+            ".external",
+            ".broken"
+          ]
+        },
+        "requires": {
+          "data": [
+            "slug"
+          ]
+        },
+        "optional": {
+          "data": [
+            {
+              "name": "frontmatterLinks",
+              "from": "note-properties",
+              "reason": "links in frontmatter properties are not counted"
+            }
+          ]
+        }
+      },
+      "npmName": "@quartz-community/crawl-links",
+      "issues": "https://github.com/quartz-community/crawl-links/issues"
     },
     {
       "name": "created-modified-date",
@@ -1703,7 +2167,31 @@
       "installCommand": "npm install @quartz-community/created-modified-date",
       "configureCommand": "npx quartz plugin add @quartz-community/created-modified-date",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "priority": {
+          "type": "array",
+          "items": {
+            "type": "enum",
+            "values": [
+              "frontmatter",
+              "git",
+              "filesystem"
+            ]
+          }
+        },
+        "defaultDateType": {
+          "type": "enum",
+          "values": [
+            "created",
+            "modified",
+            "published"
+          ]
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/created-modified-date",
+      "issues": "https://github.com/quartz-community/created-modified-date/issues"
     },
     {
       "name": "darkmode",
@@ -1738,7 +2226,11 @@
       "installCommand": "npm install @quartz-community/darkmode",
       "configureCommand": "npx quartz plugin add @quartz-community/darkmode",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": "@quartz-community/darkmode",
+      "issues": "https://github.com/quartz-community/darkmode/issues"
     },
     {
       "name": "description",
@@ -1771,7 +2263,37 @@
       "installCommand": "npm install @quartz-community/description",
       "configureCommand": "npx quartz plugin add @quartz-community/description",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "descriptionLength": {
+          "type": "number"
+        },
+        "maxDescriptionLength": {
+          "type": "number"
+        },
+        "replaceExternalLinks": {
+          "type": "boolean"
+        }
+      },
+      "capabilities": {
+        "provides": {
+          "data": [
+            "description",
+            "text"
+          ]
+        },
+        "optional": {
+          "data": [
+            {
+              "name": "frontmatter",
+              "from": "note-properties",
+              "reason": "frontmatter description/socialDescription is ignored"
+            }
+          ]
+        }
+      },
+      "npmName": "@quartz-community/description",
+      "issues": "https://github.com/quartz-community/description/issues"
     },
     {
       "name": "encrypted-pages",
@@ -1812,7 +2334,24 @@
       "installCommand": "npm install @quartz-community/encrypted-pages",
       "configureCommand": "npx quartz plugin add @quartz-community/encrypted-pages",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "iterations": {
+          "type": "number"
+        },
+        "passwordField": {
+          "type": "string"
+        },
+        "unlistWhenEncrypted": {
+          "type": "boolean"
+        },
+        "outputPath": {
+          "type": "string"
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/encrypted-pages",
+      "issues": "https://github.com/quartz-community/encrypted-pages/issues"
     },
     {
       "name": "explicit-publish",
@@ -1841,7 +2380,11 @@
       "installCommand": "npm install @quartz-community/explicit-publish",
       "configureCommand": "npx quartz plugin add @quartz-community/explicit-publish",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": "@quartz-community/explicit-publish",
+      "issues": "https://github.com/quartz-community/explicit-publish/issues"
     },
     {
       "name": "explorer",
@@ -1880,7 +2423,32 @@
       "installCommand": "npm install @quartz-community/explorer",
       "configureCommand": "npx quartz plugin add @quartz-community/explorer",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "title": {
+          "type": "string"
+        },
+        "folderDefaultState": {
+          "type": "enum",
+          "values": [
+            "collapsed",
+            "open"
+          ]
+        },
+        "folderClickBehavior": {
+          "type": "enum",
+          "values": [
+            "collapse",
+            "link"
+          ]
+        },
+        "useSavedState": {
+          "type": "boolean"
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/explorer",
+      "issues": "https://github.com/quartz-community/explorer/issues"
     },
     {
       "name": "favicon",
@@ -1909,13 +2477,17 @@
       "installCommand": "npm install @quartz-community/favicon",
       "configureCommand": "npx quartz plugin add @quartz-community/favicon",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": "@quartz-community/favicon",
+      "issues": "https://github.com/quartz-community/favicon/issues"
     },
     {
       "name": "folder-page",
       "displayName": "Folder Page",
       "description": "Folder page type plugin for Quartz.",
-      "version": "1.0.4",
+      "version": "1.1.0",
       "author": "quartz-community",
       "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
@@ -1923,7 +2495,7 @@
         "pageType",
         "component"
       ],
-      "quartzVersion": ">=5.0.0",
+      "quartzVersion": ">=5.1.0",
       "dependencies": [],
       "defaultOrder": 50,
       "defaultEnabled": true,
@@ -1941,11 +2513,25 @@
       "stars": 0,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-11-09T22:54:48Z",
+      "lastUpdated": "2026-11-09T23:10:40Z",
       "installCommand": "npm install @quartz-community/folder-page",
       "configureCommand": "npx quartz plugin add @quartz-community/folder-page",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "showFolderCount": {
+          "type": "boolean"
+        },
+        "showSubfolders": {
+          "type": "boolean"
+        },
+        "prefixFolders": {
+          "type": "boolean"
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/folder-page",
+      "issues": "https://github.com/quartz-community/folder-page/issues"
     },
     {
       "name": "fonts",
@@ -1980,7 +2566,320 @@
       "installCommand": "npm install @quartz-community/quartz-fonts",
       "configureCommand": "npx quartz plugin add @quartz-community/quartz-fonts",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "title": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "weights": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                },
+                "includeItalic": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name"
+              ]
+            }
+          ]
+        },
+        "body": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "weights": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                },
+                "includeItalic": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name"
+              ]
+            }
+          ]
+        },
+        "header": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "weights": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                },
+                "includeItalic": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name"
+              ]
+            }
+          ]
+        },
+        "code": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "weights": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                },
+                "includeItalic": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name"
+              ]
+            }
+          ]
+        },
+        "interface": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "weights": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                },
+                "includeItalic": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name"
+              ]
+            }
+          ]
+        },
+        "h1": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "weights": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                },
+                "includeItalic": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name"
+              ]
+            }
+          ]
+        },
+        "h2": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "weights": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                },
+                "includeItalic": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name"
+              ]
+            }
+          ]
+        },
+        "h3": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "weights": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                },
+                "includeItalic": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name"
+              ]
+            }
+          ]
+        },
+        "h4": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "weights": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                },
+                "includeItalic": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name"
+              ]
+            }
+          ]
+        },
+        "h5": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "weights": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                },
+                "includeItalic": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name"
+              ]
+            }
+          ]
+        },
+        "h6": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "weights": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                },
+                "includeItalic": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name"
+              ]
+            }
+          ]
+        },
+        "useThemeFonts": {
+          "type": "boolean"
+        },
+        "fontOrigin": {
+          "type": "string",
+          "enum": [
+            "googleFonts",
+            "local",
+            "selfHosted"
+          ]
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/quartz-fonts",
+      "issues": "https://github.com/quartz-community/fonts/issues"
     },
     {
       "name": "footer",
@@ -2020,7 +2919,18 @@
       "installCommand": "npm install @quartz-community/footer",
       "configureCommand": "npx quartz plugin add @quartz-community/footer",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "links": {
+          "type": "object"
+        },
+        "message": {
+          "type": "string"
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/footer",
+      "issues": "https://github.com/quartz-community/footer/issues"
     },
     {
       "name": "github-flavored-markdown",
@@ -2052,7 +2962,18 @@
       "installCommand": "npm install @quartz-community/github-flavored-markdown",
       "configureCommand": "npx quartz plugin add @quartz-community/github-flavored-markdown",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "enableSmartyPants": {
+          "type": "boolean"
+        },
+        "linkHeadings": {
+          "type": "boolean"
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/github-flavored-markdown",
+      "issues": "https://github.com/quartz-community/github-flavored-markdown/issues"
     },
     {
       "name": "graph",
@@ -2118,7 +3039,18 @@
       "installCommand": "npm install @quartz-community/graph",
       "configureCommand": "npx quartz plugin add @quartz-community/graph",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "localGraph": {
+          "type": "object"
+        },
+        "globalGraph": {
+          "type": "object"
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/graph",
+      "issues": "https://github.com/quartz-community/graph/issues"
     },
     {
       "name": "hard-line-breaks",
@@ -2147,7 +3079,11 @@
       "installCommand": "npm install @quartz-community/hard-line-breaks",
       "configureCommand": "npx quartz plugin add @quartz-community/hard-line-breaks",
       "deprecated": "Line breaks are handled by ObsidianFlavoredMarkdown 2.0+: a single line break renders as <br> by default (preset: legacy), as in Obsidian; set its strictLineBreaks option to true for spaces. Keep this plugin only if your site doesn't use ObsidianFlavoredMarkdown.",
-      "builtin": null
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": "@quartz-community/hard-line-breaks",
+      "issues": "https://github.com/quartz-community/hard-line-breaks/issues"
     },
     {
       "name": "latex",
@@ -2178,7 +3114,32 @@
       "installCommand": "npm install @quartz-community/latex",
       "configureCommand": "npx quartz plugin add @quartz-community/latex",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "renderEngine": {
+          "type": "enum",
+          "values": [
+            "katex",
+            "mathjax",
+            "typst"
+          ]
+        },
+        "katexOptions": {
+          "type": "object"
+        },
+        "mathJaxOptions": {
+          "type": "object"
+        },
+        "typstOptions": {
+          "type": "object"
+        },
+        "customMacros": {
+          "type": "object"
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/latex",
+      "issues": "https://github.com/quartz-community/latex/issues"
     },
     {
       "name": "note-properties",
@@ -2225,18 +3186,66 @@
       "installCommand": "npm install @quartz-community/note-properties",
       "configureCommand": "npx quartz plugin add @quartz-community/note-properties",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "includeAll": {
+          "type": "boolean",
+          "description": "Include all frontmatter properties in the display"
+        },
+        "includedProperties": {
+          "type": "array",
+          "description": "Properties to include when includeAll is false"
+        },
+        "excludedProperties": {
+          "type": "array",
+          "description": "Properties to exclude from display"
+        },
+        "hidePropertiesView": {
+          "type": "boolean",
+          "description": "Hide the visual properties panel while still processing frontmatter"
+        },
+        "delimiters": {
+          "type": "string",
+          "description": "Frontmatter delimiters (only used by Quartz versions without built-in frontmatter; otherwise set configuration.frontmatter)"
+        },
+        "language": {
+          "type": "enum",
+          "values": [
+            "yaml",
+            "toml"
+          ],
+          "description": "Frontmatter language (only used by Quartz versions without built-in frontmatter; otherwise set configuration.frontmatter)"
+        }
+      },
+      "capabilities": {
+        "provides": {
+          "data": [
+            "noteProperties"
+          ]
+        },
+        "requires": {
+          "data": [
+            {
+              "name": "frontmatter",
+              "reason": "the properties view has nothing to show"
+            },
+            "slug"
+          ]
+        }
+      },
+      "npmName": "@quartz-community/note-properties",
+      "issues": "https://github.com/quartz-community/note-properties/issues"
     },
     {
       "name": "obsidian-flavored-markdown",
       "displayName": "Obsidian Flavored Markdown",
       "description": "Obsidian Flavored Markdown transformer plugin for Quartz",
-      "version": "2.1.3",
+      "version": "2.2.0",
       "author": "quartz-community",
       "homepage": "https://github.com/quartz-community/obsidian-flavored-markdown",
       "keywords": [],
       "category": "transformer",
-      "quartzVersion": ">=5.0.0",
+      "quartzVersion": ">=5.1.0",
       "dependencies": [],
       "defaultOrder": 40,
       "defaultEnabled": true,
@@ -2266,11 +3275,115 @@
       "stars": 9,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-11-09T22:54:44Z",
+      "lastUpdated": "2026-11-09T23:07:18Z",
       "installCommand": "npm install @quartz-community/obsidian-flavored-markdown",
       "configureCommand": "npx quartz plugin add @quartz-community/obsidian-flavored-markdown",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "preset": {
+          "type": "string",
+          "enum": [
+            "legacy",
+            "strict"
+          ]
+        },
+        "strictLineBreaks": {
+          "type": "boolean"
+        },
+        "comments": {
+          "type": "boolean"
+        },
+        "highlight": {
+          "type": "boolean"
+        },
+        "wikilinks": {
+          "type": "boolean"
+        },
+        "callouts": {
+          "type": "boolean"
+        },
+        "mermaid": {
+          "type": "boolean"
+        },
+        "parseTags": {
+          "type": "boolean"
+        },
+        "parseBlockReferences": {
+          "type": "boolean"
+        },
+        "enableInHtmlEmbed": {
+          "type": "boolean"
+        },
+        "enableYouTubeEmbed": {
+          "type": "boolean"
+        },
+        "enableTweetEmbed": {
+          "type": "boolean"
+        },
+        "enableVideoEmbed": {
+          "type": "boolean"
+        },
+        "enableCheckbox": {
+          "type": "boolean"
+        },
+        "enableObsidianUri": {
+          "type": "boolean"
+        },
+        "diagramRenderer": {
+          "type": "string",
+          "enum": [
+            "mermaid",
+            "pele"
+          ]
+        }
+      },
+      "capabilities": {
+        "provides": {
+          "data": [
+            "hasMermaidDiagram",
+            "blocks",
+            "htmlAst"
+          ],
+          "dom": [
+            ".callout",
+            ".transclude",
+            ".mermaid",
+            ".expand-button",
+            "#mermaid-container"
+          ]
+        },
+        "requires": {
+          "data": [
+            "slug"
+          ],
+          "dom": [
+            {
+              "name": ".internal",
+              "from": "crawl-links",
+              "reason": "wikilinks and embeds stay page-relative, so links and embedded files (images, SVG, PDF) break"
+            }
+          ]
+        },
+        "optional": {
+          "data": [
+            {
+              "name": "frontmatter",
+              "from": "note-properties",
+              "reason": "inline #tags are not merged into the page tags"
+            }
+          ],
+          "dom": [
+            {
+              "name": ".clipboard-button",
+              "from": "syntax-highlighting",
+              "reason": "mermaid expand button is not offset"
+            }
+          ]
+        }
+      },
+      "npmName": "@quartz-community/obsidian-flavored-markdown",
+      "issues": "https://github.com/quartz-community/obsidian-flavored-markdown/issues"
     },
     {
       "name": "obsidian-plugin-excalidraw",
@@ -2311,7 +3424,26 @@
       "installCommand": "npm install @quartz-community/obsidian-plugin-excalidraw",
       "configureCommand": "npx quartz plugin add @quartz-community/obsidian-plugin-excalidraw",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "enableInteraction": {
+          "type": "boolean"
+        },
+        "darkMode": {
+          "type": "enum",
+          "values": [
+            "auto",
+            "light",
+            "dark"
+          ]
+        },
+        "exportPadding": {
+          "type": "number"
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/obsidian-plugin-excalidraw",
+      "issues": "https://github.com/quartz-community/obsidian-plugin-excalidraw/issues"
     },
     {
       "name": "ttrpg-tools-maps",
@@ -2353,7 +3485,28 @@
       "installCommand": "npm install @quartz-community/obsidian-plugin-ttrpg-tools-maps",
       "configureCommand": "npx quartz plugin add @quartz-community/obsidian-plugin-ttrpg-tools-maps",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "blockLanguage": {
+          "type": "string",
+          "default": "zoommap"
+        },
+        "inlineBlockHeaderId": {
+          "type": "string",
+          "default": "ZOOMMAP-DATA"
+        },
+        "maxInlineDataBytes": {
+          "type": "number",
+          "default": 0
+        },
+        "defaultIconKey": {
+          "type": "string",
+          "default": "pin-red"
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/obsidian-plugin-ttrpg-tools-maps",
+      "issues": "https://github.com/quartz-community/obsidian-plugin-ttrpg-tools-maps/issues"
     },
     {
       "name": "og-image",
@@ -2390,7 +3543,37 @@
       "installCommand": "npm install @quartz-community/og-image",
       "configureCommand": "npx quartz plugin add @quartz-community/og-image",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "colorScheme": {
+          "type": "enum",
+          "values": [
+            "lightMode",
+            "darkMode"
+          ]
+        },
+        "width": {
+          "type": "number"
+        },
+        "height": {
+          "type": "number"
+        },
+        "excludeRoot": {
+          "type": "boolean"
+        },
+        "defaultTitle": {
+          "type": "string"
+        },
+        "defaultDescription": {
+          "type": "string"
+        },
+        "useGeneratedDescription": {
+          "type": "boolean"
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/og-image",
+      "issues": "https://github.com/quartz-community/og-image/issues"
     },
     {
       "name": "ox-hugo",
@@ -2425,7 +3608,27 @@
       "installCommand": "npm install @quartz-community/ox-hugo",
       "configureCommand": "npx quartz plugin add @quartz-community/ox-hugo",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "wikilinks": {
+          "type": "boolean"
+        },
+        "removePredefinedAnchor": {
+          "type": "boolean"
+        },
+        "removeHugoShortcode": {
+          "type": "boolean"
+        },
+        "replaceFigureWithMdImg": {
+          "type": "boolean"
+        },
+        "replaceOrgLatex": {
+          "type": "boolean"
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/ox-hugo",
+      "issues": "https://github.com/quartz-community/ox-hugo/issues"
     },
     {
       "name": "page-title",
@@ -2460,7 +3663,11 @@
       "installCommand": "npm install @quartz-community/page-title",
       "configureCommand": "npx quartz plugin add @quartz-community/page-title",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": "@quartz-community/page-title",
+      "issues": "https://github.com/quartz-community/page-title/issues"
     },
     {
       "name": "reader-mode",
@@ -2495,7 +3702,11 @@
       "installCommand": "npm install @quartz-community/reader-mode",
       "configureCommand": "npx quartz plugin add @quartz-community/reader-mode",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": "@quartz-community/reader-mode",
+      "issues": "https://github.com/quartz-community/reader-mode/issues"
     },
     {
       "name": "recent-notes",
@@ -2536,7 +3747,30 @@
       "installCommand": "npm install @quartz-community/recent-notes",
       "configureCommand": "npx quartz plugin add @quartz-community/recent-notes",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "title": {
+          "type": "string"
+        },
+        "limit": {
+          "type": "number"
+        },
+        "linkToMore": {
+          "type": "string"
+        },
+        "showTags": {
+          "type": "boolean"
+        },
+        "hideTagPages": {
+          "type": "boolean"
+        },
+        "hideFolderPages": {
+          "type": "boolean"
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/recent-notes",
+      "issues": "https://github.com/quartz-community/recent-notes/issues"
     },
     {
       "name": "remove-draft",
@@ -2565,7 +3799,21 @@
       "installCommand": "npm install @quartz-community/remove-draft",
       "configureCommand": "npx quartz plugin add @quartz-community/remove-draft",
       "deprecated": null,
-      "builtin": "drafts"
+      "builtin": "drafts",
+      "optionSchema": null,
+      "capabilities": {
+        "requires": {
+          "data": [
+            {
+              "name": "frontmatter",
+              "from": "note-properties",
+              "reason": "frontmatter is not parsed, so pages marked `draft: true` ARE PUBLISHED"
+            }
+          ]
+        }
+      },
+      "npmName": "@quartz-community/remove-draft",
+      "issues": "https://github.com/quartz-community/remove-draft/issues"
     },
     {
       "name": "roam",
@@ -2604,7 +3852,39 @@
       "installCommand": "npm install @quartz-community/roam",
       "configureCommand": "npx quartz plugin add @quartz-community/roam",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "orComponent": {
+          "type": "boolean"
+        },
+        "TODOComponent": {
+          "type": "boolean"
+        },
+        "DONEComponent": {
+          "type": "boolean"
+        },
+        "videoComponent": {
+          "type": "boolean"
+        },
+        "audioComponent": {
+          "type": "boolean"
+        },
+        "pdfComponent": {
+          "type": "boolean"
+        },
+        "blockquoteComponent": {
+          "type": "boolean"
+        },
+        "tableComponent": {
+          "type": "boolean"
+        },
+        "attributeComponent": {
+          "type": "boolean"
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/roam",
+      "issues": "https://github.com/quartz-community/roam/issues"
     },
     {
       "name": "search",
@@ -2646,7 +3926,28 @@
       "installCommand": "npm install @quartz-community/search",
       "configureCommand": "npx quartz plugin add @quartz-community/search",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "enablePreview": {
+          "type": "boolean"
+        },
+        "fieldPriority": {
+          "type": "array"
+        }
+      },
+      "capabilities": {
+        "requires": {
+          "files": [
+            {
+              "name": "static/contentIndex.json",
+              "from": "content-index",
+              "reason": "search has nothing to search"
+            }
+          ]
+        }
+      },
+      "npmName": "@quartz-community/search",
+      "issues": "https://github.com/quartz-community/search/issues"
     },
     {
       "name": "spacer",
@@ -2681,7 +3982,11 @@
       "installCommand": "npm install @quartz-community/spacer",
       "configureCommand": "npx quartz plugin add @quartz-community/spacer",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": "@quartz-community/spacer",
+      "issues": "https://github.com/quartz-community/spacer/issues"
     },
     {
       "name": "stacked-pages",
@@ -2721,7 +4026,24 @@
       "installCommand": "npm install @quartz-community/stacked-pages",
       "configureCommand": "npx quartz plugin add @quartz-community/stacked-pages",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "maxTabs": {
+          "type": "number"
+        },
+        "mobileBreakpoint": {
+          "type": "number"
+        },
+        "showSpines": {
+          "type": "boolean"
+        },
+        "animateTransitions": {
+          "type": "boolean"
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/stacked-pages",
+      "issues": "https://github.com/quartz-community/stacked-pages/issues"
     },
     {
       "name": "syntax-highlighting",
@@ -2758,7 +4080,30 @@
       "installCommand": "npm install @quartz-community/syntax-highlighting",
       "configureCommand": "npx quartz plugin add @quartz-community/syntax-highlighting",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "theme": {
+          "type": "object"
+        },
+        "keepBackground": {
+          "type": "boolean"
+        },
+        "clipboard": {
+          "type": "boolean"
+        },
+        "tokenClassification": {
+          "type": "boolean"
+        }
+      },
+      "capabilities": {
+        "provides": {
+          "dom": [
+            ".clipboard-button"
+          ]
+        }
+      },
+      "npmName": "@quartz-community/syntax-highlighting",
+      "issues": "https://github.com/quartz-community/syntax-highlighting/issues"
     },
     {
       "name": "table-of-contents",
@@ -2802,7 +4147,31 @@
       "installCommand": "npm install @quartz-community/table-of-contents",
       "configureCommand": "npx quartz plugin add @quartz-community/table-of-contents",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "maxDepth": {
+          "type": "number"
+        },
+        "minEntries": {
+          "type": "number"
+        },
+        "showByDefault": {
+          "type": "boolean"
+        },
+        "collapseByDefault": {
+          "type": "boolean"
+        },
+        "layout": {
+          "type": "enum",
+          "values": [
+            "modern",
+            "legacy"
+          ]
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/table-of-contents",
+      "issues": "https://github.com/quartz-community/table-of-contents/issues"
     },
     {
       "name": "tag-list",
@@ -2837,7 +4206,11 @@
       "installCommand": "npm install @quartz-community/tag-list",
       "configureCommand": "npx quartz plugin add @quartz-community/tag-list",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": "@quartz-community/tag-list",
+      "issues": "https://github.com/quartz-community/tag-list/issues"
     },
     {
       "name": "tag-page",
@@ -2872,13 +4245,24 @@
       "installCommand": "npm install @quartz-community/tag-page",
       "configureCommand": "npx quartz plugin add @quartz-community/tag-page",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "numPages": {
+          "type": "number"
+        },
+        "prefixTags": {
+          "type": "boolean"
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-community/tag-page",
+      "issues": "https://github.com/quartz-community/tag-page/issues"
     },
     {
       "name": "unlisted-pages",
       "displayName": "Unlisted Pages",
       "description": "Bridges `frontmatter.unlisted` to `file.data.unlisted` so any page can opt out of discovery surfaces (contentIndex, RSS, sitemap, graph, explorer, search, backlinks, recent-notes, folder-page, tag-page) while remaining accessible by direct URL.",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": "quartz-community",
       "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
@@ -2897,11 +4281,15 @@
       "stars": 2,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-11-09T23:02:24Z",
+      "lastUpdated": "2026-11-09T23:03:57Z",
       "installCommand": "npm install @quartz-community/unlisted-pages",
       "configureCommand": "npx quartz plugin add @quartz-community/unlisted-pages",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {},
+      "capabilities": null,
+      "npmName": "@quartz-community/unlisted-pages",
+      "issues": "https://github.com/quartz-community/unlisted-pages/issues"
     },
     {
       "name": "canvas-page",
@@ -2942,7 +4330,24 @@
       "installCommand": "npm install github:quartz-plugins/canvas-page",
       "configureCommand": "npx quartz plugin add github:quartz-plugins/canvas-page",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "enableInteraction": {
+          "type": "boolean"
+        },
+        "initialZoom": {
+          "type": "number"
+        },
+        "minZoom": {
+          "type": "number"
+        },
+        "maxZoom": {
+          "type": "number"
+        }
+      },
+      "capabilities": null,
+      "npmName": null,
+      "issues": "https://github.com/quartz-plugins/canvas-page/issues"
     },
     {
       "name": "@quartz-themes/core",
@@ -2975,7 +4380,44 @@
       "installCommand": "npm install @quartz-themes/core",
       "configureCommand": "npx quartz plugin add @quartz-themes/core",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "theme": {
+          "type": "string"
+        },
+        "mode": {
+          "type": "enum",
+          "values": [
+            "dark",
+            "light",
+            "both"
+          ]
+        },
+        "variation": {
+          "type": "string"
+        },
+        "styleSettings": {
+          "type": "object"
+        },
+        "themeFonts": {
+          "type": "boolean"
+        },
+        "calloutStyle": {
+          "type": "string"
+        },
+        "fonts": {
+          "type": "object"
+        },
+        "aspects": {
+          "type": "object"
+        },
+        "include": {
+          "type": "array"
+        }
+      },
+      "capabilities": null,
+      "npmName": "@quartz-themes/core",
+      "issues": "https://github.com/quartz-themes/core/issues"
     },
     {
       "name": "dotpm",
@@ -3019,7 +4461,33 @@
       "installCommand": "npm install github:rainbow-of-gravity/quartz-dotpm",
       "configureCommand": "npx quartz plugin add github:rainbow-of-gravity/quartz-dotpm",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "configDir": {
+          "type": "string",
+          "description": "Vault config folder holding plugins/project-manager/data.json (dotpm's settings)"
+        },
+        "defaultView": {
+          "type": "enum",
+          "values": [
+            "table",
+            "gantt",
+            "kanban"
+          ],
+          "description": "View a project page opens on; defaults to the project's or dotpm's own default"
+        },
+        "hideGeneratedContent": {
+          "type": "boolean",
+          "description": "Hide the task list dotpm writes into project notes, since the views replace it"
+        },
+        "showTaskHeader": {
+          "type": "boolean",
+          "description": "Show status, priority, dates and assignees above task notes"
+        }
+      },
+      "capabilities": null,
+      "npmName": null,
+      "issues": "https://github.com/rainbow-of-gravity/quartz-dotpm/issues"
     },
     {
       "name": "hero-banner",
@@ -3063,7 +4531,28 @@
       "installCommand": "npm install github:riberoc/quartz-hero-banner",
       "configureCommand": "npx quartz plugin add github:riberoc/quartz-hero-banner",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "coverProperties": {
+          "type": "array",
+          "description": "Frontmatter keys checked for a cover image."
+        },
+        "showDate": {
+          "type": "boolean",
+          "description": "Show the modified or created date."
+        },
+        "dateLocale": {
+          "type": "string",
+          "description": "Locale used to format the date."
+        },
+        "minHeight": {
+          "type": "string",
+          "description": "Minimum banner height in CSS units."
+        }
+      },
+      "capabilities": null,
+      "npmName": null,
+      "issues": "https://github.com/riberoc/quartz-hero-banner/issues"
     },
     {
       "name": "navbar",
@@ -3101,7 +4590,20 @@
       "installCommand": "npm install quartz-navbar",
       "configureCommand": "npx quartz plugin add quartz-navbar",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "highlightToken": {
+          "type": "enum",
+          "values": [
+            "==",
+            "**",
+            "~~"
+          ]
+        }
+      },
+      "capabilities": null,
+      "npmName": "quartz-navbar",
+      "issues": "https://github.com/satche/quartz-navbar/issues"
     },
     {
       "name": "quartikz",
@@ -3143,7 +4645,55 @@
       "installCommand": "npm install github:SongHanseo/quartikz",
       "configureCommand": "npx quartz plugin add github:SongHanseo/quartikz",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "className": {
+          "type": "string",
+          "description": "Custom CSS class name to add to the rendered SVG node."
+        },
+        "removeBlankLines": {
+          "type": "boolean",
+          "description": "Whether to remove blank lines in the TikZ code to prevent rendering errors."
+        },
+        "onError": {
+          "type": "enum",
+          "values": [
+            "skip",
+            "throw"
+          ],
+          "description": "Error handling behavior on rendering failure (skip: ignore and keep the original code block, throw: throw an error and halt the build)."
+        },
+        "showConsole": {
+          "type": "boolean"
+        },
+        "texPackages": {
+          "type": "object"
+        },
+        "tikzLibraries": {
+          "type": "string"
+        },
+        "tikzOptions": {
+          "type": "string"
+        },
+        "addToPreamble": {
+          "type": "string"
+        },
+        "embedFontCss": {
+          "type": "boolean"
+        },
+        "fontCssUrl": {
+          "type": "string"
+        },
+        "disableOptimize": {
+          "type": "boolean"
+        },
+        "disableSanitize": {
+          "type": "boolean"
+        }
+      },
+      "capabilities": null,
+      "npmName": null,
+      "issues": "https://github.com/SongHanseo/quartikz/issues"
     },
     {
       "name": "quartz-filters",
@@ -3184,7 +4734,18 @@
       "installCommand": "npm install @speedypleath/quartz-filters",
       "configureCommand": "npx quartz plugin add @speedypleath/quartz-filters",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "placeholder": {
+          "type": "string"
+        },
+        "caseSensitive": {
+          "type": "boolean"
+        }
+      },
+      "capabilities": null,
+      "npmName": "@speedypleath/quartz-filters",
+      "issues": "https://github.com/speedypleath/quartz-filters/issues"
     },
     {
       "name": "accessibility-suite",
@@ -3240,7 +4801,24 @@
       "installCommand": "npm install github:UndefeatedOrca/quartz-accessibility-suite",
       "configureCommand": "npx quartz plugin add github:UndefeatedOrca/quartz-accessibility-suite",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "outputDirectory": {
+          "type": "string"
+        },
+        "defaultFont": {
+          "type": "enum",
+          "values": [
+            "default",
+            "comic-sans",
+            "atkinson-hyperlegible",
+            "opendyslexic"
+          ]
+        }
+      },
+      "capabilities": null,
+      "npmName": null,
+      "issues": "https://github.com/UndefeatedOrca/quartz-accessibility-suite/issues"
     },
     {
       "name": "quartz-holiday-calendar",
@@ -3277,7 +4855,11 @@
       "installCommand": "npm install github:UndefeatedOrca/quartz-holiday-calendar",
       "configureCommand": "npx quartz plugin add github:UndefeatedOrca/quartz-holiday-calendar",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": null,
+      "issues": "https://github.com/UndefeatedOrca/quartz-holiday-calendar/issues"
     },
     {
       "name": "random-note",
@@ -3316,7 +4898,21 @@
       "installCommand": "npm install github:UndefeatedOrca/quartz-random-note",
       "configureCommand": "npx quartz plugin add github:UndefeatedOrca/quartz-random-note",
       "deprecated": null,
-      "builtin": null
+      "builtin": null,
+      "optionSchema": {
+        "className": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "includeCurrentPage": {
+          "type": "boolean"
+        }
+      },
+      "capabilities": null,
+      "npmName": null,
+      "issues": "https://github.com/UndefeatedOrca/quartz-random-note/issues"
     }
   ]
 }
