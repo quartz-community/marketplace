@@ -9,7 +9,7 @@ tags:
   - "status/community"
   - "plugin/emitter"
   - "plugin/component"
-stars: 0
+stars: 1
 official: false
 modified: "2026-11-07T18:33:21Z"
 repo: "https://github.com/speedypleath/quartz-filters"
@@ -41,6 +41,6 @@ Filter the Explorer by frontmatter, in plain words, and save the filters you use
 | **Category** | emitter |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
-| **Stars** | ⭐ 0 |
+| **Stars** | ⭐ 1 |
 | **Last Updated** | 2026-11-07 |
 | **Source** | [GitHub](https://github.com/speedypleath/quartz-filters) |
