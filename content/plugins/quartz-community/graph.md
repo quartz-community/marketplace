@@ -8,7 +8,7 @@ category: "component"
 tags:
   - "status/official"
   - "plugin/component"
-stars: 7
+stars: 8
 official: true
 modified: "2026-11-09T22:03:17Z"
 repo: "https://github.com/quartz-community/graph"
@@ -40,6 +40,6 @@ The Graph View component for Quartz - visualize your digital garden as an intera
 | **Category** | component |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
-| **Stars** | ⭐ 7 |
+| **Stars** | ⭐ 8 |
 | **Last Updated** | 2026-11-09 |
 | **Source** | [GitHub](https://github.com/quartz-community/graph) |
