@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 2,
-  "generatedAt": "2026-11-13T23:24:24.428Z",
+  "generatedAt": "2026-11-14T05:42:24.331Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -4604,6 +4604,43 @@
       "capabilities": null,
       "npmName": "quartz-navbar",
       "issues": "https://github.com/satche/quartz-navbar/issues"
+    },
+    {
+      "name": "spoiler-text",
+      "displayName": "Spoiler Text",
+      "description": "Accessible Discord-style click-to-reveal spoiler text for Quartz 5.",
+      "version": "0.1.0",
+      "author": "SheathedBlade",
+      "homepage": null,
+      "keywords": [],
+      "category": "transformer",
+      "quartzVersion": ">=5.1.0 <6.0.0",
+      "dependencies": [],
+      "defaultOrder": 50,
+      "defaultEnabled": true,
+      "defaultOptions": {},
+      "configSchema": {
+        "type": "object",
+        "properties": {},
+        "additionalProperties": false
+      },
+      "components": null,
+      "frames": null,
+      "requiresInstall": false,
+      "source": "github:SheathedBlade/spoiler-text",
+      "repo": "https://github.com/SheathedBlade/spoiler-text",
+      "stars": 0,
+      "license": "MIT",
+      "official": false,
+      "lastUpdated": "2026-11-13T23:51:27Z",
+      "installCommand": "npm install github:SheathedBlade/spoiler-text",
+      "configureCommand": "npx quartz plugin add github:SheathedBlade/spoiler-text",
+      "deprecated": null,
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": null,
+      "issues": "https://github.com/SheathedBlade/spoiler-text/issues"
     },
     {
       "name": "quartikz",
