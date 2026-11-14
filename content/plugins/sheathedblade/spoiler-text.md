@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 0
 official: false
-modified: "2026-11-13T23:51:27Z"
+modified: "2026-11-14T06:11:14Z"
 repo: "https://github.com/SheathedBlade/spoiler-text"
 source: "github:SheathedBlade/spoiler-text"
 installCommand: "npx quartz plugin add github:SheathedBlade/spoiler-text"
@@ -41,5 +41,5 @@ Adds Discord-style spoiler text to Quartz. Wrap text in double pipes to hide it 
 | **License** | MIT |
 | **Quartz Version** | >=5.1.0 <6.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-11-13 |
+| **Last Updated** | 2026-11-14 |
 | **Source** | [GitHub](https://github.com/SheathedBlade/spoiler-text) |

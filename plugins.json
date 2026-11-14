@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 2,
-  "generatedAt": "2026-11-14T05:42:24.331Z",
+  "generatedAt": "2026-11-14T13:14:48.776Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -350,7 +350,7 @@
       "stars": 2,
       "license": "MIT",
       "official": false,
-      "lastUpdated": "2026-10-26T19:40:13Z",
+      "lastUpdated": "2026-11-14T11:36:11Z",
       "installCommand": "npm install github:boxi-os/quartz-layout-box",
       "configureCommand": "npx quartz plugin add github:boxi-os/quartz-layout-box",
       "deprecated": null,
@@ -903,7 +903,7 @@
       "stars": 0,
       "license": "MIT",
       "official": false,
-      "lastUpdated": "2026-11-04T21:14:57Z",
+      "lastUpdated": "2026-11-14T11:36:13Z",
       "installCommand": "npm install github:boxi-os/quartz-multilanguage",
       "configureCommand": "npx quartz plugin add github:boxi-os/quartz-multilanguage",
       "deprecated": null,
@@ -4632,7 +4632,7 @@
       "stars": 0,
       "license": "MIT",
       "official": false,
-      "lastUpdated": "2026-11-13T23:51:27Z",
+      "lastUpdated": "2026-11-14T06:11:14Z",
       "installCommand": "npm install github:SheathedBlade/spoiler-text",
       "configureCommand": "npx quartz plugin add github:SheathedBlade/spoiler-text",
       "deprecated": null,
