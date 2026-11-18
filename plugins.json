@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 2,
-  "generatedAt": "2026-11-18T00:46:44.699Z",
+  "generatedAt": "2026-11-18T15:24:33.609Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -912,6 +912,42 @@
       "capabilities": null,
       "npmName": null,
       "issues": "https://github.com/boxi-os/quartz-multilanguage/issues"
+    },
+    {
+      "name": "callout-studio",
+      "displayName": "Callout Studio",
+      "description": "Draws the heading and inline callouts of the Callout Studio Obsidian plugin while your Quartz site is built.",
+      "version": "1.1.0",
+      "author": "Callout-Studio",
+      "homepage": "https://github.com/Callout-Studio/quartz#readme",
+      "keywords": [],
+      "category": [
+        "transformer",
+        "filter"
+      ],
+      "quartzVersion": "unspecified",
+      "dependencies": [],
+      "defaultOrder": 65,
+      "defaultEnabled": null,
+      "defaultOptions": null,
+      "configSchema": null,
+      "components": null,
+      "frames": null,
+      "requiresInstall": false,
+      "source": "github:Callout-Studio/quartz",
+      "repo": "https://github.com/Callout-Studio/quartz",
+      "stars": 0,
+      "license": "0BSD",
+      "official": false,
+      "lastUpdated": "2026-11-17T14:39:22Z",
+      "installCommand": "npm install github:Callout-Studio/quartz",
+      "configureCommand": "npx quartz plugin add github:Callout-Studio/quartz",
+      "deprecated": null,
+      "builtin": null,
+      "optionSchema": null,
+      "capabilities": null,
+      "npmName": null,
+      "issues": "https://github.com/Niv20/obsidian-plugin-callout-studio/issues"
     },
     {
       "name": "remark42",
