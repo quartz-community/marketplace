@@ -1,7 +1,7 @@
 {
   "$schema": "https://quartz-community.github.io/marketplace/static/plugins.schema.json",
   "schemaVersion": 2,
-  "generatedAt": "2026-11-20T15:07:40.558Z",
+  "generatedAt": "2026-11-20T23:50:07.968Z",
   "plugins": [
     {
       "name": "cloudflare-media",
@@ -1598,7 +1598,7 @@
       "name": "bases-page",
       "displayName": "Bases Page",
       "description": "Obsidian Bases page type plugin for Quartz v5. Renders database-like filtered views of notes from .base files.",
-      "version": "1.3.1",
+      "version": "1.5.0",
       "author": "quartz-community",
       "homepage": "https://quartz.jzhao.xyz",
       "keywords": [],
@@ -1612,7 +1612,8 @@
       "defaultOrder": 50,
       "defaultEnabled": true,
       "defaultOptions": {
-        "linkResolution": "shortest"
+        "linkResolution": "shortest",
+        "propertyLabels": "name"
       },
       "configSchema": null,
       "components": null,
@@ -1623,7 +1624,7 @@
       "stars": 6,
       "license": "MIT",
       "official": true,
-      "lastUpdated": "2026-11-20T12:13:35Z",
+      "lastUpdated": "2026-11-20T22:50:57Z",
       "installCommand": "npm install @quartz-community/bases-page",
       "configureCommand": "npx quartz plugin add @quartz-community/bases-page",
       "deprecated": null,
@@ -1638,6 +1639,13 @@
             "absolute",
             "relative",
             "shortest"
+          ]
+        },
+        "propertyLabels": {
+          "type": "enum",
+          "values": [
+            "name",
+            "title"
           ]
         }
       },

@@ -3,7 +3,7 @@ title: "Bases Page"
 description: "A page type and component plugin for Quartz v5 that renders Obsidian Bases (.base files) as database-like filtered views: tables, lists, cards, galleries and boards. Bases can also be embedded in notes (!Tasks.base, one view with !Tasks.base#Open tasks) or written inline as  `base  code blocks."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.3.1"
+version: "1.5.0"
 category: "transformer"
 tags:
   - "status/official"
@@ -12,7 +12,7 @@ tags:
   - "plugin/component"
 stars: 6
 official: true
-modified: "2026-11-20T12:13:35Z"
+modified: "2026-11-20T22:50:57Z"
 repo: "https://github.com/quartz-community/bases-page"
 source: "github:quartz-community/bases-page"
 installCommand: "npx quartz plugin add github:quartz-community/bases-page"
@@ -38,7 +38,7 @@ A page type and component plugin for Quartz v5 that renders Obsidian Bases (.bas
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.3.1 |
+| **Version** | 1.5.0 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.1.0 |
