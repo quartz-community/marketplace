@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 1
 official: true
-modified: "2026-11-10T19:54:06Z"
+modified: "2026-11-19T23:09:49Z"
 repo: "https://github.com/quartz-community/explorer"
 source: "github:quartz-community/explorer"
 installCommand: "npx quartz plugin add github:quartz-community/explorer"
@@ -41,5 +41,5 @@ The Explorer component for Quartz - navigate your digital garden with an interac
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-11-10 |
+| **Last Updated** | 2026-11-19 |
 | **Source** | [GitHub](https://github.com/quartz-community/explorer) |

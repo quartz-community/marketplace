@@ -8,7 +8,7 @@ category: "component"
 tags:
   - "status/official"
   - "plugin/component"
-stars: 0
+stars: 1
 official: true
 modified: "2026-11-09T22:04:34Z"
 repo: "https://github.com/quartz-community/recent-notes"
@@ -40,6 +40,6 @@ Displays a list of recently modified or created notes.
 | **Category** | component |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
-| **Stars** | ⭐ 0 |
+| **Stars** | ⭐ 1 |
 | **Last Updated** | 2026-11-09 |
 | **Source** | [GitHub](https://github.com/quartz-community/recent-notes) |

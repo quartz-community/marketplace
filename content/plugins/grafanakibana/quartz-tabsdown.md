@@ -3,14 +3,14 @@ title: "Tabsdown"
 description: "Use Quartz 5 or later with Node 22+ and npm 10.9.2+. Run the installer from your Quartz site:"
 author: "grafanaKibana"
 pluginAuthor: "grafanaKibana"
-version: "0.6.5"
+version: "0.7.0"
 category: "transformer"
 tags:
   - "status/community"
   - "plugin/transformer"
 stars: 2
 official: false
-modified: "2026-10-31T09:50:08Z"
+modified: "2026-11-19T21:56:19Z"
 repo: "https://github.com/grafanaKibana/quartz-tabsdown"
 source: "github:grafanaKibana/quartz-tabsdown"
 installCommand: "npx quartz plugin add github:grafanaKibana/quartz-tabsdown"
@@ -36,10 +36,10 @@ Use Quartz 5 or later with Node 22+ and npm 10.9.2+. Run the installer from your
 | | |
 |---|---|
 | **Author** | grafanaKibana |
-| **Version** | 0.6.5 |
+| **Version** | 0.7.0 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 2 |
-| **Last Updated** | 2026-10-31 |
+| **Last Updated** | 2026-11-19 |
 | **Source** | [GitHub](https://github.com/grafanaKibana/quartz-tabsdown) |
