@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 1
 official: false
-modified: "2026-11-19T23:48:04Z"
+modified: "2026-11-20T14:49:50Z"
 repo: "https://github.com/Doghouse-Mike/quartz-photo-view"
 source: "github:Doghouse-Mike/quartz-photo-view"
 installCommand: "npx quartz plugin add github:Doghouse-Mike/quartz-photo-view"
@@ -41,5 +41,5 @@ A Quartz v5 plugin for pages with lots of images.
 | **License** | NOASSERTION |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-11-19 |
+| **Last Updated** | 2026-11-20 |
 | **Source** | [GitHub](https://github.com/Doghouse-Mike/quartz-photo-view) |

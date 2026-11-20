@@ -3,7 +3,7 @@ title: "Fonts"
 description: "Fine-grained font control for Quartz sites. Supports per-heading fonts, automatic theme font discovery via Quartz Themes, Google Fonts loading (from the CDN or self-hosted), and otherwise falls back to the fonts set in configuration.theme.typography."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.2"
+version: "1.0.3"
 category: "transformer"
 tags:
   - "status/official"
@@ -11,7 +11,7 @@ tags:
   - "plugin/emitter"
 stars: 1
 official: true
-modified: "2026-11-19T23:09:51Z"
+modified: "2026-11-20T12:12:43Z"
 repo: "https://github.com/quartz-community/fonts"
 source: "github:quartz-community/fonts"
 installCommand: "npx quartz plugin add github:quartz-community/fonts"
@@ -37,10 +37,10 @@ Fine-grained font control for Quartz sites. Supports per-heading fonts, automati
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.2 |
+| **Version** | 1.0.3 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-11-19 |
+| **Last Updated** | 2026-11-20 |
 | **Source** | [GitHub](https://github.com/quartz-community/fonts) |

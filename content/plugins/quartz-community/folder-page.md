@@ -9,7 +9,7 @@ tags:
   - "status/official"
   - "plugin/pageType"
   - "plugin/component"
-stars: 0
+stars: 1
 official: true
 modified: "2026-11-09T23:10:40Z"
 repo: "https://github.com/quartz-community/folder-page"
@@ -41,6 +41,6 @@ Renders folder index pages showing a listing of all pages within that folder. Au
 | **Category** | pageType |
 | **License** | MIT |
 | **Quartz Version** | >=5.1.0 |
-| **Stars** | ⭐ 0 |
+| **Stars** | ⭐ 1 |
 | **Last Updated** | 2026-11-09 |
 | **Source** | [GitHub](https://github.com/quartz-community/folder-page) |
