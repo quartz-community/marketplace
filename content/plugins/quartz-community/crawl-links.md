@@ -11,7 +11,7 @@ tags:
   - "status/built-in"
 stars: 1
 official: true
-modified: "2026-11-09T04:05:17Z"
+modified: "2026-11-23T14:57:13Z"
 repo: "https://github.com/quartz-community/crawl-links"
 source: "github:quartz-community/crawl-links"
 installCommand: "npx quartz plugin add github:quartz-community/crawl-links"
@@ -40,5 +40,5 @@ Processes and resolves internal and external links, tracks outgoing links, and o
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-11-09 |
+| **Last Updated** | 2026-11-23 |
 | **Source** | [GitHub](https://github.com/quartz-community/crawl-links) |
