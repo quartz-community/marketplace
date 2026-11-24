@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 1
 official: true
-modified: "2026-11-23T18:34:41Z"
+modified: "2026-11-24T00:01:39Z"
 repo: "https://github.com/quartz-themes/core"
 source: "github:quartz-themes/core"
 installCommand: "npx quartz plugin add github:quartz-themes/core"
@@ -41,5 +41,5 @@ A Quartz transformer plugin that styles your site with any Obsidian community th
 | **License** | MIT |
 | **Quartz Version** | >=5.2.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-11-23 |
+| **Last Updated** | 2026-11-24 |
 | **Source** | [GitHub](https://github.com/quartz-themes/core) |
