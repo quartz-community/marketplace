@@ -1,6 +1,6 @@
 ---
 title: "Content Index"
-description: "Content index emitter plugin for Quartz. Generates sitemap, RSS feed, and content index JSON."
+description: "Generates a sitemap, RSS feed, and content index JSON for full-text search."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
 version: "1.0.2"
@@ -24,9 +24,9 @@ aliases:
 > [!note] Built into Quartz
 > Since Quartz 5.1 this plugin is part of Quartz itself: configure it under `configuration.contentIndex` in `quartz.config.yaml` instead of installing it. An existing entry is applied automatically; `npx quartz plugin doctor --fix` moves it. See [built-in processing](https://quartz.jzhao.xyz/features/built-in-processing).
 
+# @quartz-community/content-index
 
-
-Content index emitter plugin for Quartz. Generates sitemap, RSS feed, and content index JSON.
+Generates a sitemap, RSS feed, and content index JSON for full-text search.
 
 [View full documentation on GitHub](https://github.com/quartz-community/content-index)
 
