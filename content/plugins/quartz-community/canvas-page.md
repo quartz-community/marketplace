@@ -11,7 +11,7 @@ tags:
   - "plugin/component"
 stars: 1
 official: true
-modified: "2026-11-09T22:01:19Z"
+modified: "2026-11-25T20:34:27Z"
 repo: "https://github.com/quartz-community/canvas-page"
 source: "github:quartz-community/canvas-page"
 installCommand: "npx quartz plugin add github:quartz-community/canvas-page"
@@ -42,5 +42,5 @@ A page type plugin that renders JSON Canvas (.canvas) files as interactive, pann
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-11-09 |
+| **Last Updated** | 2026-11-25 |
 | **Source** | [GitHub](https://github.com/quartz-community/canvas-page) |

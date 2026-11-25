@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 1
 official: true
-modified: "2026-11-09T22:33:04Z"
+modified: "2026-11-25T21:06:33Z"
 repo: "https://github.com/quartz-community/latex"
 source: "github:quartz-community/latex"
 installCommand: "npx quartz plugin add github:quartz-community/latex"
@@ -41,5 +41,5 @@ Renders LaTeX math equations using KaTeX, MathJax, or Typst rendering engines.
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-11-09 |
+| **Last Updated** | 2026-11-25 |
 | **Source** | [GitHub](https://github.com/quartz-community/latex) |
