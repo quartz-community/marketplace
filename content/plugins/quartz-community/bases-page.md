@@ -12,7 +12,7 @@ tags:
   - "plugin/component"
 stars: 6
 official: true
-modified: "2026-11-21T01:51:04Z"
+modified: "2026-11-26T02:50:55Z"
 repo: "https://github.com/quartz-community/bases-page"
 source: "github:quartz-community/bases-page"
 installCommand: "npx quartz plugin add github:quartz-community/bases-page"
@@ -43,5 +43,5 @@ A page type and component plugin for Quartz v5 that renders Obsidian Bases (.bas
 | **License** | MIT |
 | **Quartz Version** | >=5.1.0 |
 | **Stars** | ⭐ 6 |
-| **Last Updated** | 2026-11-21 |
+| **Last Updated** | 2026-11-26 |
 | **Source** | [GitHub](https://github.com/quartz-community/bases-page) |

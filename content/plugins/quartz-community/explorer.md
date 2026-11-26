@@ -3,14 +3,14 @@ title: "Explorer"
 description: "The Explorer component for Quartz - navigate your digital garden with an interactive file tree."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.1.1"
+version: "1.1.2"
 category: "component"
 tags:
   - "status/official"
   - "plugin/component"
 stars: 1
 official: true
-modified: "2026-11-23T05:06:01Z"
+modified: "2026-11-26T02:34:27Z"
 repo: "https://github.com/quartz-community/explorer"
 source: "github:quartz-community/explorer"
 installCommand: "npx quartz plugin add github:quartz-community/explorer"
@@ -36,10 +36,10 @@ The Explorer component for Quartz - navigate your digital garden with an interac
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.1.1 |
+| **Version** | 1.1.2 |
 | **Category** | component |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-11-23 |
+| **Last Updated** | 2026-11-26 |
 | **Source** | [GitHub](https://github.com/quartz-community/explorer) |

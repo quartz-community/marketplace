@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 0
 official: true
-modified: "2026-11-09T22:03:11Z"
+modified: "2026-11-26T02:34:07Z"
 repo: "https://github.com/quartz-community/github-flavored-markdown"
 source: "github:quartz-community/github-flavored-markdown"
 installCommand: "npx quartz plugin add github:quartz-community/github-flavored-markdown"
@@ -41,5 +41,5 @@ Adds GitHub Flavored Markdown support including autolink literals, footnotes, st
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-11-09 |
+| **Last Updated** | 2026-11-26 |
 | **Source** | [GitHub](https://github.com/quartz-community/github-flavored-markdown) |
