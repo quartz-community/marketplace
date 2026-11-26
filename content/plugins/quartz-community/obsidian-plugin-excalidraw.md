@@ -3,7 +3,7 @@ title: "Excalidraw"
 description: "A page type plugin that renders Obsidian Excalidraw drawings (.excalidraw.md and .excalidraw files) as full-page interactive SVG visualizations. Supports shapes, text, arrows, freedraw strokes, embedded notes with transcluded content, embedded webpages via iframe, and full dark/light theme adaptation using Excalidraw's color palette."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.1.1"
+version: "1.1.3"
 category: "pageType"
 tags:
   - "status/official"
@@ -12,7 +12,7 @@ tags:
   - "plugin/component"
 stars: 6
 official: true
-modified: "2026-11-09T22:03:52Z"
+modified: "2026-11-26T20:14:32Z"
 repo: "https://github.com/quartz-community/obsidian-plugin-excalidraw"
 source: "github:quartz-community/obsidian-plugin-excalidraw"
 installCommand: "npx quartz plugin add github:quartz-community/obsidian-plugin-excalidraw"
@@ -38,10 +38,10 @@ A page type plugin that renders Obsidian Excalidraw drawings (.excalidraw.md and
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.1.1 |
+| **Version** | 1.1.3 |
 | **Category** | pageType |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 6 |
-| **Last Updated** | 2026-11-09 |
+| **Last Updated** | 2026-11-26 |
 | **Source** | [GitHub](https://github.com/quartz-community/obsidian-plugin-excalidraw) |

@@ -3,14 +3,14 @@ title: "Ox-Hugo"
 description: "Transforms ox-hugo exported markdown to be compatible with Quartz, handling relref links, Hugo shortcodes, figure tags, and org-mode LaTeX."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.1"
+version: "1.0.2"
 category: "transformer"
 tags:
   - "status/official"
   - "plugin/transformer"
 stars: 1
 official: true
-modified: "2026-11-09T22:04:12Z"
+modified: "2026-11-26T18:16:49Z"
 repo: "https://github.com/quartz-community/ox-hugo"
 source: "github:quartz-community/ox-hugo"
 installCommand: "npx quartz plugin add github:quartz-community/ox-hugo"
@@ -36,10 +36,10 @@ Transforms ox-hugo exported markdown to be compatible with Quartz, handling relr
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.1 |
+| **Version** | 1.0.2 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-11-09 |
+| **Last Updated** | 2026-11-26 |
 | **Source** | [GitHub](https://github.com/quartz-community/ox-hugo) |

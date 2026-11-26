@@ -3,14 +3,14 @@ title: "Breadcrumbs"
 description: "Displays breadcrumb navigation showing the page's position in the folder hierarchy."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.3"
+version: "1.0.4"
 category: "component"
 tags:
   - "status/official"
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-09T22:01:12Z"
+modified: "2026-11-26T20:14:28Z"
 repo: "https://github.com/quartz-community/breadcrumbs"
 source: "github:quartz-community/breadcrumbs"
 installCommand: "npx quartz plugin add github:quartz-community/breadcrumbs"
@@ -36,10 +36,10 @@ Displays breadcrumb navigation showing the page's position in the folder hierarc
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.3 |
+| **Version** | 1.0.4 |
 | **Category** | component |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-11-09 |
+| **Last Updated** | 2026-11-26 |
 | **Source** | [GitHub](https://github.com/quartz-community/breadcrumbs) |

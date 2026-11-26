@@ -3,14 +3,14 @@ title: "Backlinks"
 description: "Displays a list of pages that link back to the current page. Backlinks come from the links Quartz collects while building (the built-in link processing, configuration.links); unlisted pages are left out."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.3"
+version: "1.0.4"
 category: "component"
 tags:
   - "status/official"
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-26T02:34:33Z"
+modified: "2026-11-26T11:58:18Z"
 repo: "https://github.com/quartz-community/backlinks"
 source: "github:quartz-community/backlinks"
 installCommand: "npx quartz plugin add github:quartz-community/backlinks"
@@ -36,7 +36,7 @@ Displays a list of pages that link back to the current page. Backlinks come from
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.3 |
+| **Version** | 1.0.4 |
 | **Category** | component |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

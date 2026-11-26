@@ -3,14 +3,14 @@ title: "Created/Modified Date"
 description: "Extracts created, modified and published dates from frontmatter, git history, or filesystem metadata."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.3"
+version: "1.0.4"
 category: "transformer"
 tags:
   - "status/official"
   - "plugin/transformer"
 stars: 0
 official: true
-modified: "2026-11-09T22:02:02Z"
+modified: "2026-11-26T18:16:50Z"
 repo: "https://github.com/quartz-community/created-modified-date"
 source: "github:quartz-community/created-modified-date"
 installCommand: "npx quartz plugin add github:quartz-community/created-modified-date"
@@ -36,10 +36,10 @@ Extracts created, modified and published dates from frontmatter, git history, or
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.3 |
+| **Version** | 1.0.4 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-11-09 |
+| **Last Updated** | 2026-11-26 |
 | **Source** | [GitHub](https://github.com/quartz-community/created-modified-date) |

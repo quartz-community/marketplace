@@ -3,14 +3,14 @@ title: "LaTeX"
 description: "Renders LaTeX math equations using KaTeX, MathJax, or Typst rendering engines."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.1.0"
+version: "1.1.1"
 category: "transformer"
 tags:
   - "status/official"
   - "plugin/transformer"
 stars: 1
 official: true
-modified: "2026-11-26T02:51:08Z"
+modified: "2026-11-26T14:59:31Z"
 repo: "https://github.com/quartz-community/latex"
 source: "github:quartz-community/latex"
 installCommand: "npx quartz plugin add github:quartz-community/latex"
@@ -36,7 +36,7 @@ Renders LaTeX math equations using KaTeX, MathJax, or Typst rendering engines.
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.1.0 |
+| **Version** | 1.1.1 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
