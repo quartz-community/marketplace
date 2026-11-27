@@ -11,7 +11,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-26T11:58:03Z"
+modified: "2026-11-27T03:54:03Z"
 repo: "https://github.com/quartz-community/table-of-contents"
 source: "github:quartz-community/table-of-contents"
 installCommand: "npx quartz plugin add github:quartz-community/table-of-contents"
@@ -42,5 +42,5 @@ Renders an interactive table of contents for pages. Also includes a transformer 
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-11-26 |
+| **Last Updated** | 2026-11-27 |
 | **Source** | [GitHub](https://github.com/quartz-community/table-of-contents) |
