@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-09T22:04:19Z"
+modified: "2026-11-27T19:37:54Z"
 repo: "https://github.com/quartz-community/page-title"
 source: "github:quartz-community/page-title"
 installCommand: "npx quartz plugin add github:quartz-community/page-title"
@@ -41,5 +41,5 @@ Renders the site-wide page title (the pageTitle field in quartz.config.yaml) as 
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-11-09 |
+| **Last Updated** | 2026-11-27 |
 | **Source** | [GitHub](https://github.com/quartz-community/page-title) |

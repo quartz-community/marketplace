@@ -10,7 +10,7 @@ tags:
   - "plugin/emitter"
 stars: 0
 official: true
-modified: "2026-11-09T22:01:34Z"
+modified: "2026-11-27T19:37:00Z"
 repo: "https://github.com/quartz-community/cname"
 source: "github:quartz-community/cname"
 installCommand: "npx quartz plugin add github:quartz-community/cname"
@@ -41,5 +41,5 @@ Writes a CNAME file to the root of the output folder containing the hostname of 
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-11-09 |
+| **Last Updated** | 2026-11-27 |
 | **Source** | [GitHub](https://github.com/quartz-community/cname) |

@@ -3,14 +3,14 @@ title: "Graph"
 description: "The Graph View component for Quartz - visualize your digital garden as an interactive network graph."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.8"
+version: "1.0.9"
 category: "component"
 tags:
   - "status/official"
   - "plugin/component"
 stars: 9
 official: true
-modified: "2026-11-27T03:54:15Z"
+modified: "2026-11-27T19:47:59Z"
 repo: "https://github.com/quartz-community/graph"
 source: "github:quartz-community/graph"
 installCommand: "npx quartz plugin add github:quartz-community/graph"
@@ -36,7 +36,7 @@ The Graph View component for Quartz - visualize your digital garden as an intera
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.8 |
+| **Version** | 1.0.9 |
 | **Category** | component |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

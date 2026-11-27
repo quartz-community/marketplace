@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-09T22:04:54Z"
+modified: "2026-11-27T19:38:16Z"
 repo: "https://github.com/quartz-community/spacer"
 source: "github:quartz-community/spacer"
 installCommand: "npx quartz plugin add github:quartz-community/spacer"
@@ -41,5 +41,5 @@ A component plugin that renders a flexible spacer element that pushes adjacent c
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-11-09 |
+| **Last Updated** | 2026-11-27 |
 | **Source** | [GitHub](https://github.com/quartz-community/spacer) |

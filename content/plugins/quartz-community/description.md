@@ -3,14 +3,14 @@ title: "Description"
 description: "Generates page descriptions for use in meta tags, the RSS feed and folder/tag listings."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.2"
+version: "1.0.3"
 category: "transformer"
 tags:
   - "status/official"
   - "plugin/transformer"
 stars: 0
 official: true
-modified: "2026-11-09T22:02:15Z"
+modified: "2026-11-27T19:46:52Z"
 repo: "https://github.com/quartz-community/description"
 source: "github:quartz-community/description"
 installCommand: "npx quartz plugin add github:quartz-community/description"
@@ -36,10 +36,10 @@ Generates page descriptions for use in meta tags, the RSS feed and folder/tag li
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.2 |
+| **Version** | 1.0.3 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-11-09 |
+| **Last Updated** | 2026-11-27 |
 | **Source** | [GitHub](https://github.com/quartz-community/description) |

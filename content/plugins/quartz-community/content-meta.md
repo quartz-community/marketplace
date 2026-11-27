@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-09T22:01:48Z"
+modified: "2026-11-27T19:37:12Z"
 repo: "https://github.com/quartz-community/content-meta"
 source: "github:quartz-community/content-meta"
 installCommand: "npx quartz plugin add github:quartz-community/content-meta"
@@ -41,5 +41,5 @@ Displays content metadata below the article title: the page's date and the estim
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-11-09 |
+| **Last Updated** | 2026-11-27 |
 | **Source** | [GitHub](https://github.com/quartz-community/content-meta) |

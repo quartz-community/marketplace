@@ -3,14 +3,14 @@ title: "OG Image"
 description: "Generates Open Graph social preview images for each page using Satori and Sharp."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.1.3"
+version: "1.1.4"
 category: "emitter"
 tags:
   - "status/official"
   - "plugin/emitter"
 stars: 0
 official: true
-modified: "2026-11-27T03:53:54Z"
+modified: "2026-11-27T19:47:43Z"
 repo: "https://github.com/quartz-community/og-image"
 source: "github:quartz-community/og-image"
 installCommand: "npx quartz plugin add github:quartz-community/og-image"
@@ -36,7 +36,7 @@ Generates Open Graph social preview images for each page using Satori and Sharp.
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.1.3 |
+| **Version** | 1.1.4 |
 | **Category** | emitter |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

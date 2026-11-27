@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 0
 official: true
-modified: "2026-11-27T03:53:29Z"
+modified: "2026-11-27T12:24:07Z"
 repo: "https://github.com/quartz-community/created-modified-date"
 source: "github:quartz-community/created-modified-date"
 installCommand: "npx quartz plugin add github:quartz-community/created-modified-date"

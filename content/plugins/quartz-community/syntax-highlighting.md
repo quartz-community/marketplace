@@ -3,14 +3,14 @@ title: "Syntax Highlighting"
 description: "Adds syntax highlighting to code blocks using rehype-pretty-code and Shiki, with an optional clipboard copy button."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.4"
+version: "1.0.5"
 category: "transformer"
 tags:
   - "status/official"
   - "plugin/transformer"
 stars: 1
 official: true
-modified: "2026-11-26T00:50:27Z"
+modified: "2026-11-27T19:48:00Z"
 repo: "https://github.com/quartz-community/syntax-highlighting"
 source: "github:quartz-community/syntax-highlighting"
 installCommand: "npx quartz plugin add github:quartz-community/syntax-highlighting"
@@ -36,10 +36,10 @@ Adds syntax highlighting to code blocks using rehype-pretty-code and Shiki, with
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.4 |
+| **Version** | 1.0.5 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-11-26 |
+| **Last Updated** | 2026-11-27 |
 | **Source** | [GitHub](https://github.com/quartz-community/syntax-highlighting) |

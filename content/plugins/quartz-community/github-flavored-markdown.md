@@ -10,7 +10,7 @@ tags:
   - "plugin/transformer"
 stars: 0
 official: true
-modified: "2026-11-27T03:53:12Z"
+modified: "2026-11-27T12:23:47Z"
 repo: "https://github.com/quartz-community/github-flavored-markdown"
 source: "github:quartz-community/github-flavored-markdown"
 installCommand: "npx quartz plugin add github:quartz-community/github-flavored-markdown"

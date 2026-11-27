@@ -11,7 +11,7 @@ tags:
   - "plugin/component"
 stars: 1
 official: true
-modified: "2026-11-27T03:53:50Z"
+modified: "2026-11-27T19:38:32Z"
 repo: "https://github.com/quartz-community/tag-page"
 source: "github:quartz-community/tag-page"
 installCommand: "npx quartz plugin add github:quartz-community/tag-page"

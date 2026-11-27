@@ -11,7 +11,7 @@ tags:
   - "status/built-in"
 stars: 3
 official: true
-modified: "2026-11-09T03:01:54Z"
+modified: "2026-11-27T19:37:08Z"
 repo: "https://github.com/quartz-community/content-index"
 source: "github:quartz-community/content-index"
 installCommand: "npx quartz plugin add github:quartz-community/content-index"
@@ -40,5 +40,5 @@ Generates a sitemap, RSS feed, and content index JSON for full-text search.
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 3 |
-| **Last Updated** | 2026-11-09 |
+| **Last Updated** | 2026-11-27 |
 | **Source** | [GitHub](https://github.com/quartz-community/content-index) |

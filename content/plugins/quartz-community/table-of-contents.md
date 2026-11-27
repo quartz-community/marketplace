@@ -3,7 +3,7 @@ title: "Table of Contents"
 description: "Renders an interactive table of contents for pages. Also includes a transformer that extracts heading structure from markdown."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.5"
+version: "1.0.6"
 category: "transformer"
 tags:
   - "status/official"
@@ -11,7 +11,7 @@ tags:
   - "plugin/component"
 stars: 0
 official: true
-modified: "2026-11-27T03:54:03Z"
+modified: "2026-11-27T19:48:19Z"
 repo: "https://github.com/quartz-community/table-of-contents"
 source: "github:quartz-community/table-of-contents"
 installCommand: "npx quartz plugin add github:quartz-community/table-of-contents"
@@ -37,7 +37,7 @@ Renders an interactive table of contents for pages. Also includes a transformer 
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.5 |
+| **Version** | 1.0.6 |
 | **Category** | transformer |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

@@ -10,7 +10,7 @@ tags:
   - "plugin/component"
 stars: 1
 official: true
-modified: "2026-11-09T22:04:34Z"
+modified: "2026-11-27T19:38:06Z"
 repo: "https://github.com/quartz-community/recent-notes"
 source: "github:quartz-community/recent-notes"
 installCommand: "npx quartz plugin add github:quartz-community/recent-notes"
@@ -41,5 +41,5 @@ Displays a list of recently modified or created notes.
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-11-09 |
+| **Last Updated** | 2026-11-27 |
 | **Source** | [GitHub](https://github.com/quartz-community/recent-notes) |

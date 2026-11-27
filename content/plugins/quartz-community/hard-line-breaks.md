@@ -11,7 +11,7 @@ tags:
   - "status/deprecated"
 stars: 0
 official: true
-modified: "2026-11-09T22:03:24Z"
+modified: "2026-11-27T19:37:41Z"
 repo: "https://github.com/quartz-community/hard-line-breaks"
 source: "github:quartz-community/hard-line-breaks"
 installCommand: "npx quartz plugin add github:quartz-community/hard-line-breaks"
@@ -45,5 +45,5 @@ aliases:
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 0 |
-| **Last Updated** | 2026-11-09 |
+| **Last Updated** | 2026-11-27 |
 | **Source** | [GitHub](https://github.com/quartz-community/hard-line-breaks) |

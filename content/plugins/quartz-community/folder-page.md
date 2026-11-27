@@ -3,7 +3,7 @@ title: "Folder Page"
 description: "Renders folder index pages showing a listing of all pages within that folder. Automatically generates virtual index pages for folders that don't have one."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.1.3"
+version: "1.1.4"
 category: "pageType"
 tags:
   - "status/official"
@@ -11,7 +11,7 @@ tags:
   - "plugin/component"
 stars: 1
 official: true
-modified: "2026-11-26T21:34:08Z"
+modified: "2026-11-27T20:40:46Z"
 repo: "https://github.com/quartz-community/folder-page"
 source: "github:quartz-community/folder-page"
 installCommand: "npx quartz plugin add github:quartz-community/folder-page"
@@ -37,10 +37,10 @@ Renders folder index pages showing a listing of all pages within that folder. Au
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.1.3 |
+| **Version** | 1.1.4 |
 | **Category** | pageType |
 | **License** | MIT |
 | **Quartz Version** | >=5.1.0 |
 | **Stars** | ⭐ 1 |
-| **Last Updated** | 2026-11-26 |
+| **Last Updated** | 2026-11-27 |
 | **Source** | [GitHub](https://github.com/quartz-community/folder-page) |
