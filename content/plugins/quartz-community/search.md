@@ -3,14 +3,14 @@ title: "Search"
 description: "The Search component for Quartz - full-text search with FlexSearch integration."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.1.4"
+version: "1.1.5"
 category: "component"
 tags:
   - "status/official"
   - "plugin/component"
 stars: 1
 official: true
-modified: "2026-11-27T19:47:45Z"
+modified: "2026-11-27T22:36:32Z"
 repo: "https://github.com/quartz-community/search"
 source: "github:quartz-community/search"
 installCommand: "npx quartz plugin add github:quartz-community/search"
@@ -36,7 +36,7 @@ The Search component for Quartz - full-text search with FlexSearch integration.
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.1.4 |
+| **Version** | 1.1.5 |
 | **Category** | component |
 | **License** | MIT |
 | **Quartz Version** | >=5.0.0 |

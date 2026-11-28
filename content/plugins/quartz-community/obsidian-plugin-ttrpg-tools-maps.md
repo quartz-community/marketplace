@@ -3,7 +3,7 @@ title: "TTRPG Tools: Maps"
 description: "A Quartz v5 community plugin that renders interactive, read-only TTRPG maps in a generated static site. It consumes the data formats produced by the Obsidian plugin TTRPG Tools: Maps (zoom-map) without requiring any migration — point Quartz at a vault that uses zoommap, and the maps show up on the built site."
 author: "quartz-community"
 pluginAuthor: "quartz-community"
-version: "1.0.2"
+version: "1.0.3"
 category: "transformer"
 tags:
   - "status/official"
@@ -12,7 +12,7 @@ tags:
   - "plugin/component"
 stars: 2
 official: true
-modified: "2026-11-09T22:03:59Z"
+modified: "2026-11-27T22:36:34Z"
 repo: "https://github.com/quartz-community/obsidian-plugin-ttrpg-tools-maps"
 source: "github:quartz-community/obsidian-plugin-ttrpg-tools-maps"
 installCommand: "npx quartz plugin add github:quartz-community/obsidian-plugin-ttrpg-tools-maps"
@@ -38,10 +38,10 @@ A Quartz v5 community plugin that renders interactive, read-only TTRPG maps in a
 | | |
 |---|---|
 | **Author** | quartz-community |
-| **Version** | 1.0.2 |
+| **Version** | 1.0.3 |
 | **Category** | transformer |
 | **License** | NOASSERTION |
 | **Quartz Version** | >=5.0.0 |
 | **Stars** | ⭐ 2 |
-| **Last Updated** | 2026-11-09 |
+| **Last Updated** | 2026-11-27 |
 | **Source** | [GitHub](https://github.com/quartz-community/obsidian-plugin-ttrpg-tools-maps) |
